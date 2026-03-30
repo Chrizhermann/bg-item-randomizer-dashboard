@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Location, LocationState } from '../types'
 import { itemById } from '../data-loader'
+import ItemPopup from './ItemPopup'
 
 interface LocationRowProps {
   location: Location
@@ -79,7 +80,16 @@ export default function LocationRow({
         +
       </button>
 
-      {showPopup && <div>ItemPopup placeholder</div>}
+      {showPopup && (
+        <ItemPopup
+          tier={location.tier}
+          currentItemId={state.assignedItemId}
+          currentNote={state.note}
+          onAssignItem={onAssignItem}
+          onSetNote={onSetNote}
+          onClose={() => setShowPopup(false)}
+        />
+      )}
     </div>
   )
 }
