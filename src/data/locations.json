@@ -1,0 +1,5272 @@
+[
+  {
+    "id": "1:1",
+    "tier": "1",
+    "locationIndex": 1,
+    "target": "thugs.flg",
+    "area": "ar0701",
+    "comment": "sewer gang",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "1:2",
+    "tier": "1",
+    "locationIndex": 2,
+    "target": "mimicchest",
+    "area": "ar1106",
+    "comment": "Mimic's chest, umar hills",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:3",
+    "tier": "1",
+    "locationIndex": 3,
+    "target": "gaal01.cre",
+    "area": "ar0202",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "1:4",
+    "tier": "1",
+    "locationIndex": 4,
+    "target": "crate2",
+    "area": "ar0503",
+    "comment": "big one, skinner's sub-basement",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:5",
+    "tier": "1",
+    "locationIndex": 5,
+    "target": "thugs.flg",
+    "area": "ar0701",
+    "comment": "Sewer gang gets one",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "1:6",
+    "tier": "1",
+    "locationIndex": 6,
+    "target": "container5",
+    "area": "ar1202",
+    "comment": "formerly Horn of Blasting, closet past wolfweres",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:7",
+    "tier": "1",
+    "locationIndex": 7,
+    "target": "slavers.flg",
+    "area": "ar0405",
+    "comment": "slums, slavers",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "1:8",
+    "tier": "1",
+    "locationIndex": 8,
+    "target": "container9",
+    "area": "ar0705",
+    "comment": "bedroom, mekrath's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:9",
+    "tier": "1",
+    "locationIndex": 9,
+    "target": "chest1",
+    "area": "ar0528",
+    "comment": "formerly Silver Horn of Valhalla, house in bridge district",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:10",
+    "tier": "1",
+    "locationIndex": 10,
+    "target": "drawer2",
+    "area": "ar0303",
+    "comment": "Mae'Var's strongbox, need edwinkey",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:11",
+    "tier": "1",
+    "locationIndex": 11,
+    "target": "container1",
+    "area": "ar0811",
+    "comment": "tomb, orphan outside",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:12",
+    "tier": "1",
+    "locationIndex": 12,
+    "target": "container1",
+    "area": "ar1302",
+    "comment": "lion(?) statue, (ring of earth control)",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:13",
+    "tier": "1",
+    "locationIndex": 13,
+    "target": "container2",
+    "area": "ar1103",
+    "comment": "jermien's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:14",
+    "tier": "1",
+    "locationIndex": 14,
+    "target": "sewrak01.cre",
+    "area": "ar0701",
+    "comment": "sewer rakshasa",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "1:15",
+    "tier": "1",
+    "locationIndex": 15,
+    "target": "beast.cre",
+    "area": "ar0406",
+    "comment": "beastmaster",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "1:16",
+    "tier": "1",
+    "locationIndex": 16,
+    "target": "drawer2",
+    "area": "ar0303",
+    "comment": "Mae'var's strongbox, need edwinkey",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:17",
+    "tier": "1",
+    "locationIndex": 17,
+    "target": "chest1",
+    "area": "ar0530",
+    "comment": "valeria's chest",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:18",
+    "tier": "1",
+    "locationIndex": 18,
+    "target": "bounty.flg",
+    "area": "ar0516",
+    "comment": "Bounty Hunter leader, Planar prison",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "1:19",
+    "tier": "1",
+    "locationIndex": 19,
+    "target": "container3",
+    "area": "ar0407",
+    "comment": "Prebek's house",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:20",
+    "tier": "1",
+    "locationIndex": 20,
+    "target": "bounty.flg",
+    "area": "ar0516",
+    "comment": "bounty hunters, planar prison",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "1:21",
+    "tier": "1",
+    "locationIndex": 21,
+    "target": "container2",
+    "area": "ar1904",
+    "comment": "Pile in troll mound",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:22",
+    "tier": "1",
+    "locationIndex": 22,
+    "target": "table2",
+    "area": "ar0406",
+    "comment": "Table in back room, CC",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "1:23",
+    "tier": "1",
+    "locationIndex": 23,
+    "target": "container6",
+    "area": "ar1401",
+    "comment": "top rubble in magma",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:1",
+    "tier": "2",
+    "locationIndex": 1,
+    "target": "bones1",
+    "area": "ar0206",
+    "comment": "pile of bones (gauntlets of dex)",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:2",
+    "tier": "2",
+    "locationIndex": 2,
+    "target": "container1",
+    "area": "ar0804",
+    "comment": "Pai'Na's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:3",
+    "tier": "2",
+    "locationIndex": 3,
+    "target": "pthral05.cre",
+    "area": "ar0516",
+    "comment": "female thrall, prison",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "2:4",
+    "tier": "2",
+    "locationIndex": 4,
+    "target": "table3",
+    "area": "ar0202",
+    "comment": "Gaal's table",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:5",
+    "tier": "2",
+    "locationIndex": 5,
+    "target": "maevar.cre",
+    "area": "ar0301",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "2:6",
+    "tier": "2",
+    "locationIndex": 6,
+    "target": "theshal.cre",
+    "area": "ar0206",
+    "comment": "Mr. Mayor (deceased)",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "2:7",
+    "tier": "2",
+    "locationIndex": 7,
+    "target": "pthral09.cre",
+    "area": "ar0516",
+    "comment": "cleric thrall by the warden",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "2:8",
+    "tier": "2",
+    "locationIndex": 8,
+    "target": "decret1",
+    "area": "ar1601",
+    "comment": "hoho, typo. in the right corner, pirate lord's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:9",
+    "tier": "2",
+    "locationIndex": 9,
+    "target": "container2",
+    "area": "ar1301",
+    "comment": "pillar cache, behind torgal",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:10",
+    "tier": "2",
+    "locationIndex": 10,
+    "target": "ironpot.flg",
+    "area": "ar0411",
+    "comment": "feral halfers, Sphere",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "2:11",
+    "tier": "2",
+    "locationIndex": 11,
+    "target": "container3",
+    "area": "ar1202",
+    "comment": "chest among the debris, by the vampires",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:12",
+    "tier": "2",
+    "locationIndex": 12,
+    "target": "sevpat.flg",
+    "area": "ar0712",
+    "comment": "Seven Vales gang",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "2:13",
+    "tier": "2",
+    "locationIndex": 13,
+    "target": "container11",
+    "area": "ar1301",
+    "comment": "chest in de'Arnise keep basement",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:14",
+    "tier": "2",
+    "locationIndex": 14,
+    "target": "ppmind01.cre",
+    "area": "ar1514",
+    "comment": "painting-illithid, spellhold",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "2:15",
+    "tier": "2",
+    "locationIndex": 15,
+    "target": "container6",
+    "area": "ar0529",
+    "comment": "Painting containter, Neb's house",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:16",
+    "tier": "2",
+    "locationIndex": 16,
+    "target": "container1",
+    "area": "ar0308",
+    "comment": "Harper hq eye painting",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:17",
+    "tier": "2",
+    "locationIndex": 17,
+    "target": "container1",
+    "area": "ar1904",
+    "comment": "the one without the bracers, troll mound",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:18",
+    "tier": "2",
+    "locationIndex": 18,
+    "target": "container1",
+    "area": "ar1613",
+    "comment": "cupboard, galvena's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "2:19",
+    "tier": "2",
+    "locationIndex": 19,
+    "target": "sevpat.flg",
+    "area": "ar0712",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "3:1",
+    "tier": "3",
+    "locationIndex": 1,
+    "target": "blpool.bcs",
+    "area": "ar0801",
+    "comment": "ar0801 (mace of disruption)",
+    "targetType": "script",
+    "game": "bg2"
+  },
+  {
+    "id": "3:2",
+    "tier": "3",
+    "locationIndex": 2,
+    "target": "troalt.bcs",
+    "area": "ar1506",
+    "comment": "ar1506 troll altar in Spellhold",
+    "targetType": "script",
+    "game": "bg2"
+  },
+  {
+    "id": "3:3",
+    "tier": "3",
+    "locationIndex": 3,
+    "target": "container2",
+    "area": "ar0412",
+    "comment": "fire room, sphere",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:4",
+    "tier": "3",
+    "locationIndex": 4,
+    "target": "container1",
+    "area": "ar2602",
+    "comment": "(mana bow)",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:5",
+    "tier": "3",
+    "locationIndex": 5,
+    "target": "closet1",
+    "area": "ar1515",
+    "comment": "closet, irenicus' room, spellhold",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:6",
+    "tier": "3",
+    "locationIndex": 6,
+    "target": "chest1",
+    "area": "ar0803",
+    "comment": "Chest, second level of vampire nest, chapter 3",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:7",
+    "tier": "3",
+    "locationIndex": 7,
+    "target": "tazok.cre",
+    "area": "ar1202",
+    "comment": "duh",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "3:8",
+    "tier": "3",
+    "locationIndex": 8,
+    "target": "container4",
+    "area": "ar0205",
+    "comment": "topmost, unseeing's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:9",
+    "tier": "3",
+    "locationIndex": 9,
+    "target": "trrak01.cre",
+    "area": "ar1902",
+    "comment": "ithafeer",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "3:10",
+    "tier": "3",
+    "locationIndex": 10,
+    "target": "container2",
+    "area": "ar0412",
+    "comment": "fire room",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:11",
+    "tier": "3",
+    "locationIndex": 11,
+    "target": "bounty.flg",
+    "area": "ar0516",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "3:12",
+    "tier": "3",
+    "locationIndex": 12,
+    "target": "thugs.flg",
+    "area": "ar0701",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "3:13",
+    "tier": "3",
+    "locationIndex": 13,
+    "target": "uddwarf.cre",
+    "area": "ar2400",
+    "comment": "crazy dwarf (ring of fire control)",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "3:14",
+    "tier": "3",
+    "locationIndex": 14,
+    "target": "container10",
+    "area": "ar0705",
+    "comment": "Mekrath's altar",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:15",
+    "tier": "3",
+    "locationIndex": 15,
+    "target": "rngsha02.cre",
+    "area": "ar1404",
+    "comment": "Shadow Patrick",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "3:16",
+    "tier": "3",
+    "locationIndex": 16,
+    "target": "secret2",
+    "area": "ar1511",
+    "comment": "Spellhold, room with table, drawer",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:17",
+    "tier": "3",
+    "locationIndex": 17,
+    "target": "sevpat.flg",
+    "area": "ar0712",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "3:18",
+    "tier": "3",
+    "locationIndex": 18,
+    "target": "container1",
+    "area": "ar0413",
+    "comment": "engine room, sphere",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "3:19",
+    "tier": "3",
+    "locationIndex": 19,
+    "target": "gc.flg",
+    "area": "ar0907",
+    "comment": "need to enter via ar0906",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "3:20",
+    "tier": "3",
+    "locationIndex": 20,
+    "target": "ar18gang.flg",
+    "area": "ar1800",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "4:1",
+    "tier": "4",
+    "locationIndex": 1,
+    "target": "container4",
+    "area": "ar1401",
+    "comment": "temple ruins, pillar cache, across the magma",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:2",
+    "tier": "4",
+    "locationIndex": 2,
+    "target": "container3",
+    "area": "ar1401",
+    "comment": "temple ruins, statue with the hands, across the word game",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:3",
+    "tier": "4",
+    "locationIndex": 3,
+    "target": "container1",
+    "area": "ar1605",
+    "comment": "chest, perth's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:4",
+    "tier": "4",
+    "locationIndex": 4,
+    "target": "container1",
+    "area": "ar1800",
+    "comment": "tomb, north forest",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:5",
+    "tier": "4",
+    "locationIndex": 5,
+    "target": "udsilver.cre",
+    "area": "ar2102",
+    "comment": "adalon",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "4:6",
+    "tier": "4",
+    "locationIndex": 6,
+    "target": "trrak01.cre",
+    "area": "ar1902",
+    "comment": "ithafeer",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "4:7",
+    "tier": "4",
+    "locationIndex": 7,
+    "target": "container9",
+    "area": "ar1202",
+    "comment": "closet by DigDag and tazok",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:8",
+    "tier": "4",
+    "locationIndex": 8,
+    "target": "pmaster.cre",
+    "area": "ar0516",
+    "comment": "demon, prison",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "4:9",
+    "tier": "4",
+    "locationIndex": 9,
+    "target": "pwarden.cre",
+    "area": "ar0516",
+    "comment": "warden, prison",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "4:10",
+    "tier": "4",
+    "locationIndex": 10,
+    "target": "container11",
+    "area": "ar1202",
+    "comment": "golem stash, firkraag's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:11",
+    "tier": "4",
+    "locationIndex": 11,
+    "target": "container3",
+    "area": "ar1401",
+    "comment": "statue, ruined temple",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:12",
+    "tier": "4",
+    "locationIndex": 12,
+    "target": "spectatorchest",
+    "area": "ar2300",
+    "comment": "not the spectator's chest",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "4:13",
+    "tier": "4",
+    "locationIndex": 13,
+    "target": "bounty.flg",
+    "area": "ar0516",
+    "comment": "bounty hunters",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "4:14",
+    "tier": "4",
+    "locationIndex": 14,
+    "target": "sahzom01.cre",
+    "area": "ar2300",
+    "comment": "Sea Zombie Lord",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "4:15",
+    "tier": "4",
+    "locationIndex": 15,
+    "target": "jael.flg",
+    "area": "ar2209",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "4:16",
+    "tier": "4",
+    "locationIndex": 16,
+    "target": "ironpot.flg",
+    "area": "ar0411",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "4:17",
+    "tier": "4",
+    "locationIndex": 17,
+    "target": "goons.flg",
+    "area": "ar0530",
+    "comment": "Valeria etc",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "4:18",
+    "tier": "4",
+    "locationIndex": 18,
+    "target": "sahramb3.cre",
+    "area": "ar2300",
+    "comment": "sahuagin priestess, fish-mouth ambush",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "4:19",
+    "tier": "4",
+    "locationIndex": 19,
+    "target": "bhcrypt.cre",
+    "area": "ar0806",
+    "comment": "Crypt King",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "4:20",
+    "tier": "4",
+    "locationIndex": 20,
+    "target": "shelf3",
+    "area": "ar2207",
+    "comment": "closet in Deirex' quarters, Deirex kills you unless you have miscbe",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "5:1",
+    "tier": "5",
+    "locationIndex": 1,
+    "target": "container1",
+    "area": "ar0711",
+    "comment": "big pot, sewer illithids",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "5:2",
+    "tier": "5",
+    "locationIndex": 2,
+    "target": "container1",
+    "area": "ar0205",
+    "comment": "Mr. Eye's private stash, rift device",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "5:3",
+    "tier": "5",
+    "locationIndex": 3,
+    "target": "container1",
+    "area": "ar0711",
+    "comment": "also big pot",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "5:4",
+    "tier": "5",
+    "locationIndex": 4,
+    "target": "pwarden.cre",
+    "area": "ar0516",
+    "comment": "prison warden",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "5:5",
+    "tier": "5",
+    "locationIndex": 5,
+    "target": "gpfight.flg",
+    "area": "ar2100",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "5:6",
+    "tier": "5",
+    "locationIndex": 6,
+    "target": "suadsaan.cre",
+    "area": "ar2801",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "5:7",
+    "tier": "5",
+    "locationIndex": 7,
+    "target": "gc.flg",
+    "area": "ar0907",
+    "comment": "Guarded compound gang",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "5:8",
+    "tier": "5",
+    "locationIndex": 8,
+    "target": "shadra01.cre",
+    "area": "ar1402",
+    "comment": "temple ruins",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "5:9",
+    "tier": "5",
+    "locationIndex": 9,
+    "target": "uddeath2.cre",
+    "area": "ar2402",
+    "comment": "Demonknight in underdark",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "5:10",
+    "tier": "5",
+    "locationIndex": 10,
+    "target": "chest6",
+    "area": "ar2300",
+    "comment": "Imp riddle",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "5:11",
+    "tier": "5",
+    "locationIndex": 11,
+    "target": "container2",
+    "area": "ar1301",
+    "comment": "pillar cache",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "5:12",
+    "tier": "5",
+    "locationIndex": 12,
+    "target": "gpfight.flg",
+    "area": "ar2100",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "5:13",
+    "tier": "5",
+    "locationIndex": 13,
+    "target": "ironpot.flg",
+    "area": "ar0411",
+    "comment": "feral halfers",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "5:14",
+    "tier": "5",
+    "locationIndex": 14,
+    "target": "wyvcult.flg",
+    "area": "ar2600",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "5:15",
+    "tier": "5",
+    "locationIndex": 15,
+    "target": "hidden4",
+    "area": "ar2101",
+    "comment": "by the drow fighting the beholder",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "5:16",
+    "tier": "5",
+    "locationIndex": 16,
+    "target": "container1",
+    "area": "ar0412",
+    "comment": "Sphere ice room",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "6:1",
+    "tier": "6",
+    "locationIndex": 1,
+    "target": "ppbook.bcs",
+    "area": "ar1513",
+    "comment": "ar1513 (ring of free action)",
+    "targetType": "script",
+    "game": "bg2"
+  },
+  {
+    "id": "6:2",
+    "tier": "6",
+    "locationIndex": 2,
+    "target": "container1",
+    "area": "ar2210",
+    "comment": "deirex' stash",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "6:3",
+    "tier": "6",
+    "locationIndex": 3,
+    "target": "chest1",
+    "area": "ar0808",
+    "comment": "chapter 6, bodhi's lair, by the collapsed entrance",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "6:4",
+    "tier": "6",
+    "locationIndex": 4,
+    "target": "udprince.cre",
+    "area": "ar2402",
+    "comment": "kuo-toa one",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:5",
+    "tier": "6",
+    "locationIndex": 5,
+    "target": "suadsaan.cre",
+    "area": "ar2801",
+    "comment": "adsaan, Suldanessellar",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:6",
+    "tier": "6",
+    "locationIndex": 6,
+    "target": "container1",
+    "area": "ar0082",
+    "comment": "lich-in-the-wall's chest",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "6:7",
+    "tier": "6",
+    "locationIndex": 7,
+    "target": "udardul.cre",
+    "area": "ar2201",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:8",
+    "tier": "6",
+    "locationIndex": 8,
+    "target": "container1",
+    "area": "ar0410",
+    "comment": "in lavok's room",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "6:9",
+    "tier": "6",
+    "locationIndex": 9,
+    "target": "suraam.cre",
+    "area": "ar2800",
+    "comment": "drow in Suldanessellar",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:10",
+    "tier": "6",
+    "locationIndex": 10,
+    "target": "firkra02.cre",
+    "area": "ar1203",
+    "comment": "big dragon",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:11",
+    "tier": "6",
+    "locationIndex": 11,
+    "target": "eggs",
+    "area": "ar2201",
+    "comment": "egg room, drow temple",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "6:12",
+    "tier": "6",
+    "locationIndex": 12,
+    "target": "udelder.cre",
+    "area": "ar2101",
+    "comment": "elder orb (the one with the equalizer bit)",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:13",
+    "tier": "6",
+    "locationIndex": 13,
+    "target": "shadra01.cre",
+    "area": "ar1402",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:14",
+    "tier": "6",
+    "locationIndex": 14,
+    "target": "udmaster.cre",
+    "area": "ar2400",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:15",
+    "tier": "6",
+    "locationIndex": 15,
+    "target": "uddoor.flg",
+    "area": "ar2402",
+    "comment": "drow party guarding the way out of the underdark",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "6:16",
+    "tier": "6",
+    "locationIndex": 16,
+    "target": "susuneer.cre",
+    "area": "ar2803",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:17",
+    "tier": "6",
+    "locationIndex": 17,
+    "target": "firkra02.cre",
+    "area": "ar1203",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:18",
+    "tier": "6",
+    "locationIndex": 18,
+    "target": "daqilue.cre",
+    "area": "ar2206",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:19",
+    "tier": "6",
+    "locationIndex": 19,
+    "target": "jael.flg",
+    "area": "ar2209",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "6:20",
+    "tier": "6",
+    "locationIndex": 20,
+    "target": "obsdem01.cre",
+    "area": "ar0414",
+    "comment": "lea'liyl",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "6:21",
+    "tier": "6",
+    "locationIndex": 21,
+    "target": "ar18gang.flg",
+    "area": "ar1800",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "6:22",
+    "tier": "6",
+    "locationIndex": 22,
+    "target": "gc.flg",
+    "area": "ar0907",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "7:1",
+    "tier": "7",
+    "locationIndex": 1,
+    "target": "dragblac.cre",
+    "area": "ar2807",
+    "comment": "(bladesinger)",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "7:2",
+    "tier": "7",
+    "locationIndex": 2,
+    "target": "container6",
+    "area": "ar0808",
+    "comment": "spike room, chaper 6",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "7:3",
+    "tier": "7",
+    "locationIndex": 3,
+    "target": "udmaster.cre",
+    "area": "ar2400",
+    "comment": "master brain",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "7:4",
+    "tier": "7",
+    "locationIndex": 4,
+    "target": "jael.flg",
+    "area": "ar2209",
+    "comment": "Jae'llat",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "7:5",
+    "tier": "7",
+    "locationIndex": 5,
+    "target": "twisted.flg",
+    "area": "ar1008",
+    "comment": "Runies",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "7:6",
+    "tier": "7",
+    "locationIndex": 6,
+    "target": "endtreasure",
+    "area": "ar2101",
+    "comment": "amusingly enough, not by the second elder orb. topmost, in the wall",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "7:7",
+    "tier": "7",
+    "locationIndex": 7,
+    "target": "dragblac.cre",
+    "area": "ar2807",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "7:8",
+    "tier": "7",
+    "locationIndex": 8,
+    "target": "twisted.flg",
+    "area": "ar1008",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "7:9",
+    "tier": "7",
+    "locationIndex": 9,
+    "target": "uddeath2.cre",
+    "area": "ar2402",
+    "comment": "Demonknight in underdark",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "7:10",
+    "tier": "7",
+    "locationIndex": 10,
+    "target": "udelder.cre",
+    "area": "ar2101",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "7:11",
+    "tier": "7",
+    "locationIndex": 11,
+    "target": "uddeath2.cre",
+    "area": "ar2402",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "7:12",
+    "tier": "7",
+    "locationIndex": 12,
+    "target": "altar1",
+    "area": "ar0809",
+    "comment": "Bodhi's lair, boat",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "7:13",
+    "tier": "7",
+    "locationIndex": 13,
+    "target": "jarlich.cre",
+    "area": "ar2207",
+    "comment": "Deirex",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:1",
+    "tier": "10",
+    "locationIndex": 1,
+    "target": "gorgua01.cre",
+    "area": "ar3019",
+    "comment": "aurumach rilmani, wk",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:2",
+    "tier": "10",
+    "locationIndex": 2,
+    "target": "gorwom.flg",
+    "area": "ar3019",
+    "comment": "y'tossi, wk",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "10:3",
+    "tier": "10",
+    "locationIndex": 3,
+    "target": "demilich.cre",
+    "area": "ar3027",
+    "comment": "wk",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:4",
+    "tier": "10",
+    "locationIndex": 4,
+    "target": "elemimix.cre",
+    "area": "ar5204",
+    "comment": "imix, yaga's",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:7",
+    "tier": "10",
+    "locationIndex": 7,
+    "target": "gorlic01.cre",
+    "area": "ar3019",
+    "comment": "azamantes",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:8",
+    "tier": "10",
+    "locationIndex": 8,
+    "target": "gorsal.cre",
+    "area": "ar3018",
+    "comment": "saladrex",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:9",
+    "tier": "10",
+    "locationIndex": 9,
+    "target": "fsdragon.cre",
+    "area": "ar3024",
+    "comment": "dragon you defeat as part of getting the courage key, wk",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:10",
+    "tier": "10",
+    "locationIndex": 10,
+    "target": "dragblue.cre",
+    "area": "ar6005",
+    "comment": "abazigal",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:11",
+    "tier": "10",
+    "locationIndex": 11,
+    "target": "bazdra03.cre",
+    "area": "ar6004",
+    "comment": "Fll'Yissetat",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:12",
+    "tier": "10",
+    "locationIndex": 12,
+    "target": "amlich01.cre",
+    "area": "ar5509",
+    "comment": "Vongoethe",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:13",
+    "tier": "10",
+    "locationIndex": 13,
+    "target": "senlich.cre",
+    "area": "ar6110",
+    "comment": "Odamaron",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:15",
+    "tier": "10",
+    "locationIndex": 15,
+    "target": "amlich01.cre",
+    "area": "ar5509",
+    "comment": "Vongoethe",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:16",
+    "tier": "10",
+    "locationIndex": 16,
+    "target": "container5",
+    "area": "ar3014",
+    "comment": "Demon Wraith's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "10:17",
+    "tier": "10",
+    "locationIndex": 17,
+    "target": "pool1",
+    "area": "ar3025",
+    "comment": "orc horde, wk",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "10:18",
+    "tier": "10",
+    "locationIndex": 18,
+    "target": "gorwom.flg",
+    "area": "ar3019",
+    "comment": "Xei Win Toh",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "10:19",
+    "tier": "10",
+    "locationIndex": 19,
+    "target": "rock.cre",
+    "area": "ar3017",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:20",
+    "tier": "10",
+    "locationIndex": 20,
+    "target": "gorgit.cre",
+    "area": "ar3022",
+    "comment": "wk gith captain",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "10:21",
+    "tier": "10",
+    "locationIndex": 21,
+    "target": "gorchr.cre",
+    "area": "ar3016",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "11:1",
+    "tier": "11",
+    "locationIndex": 1,
+    "target": "bed2",
+    "area": "ar5006",
+    "comment": "saradush prison, end treasure",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:2",
+    "tier": "11",
+    "locationIndex": 2,
+    "target": "firepit2",
+    "area": "ar5201",
+    "comment": "where you used to find Psion's Blade",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:3",
+    "tier": "11",
+    "locationIndex": 3,
+    "target": "slimepit",
+    "area": "ar3016",
+    "comment": "where you used to find the FoA poison head",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:4",
+    "tier": "11",
+    "locationIndex": 4,
+    "target": "chest1",
+    "area": "ar3001",
+    "comment": "where you used to find Paladin's Bracers, first floor of wk",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:5",
+    "tier": "11",
+    "locationIndex": 5,
+    "target": "shelf6",
+    "area": "ar3001",
+    "comment": "where you used to find the Case of Plenty +1, also wk, 1st",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:6",
+    "tier": "11",
+    "locationIndex": 6,
+    "target": "bed",
+    "area": "ar5204",
+    "comment": "yaga's stone slab",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:7",
+    "tier": "11",
+    "locationIndex": 7,
+    "target": "container1",
+    "area": "ar6111",
+    "comment": "Wodcutter's lodge",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:8",
+    "tier": "11",
+    "locationIndex": 8,
+    "target": "garock.cre",
+    "area": "ar3017",
+    "comment": "Carston! Lord of the Level! or not",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "11:9",
+    "tier": "11",
+    "locationIndex": 9,
+    "target": "gflunk.flg",
+    "area": "ar5002",
+    "comment": "Gromnir's henchies",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "11:10",
+    "tier": "11",
+    "locationIndex": 10,
+    "target": "amarch01.cre",
+    "area": "ar5500",
+    "comment": "captain erelon, amkethran",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "11:11",
+    "tier": "11",
+    "locationIndex": 11,
+    "target": "gflunk.flg",
+    "area": "ar5002",
+    "comment": "Karun the Black",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "11:12",
+    "tier": "11",
+    "locationIndex": 12,
+    "target": "container1",
+    "area": "ar5007",
+    "comment": "where you used to find Fflar's Scabbard",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:13",
+    "tier": "11",
+    "locationIndex": 13,
+    "target": "senill02.cre",
+    "area": "ar6107",
+    "comment": "Mithykyl",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "11:14",
+    "tier": "11",
+    "locationIndex": 14,
+    "target": "sengua03.cre",
+    "area": "ar6106",
+    "comment": "Captain Egeissag",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "11:15",
+    "tier": "11",
+    "locationIndex": 15,
+    "target": "amtgen01.cre",
+    "area": "ar6300",
+    "comment": "Tethyrian general, oasis ambush",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "11:16",
+    "tier": "11",
+    "locationIndex": 16,
+    "target": "gorsta.flg",
+    "area": "ar3001",
+    "comment": "wk first floor, statues",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "11:17",
+    "tier": "11",
+    "locationIndex": 17,
+    "target": "elemimix.cre",
+    "area": "ar5204",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "11:18",
+    "tier": "11",
+    "locationIndex": 18,
+    "target": "tent",
+    "area": "ar3011",
+    "comment": "Yakman's garbage",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:19",
+    "tier": "11",
+    "locationIndex": 19,
+    "target": "container5",
+    "area": "ar3022",
+    "comment": "Githyanki wk hideout, table",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "11:20",
+    "tier": "11",
+    "locationIndex": 20,
+    "target": "table5",
+    "area": "ar3016",
+    "comment": "chromatic demon level",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "12:1",
+    "tier": "12",
+    "locationIndex": 1,
+    "target": "shelf10",
+    "area": "ar3001",
+    "comment": "quiver of plenty, wk, 1st",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "12:2",
+    "tier": "12",
+    "locationIndex": 2,
+    "target": "container2",
+    "area": "ar3021",
+    "comment": "illithids in wk",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "12:3",
+    "tier": "12",
+    "locationIndex": 3,
+    "target": "senill02.cre",
+    "area": "ar6107",
+    "comment": "Mithykyl",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:4",
+    "tier": "12",
+    "locationIndex": 4,
+    "target": "senlich.cre",
+    "area": "ar6110",
+    "comment": "Odamaron",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:5",
+    "tier": "12",
+    "locationIndex": 5,
+    "target": "hgber01.cre",
+    "area": "ar5204",
+    "comment": "Berenn",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:6",
+    "tier": "12",
+    "locationIndex": 6,
+    "target": "amlich01.cre",
+    "area": "ar5509",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:7",
+    "tier": "12",
+    "locationIndex": 7,
+    "target": "gromnir.cre",
+    "area": "ar5002",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:8",
+    "tier": "12",
+    "locationIndex": 8,
+    "target": "senlich.cre",
+    "area": "ar6110",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:9",
+    "tier": "12",
+    "locationIndex": 9,
+    "target": "bazmonk.cre",
+    "area": "ar6002",
+    "comment": "Monk at Abazigal's",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:10",
+    "tier": "12",
+    "locationIndex": 10,
+    "target": "picture1",
+    "area": "ar5008",
+    "comment": "Kiser's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "12:11",
+    "tier": "12",
+    "locationIndex": 11,
+    "target": "gorgit.cre",
+    "area": "ar3022",
+    "comment": "Githyanki Captain",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:12",
+    "tier": "12",
+    "locationIndex": 12,
+    "target": "gorgoli.cre",
+    "area": "ar3016",
+    "comment": "Ice Golem, chromatic demon level",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:13",
+    "tier": "12",
+    "locationIndex": 13,
+    "target": "hgnya01.cre",
+    "area": "ar5202",
+    "comment": "Nyalee",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:14",
+    "tier": "12",
+    "locationIndex": 14,
+    "target": "gorchr.cre",
+    "area": "ar3016",
+    "comment": "Chromatic Demon",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:15",
+    "tier": "12",
+    "locationIndex": 15,
+    "target": "container2",
+    "area": "ar3014",
+    "comment": "Demon Wraith's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "12:16",
+    "tier": "12",
+    "locationIndex": 16,
+    "target": "table2",
+    "area": "ar6003",
+    "comment": "Iycanth's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "12:17",
+    "tier": "12",
+    "locationIndex": 17,
+    "target": "gorsal.cre",
+    "area": "ar3018",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:18",
+    "tier": "12",
+    "locationIndex": 18,
+    "target": "dragblue.cre",
+    "area": "ar6005",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:19",
+    "tier": "12",
+    "locationIndex": 19,
+    "target": "dragblue.cre",
+    "area": "ar6005",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "12:20",
+    "tier": "12",
+    "locationIndex": 20,
+    "target": "bed",
+    "area": "ar5204",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "13:1",
+    "tier": "13",
+    "locationIndex": 1,
+    "target": "bed",
+    "area": "ar5204",
+    "comment": "yaga's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "13:2",
+    "tier": "13",
+    "locationIndex": 2,
+    "target": "gromnir.cre",
+    "area": "ar5002",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "13:3",
+    "tier": "13",
+    "locationIndex": 3,
+    "target": "bazeye01.cre",
+    "area": "ar6003",
+    "comment": "Iycanth",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "13:4",
+    "tier": "13",
+    "locationIndex": 4,
+    "target": "shelf4",
+    "area": "ar3016",
+    "comment": "chromatic demon level",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "13:5",
+    "tier": "13",
+    "locationIndex": 5,
+    "target": "picture1",
+    "area": "ar5008",
+    "comment": "kiser's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "13:6",
+    "tier": "13",
+    "locationIndex": 6,
+    "target": "sengua01.cre",
+    "area": "ar6100",
+    "comment": "Woodcutter",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "13:7",
+    "tier": "13",
+    "locationIndex": 7,
+    "target": "gorchr.cre",
+    "area": "ar3016",
+    "comment": "Chromatic Demon",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "13:8",
+    "tier": "13",
+    "locationIndex": 8,
+    "target": "gormind.cre",
+    "area": "ar3021",
+    "comment": "Ulitharid with Illithid Rod part",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "13:9",
+    "tier": "13",
+    "locationIndex": 9,
+    "target": "gorsta.flg",
+    "area": "ar3001",
+    "comment": "statues",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "13:10",
+    "tier": "13",
+    "locationIndex": 10,
+    "target": "gorlic01.cre",
+    "area": "ar3019",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "13:11",
+    "tier": "13",
+    "locationIndex": 11,
+    "target": "table1",
+    "area": "ar6003",
+    "comment": "Iycanth's",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "13:12",
+    "tier": "13",
+    "locationIndex": 12,
+    "target": "gorfirg.cre",
+    "area": "ar3016",
+    "comment": "Fire Giant on second WK level",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:1",
+    "tier": "fa",
+    "locationIndex": 1,
+    "target": "container3",
+    "area": "ar1301",
+    "comment": "chest by stairs",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:2",
+    "tier": "fa",
+    "locationIndex": 2,
+    "target": "container5",
+    "area": "ar1301",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:3",
+    "tier": "fa",
+    "locationIndex": 3,
+    "target": "container6",
+    "area": "ar1301",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:4",
+    "tier": "fa",
+    "locationIndex": 4,
+    "target": "container2",
+    "area": "ar1301",
+    "comment": "pillar cache",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:5",
+    "tier": "fa",
+    "locationIndex": 5,
+    "target": "container1",
+    "area": "ar1303",
+    "comment": "chapel statue",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:6",
+    "tier": "fa",
+    "locationIndex": 6,
+    "target": "container2",
+    "area": "ar1303",
+    "comment": "chapel",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:7",
+    "tier": "fa",
+    "locationIndex": 7,
+    "target": "container3",
+    "area": "ar1303",
+    "comment": "chapel",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:8",
+    "tier": "fa",
+    "locationIndex": 8,
+    "target": "kpglai01.cre",
+    "area": "ar1303",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:9",
+    "tier": "fa",
+    "locationIndex": 9,
+    "target": "container4",
+    "area": "ar1303",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:10",
+    "tier": "fa",
+    "locationIndex": 10,
+    "target": "container5",
+    "area": "ar1303",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "fa:11",
+    "tier": "fa",
+    "locationIndex": 11,
+    "target": "container1",
+    "area": "ar1302",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:1",
+    "tier": "ka",
+    "locationIndex": 1,
+    "target": "altar1",
+    "area": "ar0809",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:2",
+    "tier": "ka",
+    "locationIndex": 2,
+    "target": "obsdem01.cre",
+    "area": "ar0414",
+    "comment": "lea'liyl",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:3",
+    "tier": "ka",
+    "locationIndex": 3,
+    "target": "ar18gang.flg",
+    "area": "ar1800",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:4",
+    "tier": "ka",
+    "locationIndex": 4,
+    "target": "twisted.flg",
+    "area": "ar1008",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:5",
+    "tier": "ka",
+    "locationIndex": 5,
+    "target": "jarlich.cre",
+    "area": "ar2207",
+    "comment": "Deirex",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:6",
+    "tier": "ka",
+    "locationIndex": 6,
+    "target": "shadra01.cre",
+    "area": "ar1402",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:7",
+    "tier": "ka",
+    "locationIndex": 7,
+    "target": "udmaster.cre",
+    "area": "ar2400",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:8",
+    "tier": "ka",
+    "locationIndex": 8,
+    "target": "firkra02.cre",
+    "area": "ar1203",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:9",
+    "tier": "ka",
+    "locationIndex": 9,
+    "target": "udardul.cre",
+    "area": "ar2201",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "ka:10",
+    "tier": "ka",
+    "locationIndex": 10,
+    "target": "gc.flg",
+    "area": "ar0907",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:1",
+    "tier": "s4",
+    "locationIndex": 1,
+    "target": "container4",
+    "area": "ar1103",
+    "comment": "jermien's closet",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:2",
+    "tier": "s4",
+    "locationIndex": 2,
+    "target": "container5",
+    "area": "ar1302",
+    "comment": "servant's table on first floor",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:3",
+    "tier": "s4",
+    "locationIndex": 3,
+    "target": "container14",
+    "area": "ar1302",
+    "comment": "chest in dormitory",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:4",
+    "tier": "s4",
+    "locationIndex": 4,
+    "target": "container1",
+    "area": "ar0804",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:5",
+    "tier": "s4",
+    "locationIndex": 5,
+    "target": "container9",
+    "area": "ar1202",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:6",
+    "tier": "s4",
+    "locationIndex": 6,
+    "target": "container2",
+    "area": "ar0205",
+    "comment": "southern pulsating container",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:7",
+    "tier": "s4",
+    "locationIndex": 7,
+    "target": "container8",
+    "area": "ar1202",
+    "comment": "Tazok's table",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:8",
+    "tier": "s4",
+    "locationIndex": 8,
+    "target": "container1",
+    "area": "ar0204",
+    "comment": "screaming statue",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:9",
+    "tier": "s4",
+    "locationIndex": 9,
+    "target": "container1",
+    "area": "ar0510",
+    "comment": "crate",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:10",
+    "tier": "s4",
+    "locationIndex": 10,
+    "target": "container2",
+    "area": "ar0412",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:11",
+    "tier": "s4",
+    "locationIndex": 11,
+    "target": "shelf1",
+    "area": "ar0530",
+    "comment": "closet",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:12",
+    "tier": "s4",
+    "locationIndex": 12,
+    "target": "vase1",
+    "area": "ar1513",
+    "comment": "by the door in the room with the secret door",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:13",
+    "tier": "s4",
+    "locationIndex": 13,
+    "target": "tolmag02.cre",
+    "area": "ar0412",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:14",
+    "tier": "s4",
+    "locationIndex": 14,
+    "target": "shelf2",
+    "area": "ar0302",
+    "comment": "bookshelf in the middle",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:15",
+    "tier": "s4",
+    "locationIndex": 15,
+    "target": "container1",
+    "area": "ar0503",
+    "comment": "small crate",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s4:16",
+    "tier": "s4",
+    "locationIndex": 16,
+    "target": "pirsea03.cre",
+    "area": "ar0310",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:1",
+    "tier": "s5",
+    "locationIndex": 1,
+    "target": "toolct4",
+    "area": "ar0411",
+    "comment": "tool shed, chest by the door",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:2",
+    "tier": "s5",
+    "locationIndex": 2,
+    "target": "container7",
+    "area": "ar1303",
+    "comment": "southernmost bookshelf",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:3",
+    "tier": "s5",
+    "locationIndex": 3,
+    "target": "shelf1",
+    "area": "ar0309",
+    "comment": "leftmost bookshelf on catwalk",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:4",
+    "tier": "s5",
+    "locationIndex": 4,
+    "target": "container9",
+    "area": "ar1514",
+    "comment": "vase outside golem room",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:5",
+    "tier": "s5",
+    "locationIndex": 5,
+    "target": "container4",
+    "area": "ar0205",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:6",
+    "tier": "s5",
+    "locationIndex": 6,
+    "target": "chest3",
+    "area": "ar0202",
+    "comment": "third chest clockwise",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:7",
+    "tier": "s5",
+    "locationIndex": 7,
+    "target": "chest1",
+    "area": "ar0202",
+    "comment": "first chest clockwise",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:8",
+    "tier": "s5",
+    "locationIndex": 8,
+    "target": "xappren2.cre",
+    "area": "ar0407",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:9",
+    "tier": "s5",
+    "locationIndex": 9,
+    "target": "container4",
+    "area": "ar1202",
+    "comment": "wolfwere table",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:10",
+    "tier": "s5",
+    "locationIndex": 10,
+    "target": "container4",
+    "area": "ar1202",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:11",
+    "tier": "s5",
+    "locationIndex": 11,
+    "target": "chest1",
+    "area": "ar0202",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:12",
+    "tier": "s5",
+    "locationIndex": 12,
+    "target": "body1",
+    "area": "ar0411",
+    "comment": "corpse by elder orb",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:13",
+    "tier": "s5",
+    "locationIndex": 13,
+    "target": "toolct1",
+    "area": "ar0411",
+    "comment": "furnace",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:14",
+    "tier": "s5",
+    "locationIndex": 14,
+    "target": "shelf1",
+    "area": "ar0530",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:15",
+    "tier": "s5",
+    "locationIndex": 15,
+    "target": "container14",
+    "area": "ar1302",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:16",
+    "tier": "s5",
+    "locationIndex": 16,
+    "target": "container8",
+    "area": "ar1514",
+    "comment": "vase, horseshoe-shaped passage",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:17",
+    "tier": "s5",
+    "locationIndex": 17,
+    "target": "chest7",
+    "area": "ar0202",
+    "comment": "outcast cultists, northmost chest",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:18",
+    "tier": "s5",
+    "locationIndex": 18,
+    "target": "container1",
+    "area": "ar0804",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:19",
+    "tier": "s5",
+    "locationIndex": 19,
+    "target": "container9",
+    "area": "ar1202",
+    "comment": "digdag's closet",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:20",
+    "tier": "s5",
+    "locationIndex": 20,
+    "target": "container6",
+    "area": "ar1202",
+    "comment": "wolfwere barrel",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:21",
+    "tier": "s5",
+    "locationIndex": 21,
+    "target": "container7",
+    "area": "ar1514",
+    "comment": "minotaur vase",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s5:22",
+    "tier": "s5",
+    "locationIndex": 22,
+    "target": "pirsea03.cre",
+    "area": "ar0310",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:1",
+    "tier": "s6",
+    "locationIndex": 1,
+    "target": "lehtin.cre",
+    "area": "ar0406",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:2",
+    "tier": "s6",
+    "locationIndex": 2,
+    "target": "container9",
+    "area": "ar0705",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:3",
+    "tier": "s6",
+    "locationIndex": 3,
+    "target": "container4",
+    "area": "ar1401",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:4",
+    "tier": "s6",
+    "locationIndex": 4,
+    "target": "container5",
+    "area": "ar0705",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:5",
+    "tier": "s6",
+    "locationIndex": 5,
+    "target": "container4",
+    "area": "ar0705",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:6",
+    "tier": "s6",
+    "locationIndex": 6,
+    "target": "container4",
+    "area": "ar1103",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:7",
+    "tier": "s6",
+    "locationIndex": 7,
+    "target": "container3",
+    "area": "ar1401",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:8",
+    "tier": "s6",
+    "locationIndex": 8,
+    "target": "container4",
+    "area": "ar1514",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:9",
+    "tier": "s6",
+    "locationIndex": 9,
+    "target": "pbhunt03.cre",
+    "area": "ar0516",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:10",
+    "tier": "s6",
+    "locationIndex": 10,
+    "target": "lehtin.cre",
+    "area": "ar0406",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:11",
+    "tier": "s6",
+    "locationIndex": 11,
+    "target": "container3",
+    "area": "ar1401",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:12",
+    "tier": "s6",
+    "locationIndex": 12,
+    "target": "container1",
+    "area": "ar1401",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:13",
+    "tier": "s6",
+    "locationIndex": 13,
+    "target": "table1",
+    "area": "ar0317",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:14",
+    "tier": "s6",
+    "locationIndex": 14,
+    "target": "table1",
+    "area": "ar0315",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:15",
+    "tier": "s6",
+    "locationIndex": 15,
+    "target": "pbhunt03.cre",
+    "area": "ar0516",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:16",
+    "tier": "s6",
+    "locationIndex": 16,
+    "target": "xappren1.cre",
+    "area": "ar0407",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:17",
+    "tier": "s6",
+    "locationIndex": 17,
+    "target": "pbhunt01.cre",
+    "area": "ar0516",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:18",
+    "tier": "s6",
+    "locationIndex": 18,
+    "target": "container2",
+    "area": "ar0412",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:19",
+    "tier": "s6",
+    "locationIndex": 19,
+    "target": "container1",
+    "area": "ar0407",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:20",
+    "tier": "s6",
+    "locationIndex": 20,
+    "target": "firmag01.cre",
+    "area": "ar1202",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:22",
+    "tier": "s6",
+    "locationIndex": 22,
+    "target": "maevar.cre",
+    "area": "ar0301",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s6:23",
+    "tier": "s6",
+    "locationIndex": 23,
+    "target": "container1",
+    "area": "ar0410",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:1",
+    "tier": "s7",
+    "locationIndex": 1,
+    "target": "shelf1",
+    "area": "ar1513",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:2",
+    "tier": "s7",
+    "locationIndex": 2,
+    "target": "container4",
+    "area": "ar1512",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:3",
+    "tier": "s7",
+    "locationIndex": 3,
+    "target": "chest1",
+    "area": "ar0808",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:4",
+    "tier": "s7",
+    "locationIndex": 4,
+    "target": "shelf1",
+    "area": "ar1513",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:5",
+    "tier": "s7",
+    "locationIndex": 5,
+    "target": "container19",
+    "area": "ar1512",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:6",
+    "tier": "s7",
+    "locationIndex": 6,
+    "target": "container1",
+    "area": "ar2210",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:7",
+    "tier": "s7",
+    "locationIndex": 7,
+    "target": "knighttable",
+    "area": "ar0411",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:8",
+    "tier": "s7",
+    "locationIndex": 8,
+    "target": "container1",
+    "area": "ar2210",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:9",
+    "tier": "s7",
+    "locationIndex": 9,
+    "target": "container19",
+    "area": "ar1512",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:10",
+    "tier": "s7",
+    "locationIndex": 10,
+    "target": "treasury",
+    "area": "ar2300",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:11",
+    "tier": "s7",
+    "locationIndex": 11,
+    "target": "mekrat.cre",
+    "area": "ar0705",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s7:12",
+    "tier": "s7",
+    "locationIndex": 12,
+    "target": "ironpot.flg",
+    "area": "ar0411",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "s8:1",
+    "tier": "s8",
+    "locationIndex": 1,
+    "target": "container5",
+    "area": "ar1514",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s8:2",
+    "tier": "s8",
+    "locationIndex": 2,
+    "target": "vase2",
+    "area": "ar1513",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s8:3",
+    "tier": "s8",
+    "locationIndex": 3,
+    "target": "altar1",
+    "area": "ar0809",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s8:4",
+    "tier": "s8",
+    "locationIndex": 4,
+    "target": "altar1",
+    "area": "ar0809",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s8:5",
+    "tier": "s8",
+    "locationIndex": 5,
+    "target": "gpmage1.cre",
+    "area": "ar2100",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s8:6",
+    "tier": "s8",
+    "locationIndex": 6,
+    "target": "firmag01.cre",
+    "area": "ar1202",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s8:7",
+    "tier": "s8",
+    "locationIndex": 7,
+    "target": "tolger2.cre",
+    "area": "ar0412",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s9:1",
+    "tier": "s9",
+    "locationIndex": 1,
+    "target": "table2",
+    "area": "ar2809",
+    "comment": "Suldanessellar",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s9:2",
+    "tier": "s9",
+    "locationIndex": 2,
+    "target": "ar18mage.cre",
+    "area": "ar1800",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg2"
+  },
+  {
+    "id": "s9:3",
+    "tier": "s9",
+    "locationIndex": 3,
+    "target": "drawer1",
+    "area": "ar2810",
+    "comment": "Suldanessellar",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s9:4",
+    "tier": "s9",
+    "locationIndex": 4,
+    "target": "drawer1",
+    "area": "ar2801",
+    "comment": "Suldanessellar",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s9:5",
+    "tier": "s9",
+    "locationIndex": 5,
+    "target": "shelf1",
+    "area": "ar2808",
+    "comment": "Suldanessellar",
+    "targetType": "container",
+    "game": "bg2"
+  },
+  {
+    "id": "s9:6",
+    "tier": "s9",
+    "locationIndex": 6,
+    "target": "twisted.flg",
+    "area": "ar1008",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg2"
+  },
+  {
+    "id": "24:1",
+    "tier": "24",
+    "locationIndex": 1,
+    "target": "container1",
+    "area": "ar5500",
+    "comment": "formerly star sapphire, mount gibberling",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:2",
+    "tier": "24",
+    "locationIndex": 2,
+    "target": "container1",
+    "area": "ar1401",
+    "comment": "ankheg",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:3",
+    "tier": "24",
+    "locationIndex": 3,
+    "target": "container1",
+    "area": "ar2101",
+    "comment": "cloakwood spider nest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:4",
+    "tier": "24",
+    "locationIndex": 4,
+    "target": "neira.cre",
+    "area": "ar4801",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "24:5",
+    "tier": "24",
+    "locationIndex": 5,
+    "target": "container1",
+    "area": "ar5400",
+    "comment": "nashkel mine exterior",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:6",
+    "tier": "24",
+    "locationIndex": 6,
+    "target": "container13",
+    "area": "ar3321",
+    "comment": "Travenhurst manor",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:7",
+    "tier": "24",
+    "locationIndex": 7,
+    "target": "container6",
+    "area": "ar5001",
+    "comment": "valley of the tombs, tomb interior",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:8",
+    "tier": "24",
+    "locationIndex": 8,
+    "target": "container7",
+    "area": "ar4800",
+    "comment": "formerly ankheg plate, nashkel",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:9",
+    "tier": "24",
+    "locationIndex": 9,
+    "target": "container1",
+    "area": "ar5500",
+    "comment": "formerly ring of fire resistance, mount gibberling",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:10",
+    "tier": "24",
+    "locationIndex": 10,
+    "target": "container4",
+    "area": "ar5001",
+    "comment": "valley of tombs, tomb interior",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:11",
+    "tier": "24",
+    "locationIndex": 11,
+    "target": "container1",
+    "area": "ar5202",
+    "comment": "formerly cave with halberd +1",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "24:12",
+    "tier": "24",
+    "locationIndex": 12,
+    "target": "hairto.cre",
+    "area": "ar5100",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "24:13",
+    "tier": "24",
+    "locationIndex": 13,
+    "target": "denak.cre",
+    "area": "ar3000",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:1",
+    "tier": "25",
+    "locationIndex": 1,
+    "target": "container1",
+    "area": "ar5102",
+    "comment": "formerly manual of CHA",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:2",
+    "tier": "25",
+    "locationIndex": 2,
+    "target": "container4",
+    "area": "ar1803",
+    "comment": "davaeron's lair",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:3",
+    "tier": "25",
+    "locationIndex": 3,
+    "target": "knightsk.cre",
+    "area": "ar5201",
+    "comment": "Firewine, undead knight",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:4",
+    "tier": "25",
+    "locationIndex": 4,
+    "target": "container1",
+    "area": "ar1401",
+    "comment": "ankheg pit",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:5",
+    "tier": "25",
+    "locationIndex": 5,
+    "target": "container1",
+    "area": "ar2615",
+    "comment": "candlekeep catacombs, first area, pile of bodies",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:6",
+    "tier": "25",
+    "locationIndex": 6,
+    "target": "zargal.cre",
+    "area": "ar3700",
+    "comment": "known knobgoblin",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:7",
+    "tier": "25",
+    "locationIndex": 7,
+    "target": "container1",
+    "area": "ar4701",
+    "comment": "formerly cave with morning star +1, by xvart village",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:8",
+    "tier": "25",
+    "locationIndex": 8,
+    "target": "bassil.cre",
+    "area": "ar3700",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:9",
+    "tier": "25",
+    "locationIndex": 9,
+    "target": "container9",
+    "area": "ar1900",
+    "comment": "bandit camp, locked chest at 1710x825",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:10",
+    "tier": "25",
+    "locationIndex": 10,
+    "target": "meilum.cre",
+    "area": "ar4500",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:11",
+    "tier": "25",
+    "locationIndex": 11,
+    "target": "container1",
+    "area": "ar4501",
+    "comment": "cloakwood wyvern cave",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:12",
+    "tier": "25",
+    "locationIndex": 12,
+    "target": "container1",
+    "area": "ar4101",
+    "comment": "archeological site interior",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:13",
+    "tier": "25",
+    "locationIndex": 13,
+    "target": "teynga.cre",
+    "area": "ar4200",
+    "comment": "bandit trio by lake",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:14",
+    "tier": "25",
+    "locationIndex": 14,
+    "target": "jalant.cre",
+    "area": "ar0609",
+    "comment": "Jalantha Mistmyr (T of Umberlee)",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:15",
+    "tier": "25",
+    "locationIndex": 15,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "Iron Throne flunkies",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "25:16",
+    "tier": "25",
+    "locationIndex": 16,
+    "target": "container1",
+    "area": "ar3601",
+    "comment": "pirate cave",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "25:17",
+    "tier": "25",
+    "locationIndex": 17,
+    "target": "canto.cre",
+    "area": "ar4400",
+    "comment": "Ioin Gallchobhair, lonely peaks",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:18",
+    "tier": "25",
+    "locationIndex": 18,
+    "target": "silke.cre",
+    "area": "ar3300",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "25:19",
+    "tier": "25",
+    "locationIndex": 19,
+    "target": "mine.flg",
+    "area": "ar1800",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "25:20",
+    "tier": "25",
+    "locationIndex": 20,
+    "target": "mulahe.cre",
+    "area": "ar5405",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:1",
+    "tier": "26",
+    "locationIndex": 1,
+    "target": "container2",
+    "area": "ar2615",
+    "comment": "candlekeep catacombs, formerly manual of WIS",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "26:2",
+    "tier": "26",
+    "locationIndex": 2,
+    "target": "container1",
+    "area": "ar2101",
+    "comment": "cloakwood spider nest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "26:3",
+    "tier": "26",
+    "locationIndex": 3,
+    "target": "container1",
+    "area": "ar5405",
+    "comment": "mulahey's chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "26:4",
+    "tier": "26",
+    "locationIndex": 4,
+    "target": "container6",
+    "area": "ar5001",
+    "comment": "valley of tombs, tomb interior",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "26:5",
+    "tier": "26",
+    "locationIndex": 5,
+    "target": "zhents.flg",
+    "area": "ar0704",
+    "comment": "Party of 4, SS",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "26:6",
+    "tier": "26",
+    "locationIndex": 6,
+    "target": "jardak.cre",
+    "area": "ar0011",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:7",
+    "tier": "26",
+    "locationIndex": 7,
+    "target": "resar.cre",
+    "area": "ar0153",
+    "comment": "Mage jerk in Thieves' Guild",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:8",
+    "tier": "26",
+    "locationIndex": 8,
+    "target": "tranzi.cre",
+    "area": "ar3352",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:9",
+    "tier": "26",
+    "locationIndex": 9,
+    "target": "mutami.cre",
+    "area": "ar3500",
+    "comment": "Mutamin",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:10",
+    "tier": "26",
+    "locationIndex": 10,
+    "target": "natash.cre",
+    "area": "ar1802",
+    "comment": "Natasha, CW mines",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:11",
+    "tier": "26",
+    "locationIndex": 11,
+    "target": "mine.flg",
+    "area": "ar1800",
+    "comment": "Cloakwood mines exterior",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "26:12",
+    "tier": "26",
+    "locationIndex": 12,
+    "target": "william.cre",
+    "area": "ar0704",
+    "comment": "Party of 4 in Sorcerous Sundries",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:13",
+    "tier": "26",
+    "locationIndex": 13,
+    "target": "silke.cre",
+    "area": "ar3300",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:14",
+    "tier": "26",
+    "locationIndex": 14,
+    "target": "denak.cre",
+    "area": "ar3000",
+    "comment": "Denak, Spider Wood",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:15",
+    "tier": "26",
+    "locationIndex": 15,
+    "target": "kirian.cre",
+    "area": "ar3500",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:16",
+    "tier": "26",
+    "locationIndex": 16,
+    "target": "mine.flg",
+    "area": "ar1800",
+    "comment": "mine",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "26:17",
+    "tier": "26",
+    "locationIndex": 17,
+    "target": "mulahe.cre",
+    "area": "ar5405",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:18",
+    "tier": "26",
+    "locationIndex": 18,
+    "target": "davaeo.cre",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:19",
+    "tier": "26",
+    "locationIndex": 19,
+    "target": "taugos.cre",
+    "area": "ar1900",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:20",
+    "tier": "26",
+    "locationIndex": 20,
+    "target": "zal.cre",
+    "area": "ar5300",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:21",
+    "tier": "26",
+    "locationIndex": 21,
+    "target": "ardeno.cre",
+    "area": "ar1900",
+    "comment": "Ardernor Crush",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "26:22",
+    "tier": "26",
+    "locationIndex": 22,
+    "target": "bgsendai.flg",
+    "area": "ar5300",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "27:1",
+    "tier": "27",
+    "locationIndex": 1,
+    "target": "mutami.cre",
+    "area": "ar3500",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:2",
+    "tier": "27",
+    "locationIndex": 2,
+    "target": "container1",
+    "area": "ar3601",
+    "comment": "pirate cave",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:3",
+    "tier": "27",
+    "locationIndex": 3,
+    "target": "container10",
+    "area": "ar1803",
+    "comment": "davaeron's",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:4",
+    "tier": "27",
+    "locationIndex": 4,
+    "target": "container8",
+    "area": "ar0138",
+    "comment": "formerly manual of INT",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:5",
+    "tier": "27",
+    "locationIndex": 5,
+    "target": "arkion.cre",
+    "area": "ar0805",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:6",
+    "tier": "27",
+    "locationIndex": 6,
+    "target": "container3",
+    "area": "ar1111",
+    "comment": "Sunin's",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:7",
+    "tier": "27",
+    "locationIndex": 7,
+    "target": "ragefa.cre",
+    "area": "ar0126",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:8",
+    "tier": "27",
+    "locationIndex": 8,
+    "target": "davaeo.cre",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:9",
+    "tier": "27",
+    "locationIndex": 9,
+    "target": "container10",
+    "area": "ar1803",
+    "comment": "davaeron's chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:10",
+    "tier": "27",
+    "locationIndex": 10,
+    "target": "ogrmba.cre",
+    "area": "ar0226",
+    "comment": "Sewer ogre",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:11",
+    "tier": "27",
+    "locationIndex": 11,
+    "target": "container3",
+    "area": "ar0603",
+    "comment": "Seven Suns basement",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:12",
+    "tier": "27",
+    "locationIndex": 12,
+    "target": "schlum.cre",
+    "area": "ar0224",
+    "comment": "Schlumpsha",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:13",
+    "tier": "27",
+    "locationIndex": 13,
+    "target": "degrod.cre",
+    "area": "ar0161",
+    "comment": "Degrodel",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:14",
+    "tier": "27",
+    "locationIndex": 14,
+    "target": "ogrema02.cre",
+    "area": "ar5201",
+    "comment": "Firewine ruins, Ogre Mage",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "27:15",
+    "tier": "27",
+    "locationIndex": 15,
+    "target": "void.flg",
+    "area": "ar0134",
+    "comment": "Desreta and friend",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "27:16",
+    "tier": "27",
+    "locationIndex": 16,
+    "target": "container9",
+    "area": "ar0138",
+    "comment": "Desk in Ramazith's abode",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:17",
+    "tier": "27",
+    "locationIndex": 17,
+    "target": "killers.flg",
+    "area": "ar0112",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "27:18",
+    "tier": "27",
+    "locationIndex": 18,
+    "target": "killers.flg",
+    "area": "ar0112",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "27:19",
+    "tier": "27",
+    "locationIndex": 19,
+    "target": "container2",
+    "area": "ar0608",
+    "comment": "FF compound, second floor",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "27:20",
+    "tier": "27",
+    "locationIndex": 20,
+    "target": "container2",
+    "area": "ar2615",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "28:1",
+    "tier": "28",
+    "locationIndex": 1,
+    "target": "container5",
+    "area": "ar2615",
+    "comment": "candlekeep catacombs, formerly tome of STR",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "28:2",
+    "tier": "28",
+    "locationIndex": 2,
+    "target": "container5",
+    "area": "ar2615",
+    "comment": "candlekeep catacombs, formerly cloak of prot +2",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "28:3",
+    "tier": "28",
+    "locationIndex": 3,
+    "target": "container1",
+    "area": "ar0102",
+    "comment": "Silvershield estate",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "28:4",
+    "tier": "28",
+    "locationIndex": 4,
+    "target": "pileofbodies",
+    "area": "ar3901",
+    "comment": "Ulcaster dungeon",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "28:5",
+    "tier": "28",
+    "locationIndex": 5,
+    "target": "lendar.cre",
+    "area": "ar5201",
+    "comment": "Lendarn",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "28:6",
+    "tier": "28",
+    "locationIndex": 6,
+    "target": "under.flg",
+    "area": "ar0123",
+    "comment": "undercity",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "28:7",
+    "tier": "28",
+    "locationIndex": 7,
+    "target": "under.flg",
+    "area": "ar0123",
+    "comment": "undercity",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "28:8",
+    "tier": "28",
+    "locationIndex": 8,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "iron throne",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "28:9",
+    "tier": "28",
+    "locationIndex": 9,
+    "target": "killers.flg",
+    "area": "ar0112",
+    "comment": "Slythe or Krystin",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "28:10",
+    "tier": "28",
+    "locationIndex": 10,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "Iron Throne, top floor",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "28:11",
+    "tier": "28",
+    "locationIndex": 11,
+    "target": "rielta.cre",
+    "area": "ar2610",
+    "comment": "Rieltar, Candlekeep",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "28:12",
+    "tier": "28",
+    "locationIndex": 12,
+    "target": "tuth.cre",
+    "area": "ar2610",
+    "comment": "Tuth, Candlekeep",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "28:13",
+    "tier": "28",
+    "locationIndex": 13,
+    "target": "container2",
+    "area": "ar0128",
+    "comment": "Trading Coster, desk on second floor",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "28:14",
+    "tier": "28",
+    "locationIndex": 14,
+    "target": "gretek.cre",
+    "area": "ar0116",
+    "comment": "of the Maulers of the Undermountain",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "29:1",
+    "tier": "29",
+    "locationIndex": 1,
+    "target": "slime15",
+    "area": "ar0514",
+    "comment": "totsc starts here, 1859x2862",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:2",
+    "tier": "29",
+    "locationIndex": 2,
+    "target": "container9",
+    "area": "ar0504",
+    "comment": "durlag's, chest by rigglio",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:3",
+    "tier": "29",
+    "locationIndex": 3,
+    "target": "container12",
+    "area": "ar0511",
+    "comment": "504x1751",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:4",
+    "tier": "29",
+    "locationIndex": 4,
+    "target": "slime16",
+    "area": "ar0514",
+    "comment": "1442x2622",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:5",
+    "tier": "29",
+    "locationIndex": 5,
+    "target": "container2",
+    "area": "ar1501",
+    "comment": "bad doggie ship, small, hidden, 221x513",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:6",
+    "tier": "29",
+    "locationIndex": 6,
+    "target": "container1",
+    "area": "ar1505",
+    "comment": "dradeel's cabin",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:7",
+    "tier": "29",
+    "locationIndex": 7,
+    "target": "chimneycontainer",
+    "area": "ar0500",
+    "comment": "durlag's roof",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:8",
+    "tier": "29",
+    "locationIndex": 8,
+    "target": "container1",
+    "area": "ar0513",
+    "comment": "statue in maze",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:9",
+    "tier": "29",
+    "locationIndex": 9,
+    "target": "container36",
+    "area": "ar0512",
+    "comment": "chest next to kiel's",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:10",
+    "tier": "29",
+    "locationIndex": 10,
+    "target": "container3",
+    "area": "ar1502",
+    "comment": "bad doggie ship, bracers of binding",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "29:11",
+    "tier": "29",
+    "locationIndex": 11,
+    "target": "garan.cre",
+    "area": "ar1009",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "30:1",
+    "tier": "30",
+    "locationIndex": 1,
+    "target": "container23",
+    "area": "ar0512",
+    "comment": "same container as the lvl 2 exit wardstone",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "30:2",
+    "tier": "30",
+    "locationIndex": 2,
+    "target": "tellan.cre",
+    "area": "ar1009",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "30:3",
+    "tier": "30",
+    "locationIndex": 3,
+    "target": "container18",
+    "area": "ar0511",
+    "comment": "1044x2324",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "30:4",
+    "tier": "30",
+    "locationIndex": 4,
+    "target": "crate01",
+    "area": "ar0514",
+    "comment": "container by Clair",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "30:5",
+    "tier": "30",
+    "locationIndex": 5,
+    "target": "container2",
+    "area": "ar1502",
+    "comment": "323x414",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "30:6",
+    "tier": "30",
+    "locationIndex": 6,
+    "target": "container10",
+    "area": "ar0504",
+    "comment": "formerly tome of WIS",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "30:7",
+    "tier": "30",
+    "locationIndex": 7,
+    "target": "chest01",
+    "area": "ar0514",
+    "comment": "chest past the slime, formerly flame tongue",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "30:8",
+    "tier": "30",
+    "locationIndex": 8,
+    "target": "andris.cre",
+    "area": "ar1009",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "30:9",
+    "tier": "30",
+    "locationIndex": 9,
+    "target": "container24",
+    "area": "ar0512",
+    "comment": "kiel's chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "30:10",
+    "tier": "30",
+    "locationIndex": 10,
+    "target": "islsir.cre",
+    "area": "ar1500",
+    "comment": "sirine queen",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "30:11",
+    "tier": "30",
+    "locationIndex": 11,
+    "target": "kirinh.cre",
+    "area": "ar0505",
+    "comment": "Kirinhale",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "31:1",
+    "tier": "31",
+    "locationIndex": 1,
+    "target": "chest02",
+    "area": "ar0514",
+    "comment": "durlag's tower lvl 4, first chest past rune trap",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "31:2",
+    "tier": "31",
+    "locationIndex": 2,
+    "target": "chest02",
+    "area": "ar0514",
+    "comment": "3016x719",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "31:3",
+    "tier": "31",
+    "locationIndex": 3,
+    "target": "container2",
+    "area": "ar1504",
+    "comment": "balduran's table, bad doggie ship",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "31:4",
+    "tier": "31",
+    "locationIndex": 4,
+    "target": "container36",
+    "area": "ar0514",
+    "comment": "durlag's vault, lvl 4",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "31:5",
+    "tier": "31",
+    "locationIndex": 5,
+    "target": "chest01",
+    "area": "ar0514",
+    "comment": "formerly staff of striking lvl 4",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "31:6",
+    "tier": "31",
+    "locationIndex": 6,
+    "target": "king.cre",
+    "area": "ar0506",
+    "comment": "chess",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:1",
+    "tier": "sa",
+    "locationIndex": 1,
+    "target": "arkush.cre",
+    "area": "ar3600",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:2",
+    "tier": "sa",
+    "locationIndex": 2,
+    "target": "red.flg",
+    "area": "ar3000",
+    "comment": "red wizards",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:3",
+    "tier": "sa",
+    "locationIndex": 3,
+    "target": "red.flg",
+    "area": "ar3000",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:4",
+    "tier": "sa",
+    "locationIndex": 4,
+    "target": "tarnes.cre",
+    "area": "ar2300",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:5",
+    "tier": "sa",
+    "locationIndex": 5,
+    "target": "narcil.cre",
+    "area": "ar5000",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:6",
+    "tier": "sa",
+    "locationIndex": 6,
+    "target": "jemby.cre",
+    "area": "ar4200",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:7",
+    "tier": "sa",
+    "locationIndex": 7,
+    "target": "mutami.cre",
+    "area": "ar3500",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:8",
+    "tier": "sa",
+    "locationIndex": 8,
+    "target": "zordra.cre",
+    "area": "ar4906",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:9",
+    "tier": "sa",
+    "locationIndex": 9,
+    "target": "tarnes.cre",
+    "area": "ar2300",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:10",
+    "tier": "sa",
+    "locationIndex": 10,
+    "target": "tarnes.cre",
+    "area": "ar2300",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:11",
+    "tier": "sa",
+    "locationIndex": 11,
+    "target": "kirian.cre",
+    "area": "ar3500",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:12",
+    "tier": "sa",
+    "locationIndex": 12,
+    "target": "red.flg",
+    "area": "ar3000",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:13",
+    "tier": "sa",
+    "locationIndex": 13,
+    "target": "hareis.cre",
+    "area": "ar1804",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:14",
+    "tier": "sa",
+    "locationIndex": 14,
+    "target": "natash.cre",
+    "area": "ar1802",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:15",
+    "tier": "sa",
+    "locationIndex": 15,
+    "target": "bentha.cre",
+    "area": "ar4906",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:16",
+    "tier": "sa",
+    "locationIndex": 16,
+    "target": "container1",
+    "area": "ar5405",
+    "comment": "mulahey's chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:17",
+    "tier": "sa",
+    "locationIndex": 17,
+    "target": "container1",
+    "area": "ar5405",
+    "comment": "mulahey's chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:18",
+    "tier": "sa",
+    "locationIndex": 18,
+    "target": "arkush.cre",
+    "area": "ar3600",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:19",
+    "tier": "sa",
+    "locationIndex": 19,
+    "target": "narcil.cre",
+    "area": "ar5000",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sa:20",
+    "tier": "sa",
+    "locationIndex": 20,
+    "target": "mutami.cre",
+    "area": "ar3500",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:1",
+    "tier": "sb",
+    "locationIndex": 1,
+    "target": "arkush.cre",
+    "area": "ar3600",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:2",
+    "tier": "sb",
+    "locationIndex": 2,
+    "target": "hareis.cre",
+    "area": "ar1804",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:3",
+    "tier": "sb",
+    "locationIndex": 3,
+    "target": "natash.cre",
+    "area": "ar1802",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:4",
+    "tier": "sb",
+    "locationIndex": 4,
+    "target": "tarnes.cre",
+    "area": "ar2300",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:5",
+    "tier": "sb",
+    "locationIndex": 5,
+    "target": "container11",
+    "area": "ar2609",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:6",
+    "tier": "sb",
+    "locationIndex": 6,
+    "target": "container1",
+    "area": "ar1901",
+    "comment": "main test, chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:7",
+    "tier": "sb",
+    "locationIndex": 7,
+    "target": "red.flg",
+    "area": "ar3000",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:8",
+    "tier": "sb",
+    "locationIndex": 8,
+    "target": "red.flg",
+    "area": "ar3000",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:9",
+    "tier": "sb",
+    "locationIndex": 9,
+    "target": "mutami.cre",
+    "area": "ar3500",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:10",
+    "tier": "sb",
+    "locationIndex": 10,
+    "target": "narcil.cre",
+    "area": "ar5000",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:11",
+    "tier": "sb",
+    "locationIndex": 11,
+    "target": "jemby.cre",
+    "area": "ar4200",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:12",
+    "tier": "sb",
+    "locationIndex": 12,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:13",
+    "tier": "sb",
+    "locationIndex": 13,
+    "target": "container7",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:14",
+    "tier": "sb",
+    "locationIndex": 14,
+    "target": "container12",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:15",
+    "tier": "sb",
+    "locationIndex": 15,
+    "target": "natash.cre",
+    "area": "ar1802",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:16",
+    "tier": "sb",
+    "locationIndex": 16,
+    "target": "container9",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:17",
+    "tier": "sb",
+    "locationIndex": 17,
+    "target": "container13",
+    "area": "ar2611",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:18",
+    "tier": "sb",
+    "locationIndex": 18,
+    "target": "container4",
+    "area": "ar2610",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:19",
+    "tier": "sb",
+    "locationIndex": 19,
+    "target": "zhents.flg",
+    "area": "ar0704",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:20",
+    "tier": "sb",
+    "locationIndex": 20,
+    "target": "hareis.cre",
+    "area": "ar1804",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:21",
+    "tier": "sb",
+    "locationIndex": 21,
+    "target": "container10",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:22",
+    "tier": "sb",
+    "locationIndex": 22,
+    "target": "zhents.flg",
+    "area": "ar0704",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:23",
+    "tier": "sb",
+    "locationIndex": 23,
+    "target": "container1",
+    "area": "ar1901",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:24",
+    "tier": "sb",
+    "locationIndex": 24,
+    "target": "container11",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sb:25",
+    "tier": "sb",
+    "locationIndex": 25,
+    "target": "container4",
+    "area": "ar1803",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:1",
+    "tier": "sc",
+    "locationIndex": 1,
+    "target": "krysti.cre",
+    "area": "ar0112",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:2",
+    "tier": "sc",
+    "locationIndex": 2,
+    "target": "degrod.cre",
+    "area": "ar0161",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:3",
+    "tier": "sc",
+    "locationIndex": 3,
+    "target": "hareis.cre",
+    "area": "ar1804",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:4",
+    "tier": "sc",
+    "locationIndex": 4,
+    "target": "natash.cre",
+    "area": "ar1802",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:5",
+    "tier": "sc",
+    "locationIndex": 5,
+    "target": "narcil.cre",
+    "area": "ar5000",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:6",
+    "tier": "sc",
+    "locationIndex": 6,
+    "target": "krysti.cre",
+    "area": "ar0112",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:7",
+    "tier": "sc",
+    "locationIndex": 7,
+    "target": "wiven.cre",
+    "area": "ar1101",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:8",
+    "tier": "sc",
+    "locationIndex": 8,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:9",
+    "tier": "sc",
+    "locationIndex": 9,
+    "target": "hareis.cre",
+    "area": "ar1804",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:10",
+    "tier": "sc",
+    "locationIndex": 10,
+    "target": "cythan.cre",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:11",
+    "tier": "sc",
+    "locationIndex": 11,
+    "target": "drelik.cre",
+    "area": "ar0010",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:12",
+    "tier": "sc",
+    "locationIndex": 12,
+    "target": "nevill.cre",
+    "area": "ar4600",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:13",
+    "tier": "sc",
+    "locationIndex": 13,
+    "target": "container28",
+    "area": "ar1802",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:14",
+    "tier": "sc",
+    "locationIndex": 14,
+    "target": "container7",
+    "area": "ar1900",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:15",
+    "tier": "sc",
+    "locationIndex": 15,
+    "target": "container2",
+    "area": "ar1907",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:16",
+    "tier": "sc",
+    "locationIndex": 16,
+    "target": "container3",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:17",
+    "tier": "sc",
+    "locationIndex": 17,
+    "target": "container2",
+    "area": "ar2613",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:18",
+    "tier": "sc",
+    "locationIndex": 18,
+    "target": "container5",
+    "area": "ar0144",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:19",
+    "tier": "sc",
+    "locationIndex": 19,
+    "target": "container1",
+    "area": "ar1401",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:20",
+    "tier": "sc",
+    "locationIndex": 20,
+    "target": "container1",
+    "area": "ar1401",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sc:21",
+    "tier": "sc",
+    "locationIndex": 21,
+    "target": "shaldr.cre",
+    "area": "ar0123",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:1",
+    "tier": "sd",
+    "locationIndex": 1,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:2",
+    "tier": "sd",
+    "locationIndex": 2,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:3",
+    "tier": "sd",
+    "locationIndex": 3,
+    "target": "garan.cre",
+    "area": "ar1009",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:4",
+    "tier": "sd",
+    "locationIndex": 4,
+    "target": "king.cre",
+    "area": "ar0506",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:5",
+    "tier": "sd",
+    "locationIndex": 5,
+    "target": "king.cre",
+    "area": "ar0506",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:6",
+    "tier": "sd",
+    "locationIndex": 6,
+    "target": "container18",
+    "area": "ar0511",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:7",
+    "tier": "sd",
+    "locationIndex": 7,
+    "target": "container10",
+    "area": "ar0511",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:8",
+    "tier": "sd",
+    "locationIndex": 8,
+    "target": "container23",
+    "area": "ar0512",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:9",
+    "tier": "sd",
+    "locationIndex": 9,
+    "target": "container26",
+    "area": "ar0512",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:10",
+    "tier": "sd",
+    "locationIndex": 10,
+    "target": "ogrmba.cre",
+    "area": "ar0226",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:11",
+    "tier": "sd",
+    "locationIndex": 11,
+    "target": "container1",
+    "area": "ar2613",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:12",
+    "tier": "sd",
+    "locationIndex": 12,
+    "target": "container1",
+    "area": "ar2613",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:13",
+    "tier": "sd",
+    "locationIndex": 13,
+    "target": "container3",
+    "area": "ar2613",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:14",
+    "tier": "sd",
+    "locationIndex": 14,
+    "target": "container3",
+    "area": "ar2613",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:15",
+    "tier": "sd",
+    "locationIndex": 15,
+    "target": "krysti.cre",
+    "area": "ar0112",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:16",
+    "tier": "sd",
+    "locationIndex": 16,
+    "target": "container1",
+    "area": "ar5300",
+    "comment": "hollow in ground",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:17",
+    "tier": "sd",
+    "locationIndex": 17,
+    "target": "container11",
+    "area": "ar1803",
+    "comment": "davaeron's chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:18",
+    "tier": "sd",
+    "locationIndex": 18,
+    "target": "shaldr.cre",
+    "area": "ar0123",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:19",
+    "tier": "sd",
+    "locationIndex": 19,
+    "target": "cythan.cre",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "sd:20",
+    "tier": "sd",
+    "locationIndex": 20,
+    "target": "resar.cre",
+    "area": "ar0153",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:1",
+    "tier": "se",
+    "locationIndex": 1,
+    "target": "lendar.cre",
+    "area": "ar5201",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:2",
+    "tier": "se",
+    "locationIndex": 2,
+    "target": "container8",
+    "area": "ar0511",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "se:3",
+    "tier": "se",
+    "locationIndex": 3,
+    "target": "container25",
+    "area": "ar0512",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "se:4",
+    "tier": "se",
+    "locationIndex": 4,
+    "target": "container1",
+    "area": "ar0513",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "se:5",
+    "tier": "se",
+    "locationIndex": 5,
+    "target": "container1",
+    "area": "ar0511",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "se:6",
+    "tier": "se",
+    "locationIndex": 6,
+    "target": "container1",
+    "area": "ar0513",
+    "comment": "",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "se:7",
+    "tier": "se",
+    "locationIndex": 7,
+    "target": "krysti.cre",
+    "area": "ar0112",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:8",
+    "tier": "se",
+    "locationIndex": 8,
+    "target": "throne.flg",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "group",
+    "game": "bg1"
+  },
+  {
+    "id": "se:9",
+    "tier": "se",
+    "locationIndex": 9,
+    "target": "cythan.cre",
+    "area": "ar0615",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:10",
+    "tier": "se",
+    "locationIndex": 10,
+    "target": "andris.cre",
+    "area": "ar1009",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:11",
+    "tier": "se",
+    "locationIndex": 11,
+    "target": "shaldr.cre",
+    "area": "ar0123",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:12",
+    "tier": "se",
+    "locationIndex": 12,
+    "target": "container11",
+    "area": "ar1803",
+    "comment": "davaeorn's chest",
+    "targetType": "container",
+    "game": "bg1"
+  },
+  {
+    "id": "se:13",
+    "tier": "se",
+    "locationIndex": 13,
+    "target": "degrod.cre",
+    "area": "ar0161",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:14",
+    "tier": "se",
+    "locationIndex": 14,
+    "target": "queen.cre",
+    "area": "ar0506",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  },
+  {
+    "id": "se:15",
+    "tier": "se",
+    "locationIndex": 15,
+    "target": "droth.cre",
+    "area": "ar3100",
+    "comment": "",
+    "targetType": "creature",
+    "game": "bg1"
+  }
+]

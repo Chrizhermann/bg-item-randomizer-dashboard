@@ -1,0 +1,190 @@
+{
+  "wyvcult.flg": [
+    "wyvfight",
+    "wyvmag14"
+  ],
+  "ar18gang.flg": [
+    "ar18arch",
+    "ar18fig",
+    "ar18mage",
+    "ar18prie",
+    "ar18thif"
+  ],
+  "gpfight.flg": [
+    "gpfight1",
+    "gpmage1",
+    "gppri1",
+    "gpsimb",
+    "gpthief1"
+  ],
+  "bounty.flg": [
+    "pbhunt01",
+    "pbhunt03",
+    "pbhunt04",
+    "pbhunt05"
+  ],
+  "thugs.flg": [
+    "gall",
+    "gaius",
+    "rengaa",
+    "berkref",
+    "tarnor",
+    "draug"
+  ],
+  "gc.flg": [
+    "hlsion",
+    "hlstal",
+    "hlmafer",
+    "hlolaf",
+    "hlkoshi",
+    "hlketta"
+  ],
+  "twisted.flg": [
+    "hlrevan",
+    "hlshang",
+    "hllayen"
+  ],
+  "jael.flg": [
+    "jael01",
+    "jael02",
+    "jael03",
+    "dw#drja1"
+  ],
+  "ironpot.flg": [
+    "obshal01",
+    "obshal02",
+    "obshal03",
+    "obshal05",
+    "obshal06",
+    "obshal07"
+  ],
+  "gflunk.flg": [
+    "gromg08",
+    "gromg09",
+    "gromg10"
+  ],
+  "sevpat.flg": [
+    "sevpat01",
+    "sevpat02",
+    "sevpat04",
+    "sevpat05"
+  ],
+  "uddoor.flg": [
+    "uddoor05",
+    "uddoor06",
+    "uddoor08",
+    "uddoor09"
+  ],
+  "gorwom.flg": [
+    "gorwom01",
+    "gorwom02",
+    "gorwom03",
+    "gorwom04",
+    "gorwom06"
+  ],
+  "gorsta.flg": [
+    "gorsta01",
+    "gorsta02",
+    "gorsta03",
+    "gorsta04",
+    "gorsta05",
+    "gorsta07",
+    "gorsta09",
+    "gorsta11"
+  ],
+  "goons.flg": [
+    "demmag",
+    "demfig01",
+    "dempri",
+    "demfig02"
+  ],
+  "trrak.flg": [
+    "trrak01",
+    "trrak02",
+    "trrak03"
+  ],
+  "backstab.flg": [
+    "samia",
+    "akae",
+    "kaol",
+    "chak",
+    "legdor",
+    "deshar"
+  ],
+  "slavers.flg": [
+    "haegan",
+    "slapri",
+    "slmage1",
+    "slmage2"
+  ],
+  "assassins1.flg": [
+    "lamalh",
+    "maneir",
+    "telka",
+    "zeela"
+  ],
+  "assassins2.flg": [
+    "drakar",
+    "halaca",
+    "molkar",
+    "morvin"
+  ],
+  "tent.flg": [
+    "britik",
+    "hakt",
+    "raemon",
+    "venkt"
+  ],
+  "throne.flg": [
+    "gardus",
+    "aasim",
+    "diyab",
+    "alai",
+    "naaman",
+    "zhalim"
+  ],
+  "mine.flg": [
+    "drasus",
+    "rezdan",
+    "gentho",
+    "kysus"
+  ],
+  "under.flg": [
+    "carsto",
+    "wudei",
+    "shaldr",
+    "rahvin",
+    "haseo"
+  ],
+  "killers.flg": [
+    "slythe",
+    "krysti"
+  ],
+  "bgsendai.flg": [
+    "sendai",
+    "alexan",
+    "delgod"
+  ],
+  "void.flg": [
+    "desret",
+    "vayya"
+  ],
+  "spelunkers.flg": [
+    "prat",
+    "sakul",
+    "bor",
+    "tam"
+  ],
+  "red.flg": [
+    "denak",
+    "diana",
+    "brenda",
+    "lasal"
+  ],
+  "zhents.flg": [
+    "william",
+    "wheber",
+    "oulam",
+    "niemai"
+  ]
+}
