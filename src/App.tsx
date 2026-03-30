@@ -4,6 +4,7 @@ import { locations } from './data-loader'
 import { useTrackerStore } from './store'
 import Header from './components/Header'
 import SessionManager from './components/SessionManager'
+import LocationList from './components/LocationList'
 
 function App() {
   const store = useTrackerStore()
@@ -44,7 +45,13 @@ function App() {
             </button>
           </div>
         ) : (
-          <div>LocationList placeholder</div>
+          <LocationList
+            groupBy={groupBy}
+            locationStates={store.activeSession.locationStates}
+            onToggleChecked={store.toggleChecked}
+            onAssignItem={store.assignItem}
+            onSetNote={store.setNote}
+          />
         )}
       </main>
 
