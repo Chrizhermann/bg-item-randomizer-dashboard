@@ -5,9 +5,19 @@ import { useTrackerStore } from './store'
 import Header from './components/Header'
 import SessionManager from './components/SessionManager'
 import LocationList from './components/LocationList'
+import OverlayView from './components/OverlayView'
+
+function useIsOverlay(): boolean {
+  const params = new URLSearchParams(window.location.search)
+  return (
+    params.get('mode') === 'overlay' ||
+    !!(window as any).electronAPI?.isOverlay
+  )
+}
 
 function App() {
   const store = useTrackerStore()
+  const isOverlay = useIsOverlay()
   const [groupBy, setGroupBy] = useState<GroupBy>('tier')
   const [showSessionManager, setShowSessionManager] = useState(
     () => store.activeSessionName === null,
@@ -21,6 +31,15 @@ function App() {
   }, [store.activeSession])
 
   const totalLocations = locations.length
+
+  if (isOverlay) {
+    return (
+      <OverlayView
+        locationStates={store.activeSession?.locationStates ?? {}}
+        onToggleChecked={store.toggleChecked}
+      />
+    )
+  }
 
   return (
     <div className="min-h-screen bg-stone-900 text-stone-100">
