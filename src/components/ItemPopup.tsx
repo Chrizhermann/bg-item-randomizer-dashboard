@@ -22,8 +22,24 @@ export default function ItemPopup({
   const [note, setNote] = useState(currentNote)
   const searchRef = useRef<HTMLInputElement>(null)
 
+  const noteRef = useRef(note)
+  const currentNoteRef = useRef(currentNote)
+  const onSetNoteRef = useRef(onSetNote)
+  noteRef.current = note
+  currentNoteRef.current = currentNote
+  onSetNoteRef.current = onSetNote
+
   useEffect(() => {
     searchRef.current?.focus()
+  }, [])
+
+  // Save note on unmount (handles closing without blur)
+  useEffect(() => {
+    return () => {
+      if (noteRef.current !== currentNoteRef.current) {
+        onSetNoteRef.current(noteRef.current)
+      }
+    }
   }, [])
 
   const tierItems = useMemo(() => itemsByTier.get(tier) ?? [], [tier])

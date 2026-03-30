@@ -50,9 +50,12 @@ export function useTrackerStore() {
     activeSessionName !== null ? (sessions[activeSessionName] ?? null) : null
 
   const persistSessions = useCallback(
-    (next: Record<string, SessionState>) => {
-      setSessions(next)
-      saveSessions(next)
+    (updater: (prev: Record<string, SessionState>) => Record<string, SessionState>) => {
+      setSessions((prev) => {
+        const next = updater(prev)
+        saveSessions(next)
+        return next
+      })
     },
     [],
   )
@@ -69,11 +72,10 @@ export function useTrackerStore() {
         createdAt: new Date().toISOString(),
         locationStates: {},
       }
-      const next = { ...sessions, [name]: session }
-      persistSessions(next)
+      persistSessions((prev) => ({ ...prev, [name]: session }))
       persistActiveSessionName(name)
     },
-    [sessions, persistSessions, persistActiveSessionName],
+    [persistSessions, persistActiveSessionName],
   )
 
   const switchSession = useCallback(
@@ -87,16 +89,26 @@ export function useTrackerStore() {
 
   const deleteSession = useCallback(
     (name: string) => {
-      const next = { ...sessions }
-      delete next[name]
-      persistSessions(next)
+      persistSessions((prev) => {
+        const next = { ...prev }
+        delete next[name]
+        return next
+      })
 
-      if (activeSessionName === name) {
-        const remaining = Object.keys(next)
-        persistActiveSessionName(remaining.length > 0 ? remaining[0] : null)
-      }
+      setActiveSessionName((prevName) => {
+        if (prevName === name) {
+          // Need to read current sessions to find a replacement
+          const current = loadSessions()
+          delete current[name]
+          const remaining = Object.keys(current)
+          const newActive = remaining.length > 0 ? remaining[0] : null
+          saveActiveSessionName(newActive)
+          return newActive
+        }
+        return prevName
+      })
     },
-    [sessions, activeSessionName, persistSessions, persistActiveSessionName],
+    [persistSessions],
   )
 
   const getLocationState = useCallback(
@@ -114,25 +126,30 @@ export function useTrackerStore() {
       locationId: string,
       updater: (prev: LocationState) => LocationState,
     ) => {
-      if (activeSessionName === null || !sessions[activeSessionName]) return
+      if (activeSessionName === null) return
 
-      const session = sessions[activeSessionName]
-      const prev = session.locationStates[locationId] ?? {
-        ...DEFAULT_LOCATION_STATE,
-      }
-      const updated = updater(prev)
+      persistSessions((prevSessions) => {
+        const session = prevSessions[activeSessionName]
+        if (!session) return prevSessions
 
-      const nextSession: SessionState = {
-        ...session,
-        locationStates: {
-          ...session.locationStates,
-          [locationId]: updated,
-        },
-      }
-      const next = { ...sessions, [activeSessionName]: nextSession }
-      persistSessions(next)
+        const prev = session.locationStates[locationId] ?? {
+          ...DEFAULT_LOCATION_STATE,
+        }
+        const updated = updater(prev)
+
+        return {
+          ...prevSessions,
+          [activeSessionName]: {
+            ...session,
+            locationStates: {
+              ...session.locationStates,
+              [locationId]: updated,
+            },
+          },
+        }
+      })
     },
-    [sessions, activeSessionName, persistSessions],
+    [activeSessionName, persistSessions],
   )
 
   const toggleChecked = useCallback(
@@ -183,11 +200,10 @@ export function useTrackerStore() {
       ) {
         throw new Error('Invalid session data')
       }
-      const next = { ...sessions, [parsed.name]: parsed }
-      persistSessions(next)
+      persistSessions((prev) => ({ ...prev, [parsed.name]: parsed }))
       persistActiveSessionName(parsed.name)
     },
-    [sessions, persistSessions, persistActiveSessionName],
+    [persistSessions, persistActiveSessionName],
   )
 
   return {

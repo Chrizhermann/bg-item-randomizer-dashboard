@@ -140,6 +140,9 @@ function findRegionForLocation(loc: Location): Region | null {
 function groupByArea(allLocations: Location[]): LocationGroup[] {
   const regionMap = new Map<string, { region: Region; locations: Location[] }>()
 
+  const unmatchedBg1: Location[] = []
+  const unmatchedBg2: Location[] = []
+
   for (const loc of allLocations) {
     const region = findRegionForLocation(loc)
     if (region) {
@@ -149,7 +152,23 @@ function groupByArea(allLocations: Location[]): LocationGroup[] {
       } else {
         regionMap.set(region.id, { region, locations: [loc] })
       }
+    } else {
+      if (loc.game === 'bg1') unmatchedBg1.push(loc)
+      else unmatchedBg2.push(loc)
     }
+  }
+
+  if (unmatchedBg1.length > 0) {
+    regionMap.set('bg1-unmatched', {
+      region: { id: 'bg1-unmatched', name: 'Other BG1 Areas', areaPattern: '', game: 'bg1', sortOrder: 199 },
+      locations: unmatchedBg1,
+    })
+  }
+  if (unmatchedBg2.length > 0) {
+    regionMap.set('bg2-unmatched', {
+      region: { id: 'bg2-unmatched', name: 'Other BG2 Areas', areaPattern: '', game: 'bg2', sortOrder: 99 },
+      locations: unmatchedBg2,
+    })
   }
 
   const groups: LocationGroup[] = []

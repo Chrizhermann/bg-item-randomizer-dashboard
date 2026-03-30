@@ -169,7 +169,9 @@ export default function SessionManager({
                   <button
                     onClick={(e) => {
                       e.stopPropagation()
-                      onDeleteSession(session.name)
+                      if (window.confirm(`Delete session "${session.name}"? This cannot be undone.`)) {
+                        onDeleteSession(session.name)
+                      }
                     }}
                     className="ml-3 text-stone-500 hover:text-red-400 transition-colors text-sm shrink-0"
                     aria-label={`Delete session ${session.name}`}

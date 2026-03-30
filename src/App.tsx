@@ -66,7 +66,7 @@ function App() {
         ) : (
           <LocationList
             groupBy={groupBy}
-            locationStates={store.activeSession.locationStates}
+            locationStates={store.activeSession?.locationStates ?? {}}
             onToggleChecked={store.toggleChecked}
             onAssignItem={store.assignItem}
             onSetNote={store.setNote}

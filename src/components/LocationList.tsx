@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react'
+import { useState, useMemo, useCallback, useEffect } from 'react'
 import type { GroupBy, LocationState } from '../types'
 import { locations } from '../data-loader'
 import { groupLocations } from '../grouping'
@@ -35,6 +35,11 @@ export default function LocationList({
     () => new Set(groups.map((g) => g.id)),
   )
   const [showCodes, setShowCodes] = useState(false)
+
+  // Reset expanded groups when groupBy changes (group IDs change entirely)
+  useEffect(() => {
+    setExpandedGroups(new Set(groups.map((g) => g.id)))
+  }, [groupBy]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const expandAll = useCallback(() => {
     setExpandedGroups(new Set(groups.map((g) => g.id)))
