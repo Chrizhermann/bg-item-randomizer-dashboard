@@ -27,20 +27,6 @@ export default function SettingsPanel({
     }
   }, [])
 
-  const handleKeybindingChange = (accelerator: string) => {
-    onUpdateSettings({ keybinding: accelerator })
-    if (window.electronAPI) {
-      window.electronAPI.updateKeybinding(accelerator)
-    }
-  }
-
-  const handleMonitorChange = (monitorId: number) => {
-    onUpdateSettings({ monitorId })
-    if (window.electronAPI) {
-      window.electronAPI.updateMonitor(monitorId)
-    }
-  }
-
   return (
     <div className="p-4 space-y-4">
       <div className="flex items-center justify-between">
@@ -60,7 +46,7 @@ export default function SettingsPanel({
         <label className="text-xs text-stone-400">Toggle Overlay</label>
         <KeybindingInput
           value={settings.keybinding}
-          onChange={handleKeybindingChange}
+          onChange={(accelerator) => onUpdateSettings({ keybinding: accelerator })}
         />
       </div>
 
@@ -70,7 +56,7 @@ export default function SettingsPanel({
         {isElectron && displays.length > 0 ? (
           <select
             value={settings.monitorId}
-            onChange={(e) => handleMonitorChange(Number(e.target.value))}
+            onChange={(e) => onUpdateSettings({ monitorId: Number(e.target.value) })}
             className="w-full bg-stone-700 border border-stone-600 rounded px-2 py-1.5 text-sm text-stone-200 outline-none focus:border-amber-500 transition-colors"
           >
             {displays.map((d) => (
