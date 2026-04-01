@@ -1,8 +1,6 @@
-import { useState, useCallback } from 'react'
-import type { LocationState, SessionState } from './types'
-
-const SESSIONS_KEY = 'bg-randomizer-sessions'
-const ACTIVE_SESSION_KEY = 'bg-randomizer-active-session'
+import { useState, useCallback, useEffect } from 'react'
+import type { AppStore, DeepPartial, LocationState, SessionState } from './types'
+import { deepMerge } from './deep-merge'
 
 const DEFAULT_LOCATION_STATE: LocationState = {
   checked: false,
@@ -10,60 +8,76 @@ const DEFAULT_LOCATION_STATE: LocationState = {
   note: '',
 }
 
-function loadSessions(): Record<string, SessionState> {
+const DEFAULT_STORE: AppStore = {
+  settings: {
+    keybinding: 'F9',
+    monitorId: 0,
+  },
+  sessions: {},
+  activeSessionName: null,
+}
+
+// --- localStorage fallback for browser-only dev mode ---
+
+const LS_KEY = 'bg-randomizer-store'
+
+function loadFromLocalStorage(): AppStore {
   try {
-    const raw = localStorage.getItem(SESSIONS_KEY)
-    if (raw) {
-      return JSON.parse(raw) as Record<string, SessionState>
+    const raw = localStorage.getItem(LS_KEY)
+    if (raw) return { ...DEFAULT_STORE, ...JSON.parse(raw) }
+  } catch { /* ignore */ }
+  return structuredClone(DEFAULT_STORE)
+}
+
+function saveToLocalStorage(store: AppStore) {
+  localStorage.setItem(LS_KEY, JSON.stringify(store))
+}
+
+// --- Main hook ---
+
+export function useAppStore() {
+  const [store, setStore] = useState<AppStore | null>(null)
+  const isElectron = !!window.electronAPI?.isElectron
+
+  // Load initial state
+  useEffect(() => {
+    if (isElectron) {
+      window.electronAPI!.storeGet().then(setStore)
+    } else {
+      setStore(loadFromLocalStorage())
     }
-  } catch {
-    // Corrupted data — start fresh
-  }
-  return {}
-}
+  }, [isElectron])
 
-function saveSessions(sessions: Record<string, SessionState>): void {
-  localStorage.setItem(SESSIONS_KEY, JSON.stringify(sessions))
-}
+  // Listen for broadcasts from main process
+  useEffect(() => {
+    if (!isElectron) return
+    return window.electronAPI!.onStoreChanged((newStore) => {
+      setStore(newStore)
+    })
+  }, [isElectron])
 
-function loadActiveSessionName(): string | null {
-  return localStorage.getItem(ACTIVE_SESSION_KEY)
-}
-
-function saveActiveSessionName(name: string | null): void {
-  if (name === null) {
-    localStorage.removeItem(ACTIVE_SESSION_KEY)
-  } else {
-    localStorage.setItem(ACTIVE_SESSION_KEY, name)
-  }
-}
-
-export function useTrackerStore() {
-  const [sessions, setSessions] = useState<Record<string, SessionState>>(
-    loadSessions,
-  )
-  const [activeSessionName, setActiveSessionName] = useState<string | null>(
-    loadActiveSessionName,
-  )
-
-  const activeSession =
-    activeSessionName !== null ? (sessions[activeSessionName] ?? null) : null
-
-  const persistSessions = useCallback(
-    (updater: (prev: Record<string, SessionState>) => Record<string, SessionState>) => {
-      setSessions((prev) => {
-        const next = updater(prev)
-        saveSessions(next)
+  // Patch: optimistic local update + IPC (or localStorage fallback)
+  const patch = useCallback(
+    (p: DeepPartial<AppStore>) => {
+      setStore((prev) => {
+        if (!prev) return prev
+        const next = deepMerge(prev, p as Record<string, unknown>) as unknown as AppStore
+        if (!isElectron) saveToLocalStorage(next)
         return next
       })
+      if (isElectron) {
+        window.electronAPI!.storePatch(p)
+      }
     },
-    [],
+    [isElectron],
   )
 
-  const persistActiveSessionName = useCallback((name: string | null) => {
-    setActiveSessionName(name)
-    saveActiveSessionName(name)
-  }, [])
+  // --- Action methods (same signatures as before) ---
+
+  const activeSession =
+    store?.activeSessionName != null
+      ? (store.sessions[store.activeSessionName] ?? null)
+      : null
 
   const createSession = useCallback(
     (name: string) => {
@@ -72,115 +86,91 @@ export function useTrackerStore() {
         createdAt: new Date().toISOString(),
         locationStates: {},
       }
-      persistSessions((prev) => ({ ...prev, [name]: session }))
-      persistActiveSessionName(name)
+      patch({ sessions: { [name]: session }, activeSessionName: name })
     },
-    [persistSessions, persistActiveSessionName],
+    [patch],
   )
 
   const switchSession = useCallback(
     (name: string) => {
-      if (sessions[name]) {
-        persistActiveSessionName(name)
-      }
+      patch({ activeSessionName: name })
     },
-    [sessions, persistActiveSessionName],
+    [patch],
   )
 
   const deleteSession = useCallback(
     (name: string) => {
-      persistSessions((prev) => {
-        const next = { ...prev }
-        delete next[name]
-        return next
-      })
-
-      setActiveSessionName((prevName) => {
-        if (prevName === name) {
-          // Need to read current sessions to find a replacement
-          const current = loadSessions()
-          delete current[name]
-          const remaining = Object.keys(current)
-          const newActive = remaining.length > 0 ? remaining[0] : null
-          saveActiveSessionName(newActive)
-          return newActive
-        }
-        return prevName
+      // null sentinel tells deepMerge to delete the key
+      const sessionPatch = { [name]: null } as Record<string, null>
+      const isActive = store?.activeSessionName === name
+      const remaining = Object.keys(store?.sessions ?? {}).filter((n) => n !== name)
+      patch({
+        sessions: sessionPatch as unknown as DeepPartial<AppStore>['sessions'],
+        ...(isActive ? { activeSessionName: remaining[0] ?? null } : {}),
       })
     },
-    [persistSessions],
-  )
-
-  const getLocationState = useCallback(
-    (locationId: string): LocationState => {
-      if (!activeSession) return { ...DEFAULT_LOCATION_STATE }
-      return activeSession.locationStates[locationId] ?? {
-        ...DEFAULT_LOCATION_STATE,
-      }
-    },
-    [activeSession],
-  )
-
-  const updateLocationState = useCallback(
-    (
-      locationId: string,
-      updater: (prev: LocationState) => LocationState,
-    ) => {
-      if (activeSessionName === null) return
-
-      persistSessions((prevSessions) => {
-        const session = prevSessions[activeSessionName]
-        if (!session) return prevSessions
-
-        const prev = session.locationStates[locationId] ?? {
-          ...DEFAULT_LOCATION_STATE,
-        }
-        const updated = updater(prev)
-
-        return {
-          ...prevSessions,
-          [activeSessionName]: {
-            ...session,
-            locationStates: {
-              ...session.locationStates,
-              [locationId]: updated,
-            },
-          },
-        }
-      })
-    },
-    [activeSessionName, persistSessions],
+    [patch, store?.activeSessionName, store?.sessions],
   )
 
   const toggleChecked = useCallback(
     (locationId: string) => {
-      updateLocationState(locationId, (prev) => ({
-        ...prev,
-        checked: !prev.checked,
-      }))
+      if (!store?.activeSessionName) return
+      const current = activeSession?.locationStates[locationId]
+      patch({
+        sessions: {
+          [store.activeSessionName]: {
+            locationStates: {
+              [locationId]: { checked: !(current?.checked ?? false) },
+            },
+          },
+        },
+      })
     },
-    [updateLocationState],
+    [patch, store?.activeSessionName, activeSession],
   )
 
   const assignItem = useCallback(
     (locationId: string, itemId: string | null) => {
-      updateLocationState(locationId, (prev) => ({
-        ...prev,
-        assignedItemId: itemId,
-      }))
+      if (!store?.activeSessionName) return
+      patch({
+        sessions: {
+          [store.activeSessionName]: {
+            locationStates: {
+              [locationId]: { assignedItemId: itemId },
+            },
+          },
+        },
+      })
     },
-    [updateLocationState],
+    [patch, store?.activeSessionName],
   )
 
   const setNote = useCallback(
     (locationId: string, note: string) => {
-      updateLocationState(locationId, (prev) => ({
-        ...prev,
-        note,
-      }))
+      if (!store?.activeSessionName) return
+      patch({
+        sessions: {
+          [store.activeSessionName]: {
+            locationStates: {
+              [locationId]: { note },
+            },
+          },
+        },
+      })
     },
-    [updateLocationState],
+    [patch, store?.activeSessionName],
   )
+
+  const resetSession = useCallback(() => {
+    if (!store?.activeSessionName) return
+    patch({
+      sessions: {
+        [store.activeSessionName]: {
+          locationStates: {} as Record<string, LocationState>,
+        },
+      },
+    })
+  }, [patch, store?.activeSessionName])
 
   const exportSession = useCallback((): string | null => {
     if (!activeSession) return null
@@ -200,23 +190,26 @@ export function useTrackerStore() {
       ) {
         throw new Error('Invalid session data')
       }
-      persistSessions((prev) => ({ ...prev, [parsed.name]: parsed }))
-      persistActiveSessionName(parsed.name)
+      patch({ sessions: { [parsed.name]: parsed }, activeSessionName: parsed.name })
     },
-    [persistSessions, persistActiveSessionName],
+    [patch],
   )
 
   return {
-    sessions,
-    activeSessionName,
+    // Store is null until initial load completes
+    loading: store === null,
+    sessions: store?.sessions ?? {},
+    activeSessionName: store?.activeSessionName ?? null,
     activeSession,
+    settings: store?.settings ?? DEFAULT_STORE.settings,
+    patch,
     createSession,
     switchSession,
     deleteSession,
-    getLocationState,
     toggleChecked,
     assignItem,
     setNote,
+    resetSession,
     exportSession,
     importSession,
   }
