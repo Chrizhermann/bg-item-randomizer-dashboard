@@ -1,7 +1,8 @@
 import { useState, useMemo } from 'react'
-import type { GroupBy } from './types'
+import type { GroupBy, GameFilter } from './types'
 import { locations } from './data-loader'
 import { useTrackerStore } from './store'
+import { useSettings } from './settings'
 import Header from './components/Header'
 import SessionManager from './components/SessionManager'
 import LocationList from './components/LocationList'
@@ -18,25 +19,46 @@ function useIsOverlay(): boolean {
 function App() {
   const store = useTrackerStore()
   const isOverlay = useIsOverlay()
+  const { settings, updateSettings } = useSettings()
   const [groupBy, setGroupBy] = useState<GroupBy>('tier')
+  const [gameFilter, setGameFilter] = useState<GameFilter>('all')
   const [showSessionManager, setShowSessionManager] = useState(
     () => store.activeSessionName === null,
   )
 
+  const filteredLocations = useMemo(
+    () =>
+      gameFilter === 'all'
+        ? locations
+        : locations.filter((loc) => loc.game === gameFilter),
+    [gameFilter],
+  )
+
   const checkedCount = useMemo(() => {
     if (!store.activeSession) return 0
-    return Object.values(store.activeSession.locationStates).filter(
-      (s) => s.checked,
+    return filteredLocations.filter(
+      (loc) => store.activeSession!.locationStates[loc.id]?.checked,
     ).length
-  }, [store.activeSession])
+  }, [store.activeSession, filteredLocations])
 
-  const totalLocations = locations.length
+  const totalLocations = filteredLocations.length
+
+  const assignedItemIds = useMemo(() => {
+    if (!store.activeSession) return new Set<string>()
+    const ids = new Set<string>()
+    for (const state of Object.values(store.activeSession.locationStates)) {
+      if (state.assignedItemId) ids.add(state.assignedItemId)
+    }
+    return ids
+  }, [store.activeSession])
 
   if (isOverlay) {
     return (
       <OverlayView
         locationStates={store.activeSession?.locationStates ?? {}}
         onToggleChecked={store.toggleChecked}
+        settings={settings}
+        onUpdateSettings={updateSettings}
       />
     )
   }
@@ -48,8 +70,12 @@ function App() {
         checkedCount={checkedCount}
         groupBy={groupBy}
         onGroupByChange={setGroupBy}
+        gameFilter={gameFilter}
+        onGameFilterChange={setGameFilter}
         sessionName={store.activeSessionName}
         onManageSessions={() => setShowSessionManager(true)}
+        settings={settings}
+        onUpdateSettings={updateSettings}
       />
 
       <main className="p-4">
@@ -65,8 +91,10 @@ function App() {
           </div>
         ) : (
           <LocationList
+            locations={filteredLocations}
             groupBy={groupBy}
             locationStates={store.activeSession?.locationStates ?? {}}
+            assignedItemIds={assignedItemIds}
             onToggleChecked={store.toggleChecked}
             onAssignItem={store.assignItem}
             onSetNote={store.setNote}
