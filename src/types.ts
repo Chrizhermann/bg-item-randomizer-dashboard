@@ -51,7 +51,26 @@ export interface SessionState {
   locationStates: Record<string, LocationState>
 }
 
+export interface Bounds {
+  x: number
+  y: number
+  width: number
+  height: number
+}
+
 export interface OverlaySettings {
   keybinding: string
   monitorId: number
+  overlayBounds?: Bounds
+  mainBounds?: Bounds
 }
+
+export interface AppStore {
+  settings: OverlaySettings
+  sessions: Record<string, SessionState>
+  activeSessionName: string | null
+}
+
+export type DeepPartial<T> = T extends object
+  ? { [K in keyof T]?: DeepPartial<T[K]> | null }
+  : T
