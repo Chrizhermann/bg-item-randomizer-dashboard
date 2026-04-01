@@ -1,49 +1,17 @@
 import { app, BrowserWindow, globalShortcut, screen, ipcMain } from 'electron'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { readFileSync, writeFileSync, mkdirSync } from 'fs'
+import { AppStoreManager } from './store'
+import type { OverlaySettings } from './store'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-interface Settings {
-  keybinding: string
-  monitorId: number
-}
-
-const DEFAULT_SETTINGS: Settings = { keybinding: 'F9', monitorId: 0 }
-
 let mainWindow: BrowserWindow | null = null
-let isVisible = false
+let overlayWindow: BrowserWindow | null = null
+let overlayVisible = false
 let currentKeybinding = ''
-let currentSettings: Settings = { ...DEFAULT_SETTINGS }
-
-// --- Settings persistence (JSON file for pre-renderer startup) ---
-
-function settingsPath(): string {
-  const dir = app.getPath('userData')
-  return join(dir, 'overlay-settings.json')
-}
-
-function readSettings(): Settings {
-  try {
-    const raw = readFileSync(settingsPath(), 'utf-8')
-    const parsed = JSON.parse(raw) as Partial<Settings>
-    return { ...DEFAULT_SETTINGS, ...parsed }
-  } catch {
-    return { ...DEFAULT_SETTINGS }
-  }
-}
-
-function writeSettings(settings: Settings): void {
-  try {
-    const dir = app.getPath('userData')
-    mkdirSync(dir, { recursive: true })
-    writeFileSync(settingsPath(), JSON.stringify(settings, null, 2))
-  } catch {
-    // Best effort
-  }
-}
+let storeManager: AppStoreManager
 
 // --- Monitor helpers ---
 
@@ -52,16 +20,18 @@ function getTargetDisplay(monitorId: number) {
   return displays.find((d) => d.id === monitorId) ?? screen.getPrimaryDisplay()
 }
 
-function positionWindow(monitorId: number) {
-  if (!mainWindow) return
+function positionOverlay(monitorId: number) {
+  if (!overlayWindow) return
   const display = getTargetDisplay(monitorId)
   const { x, y, width, height } = display.workArea
-  mainWindow.setBounds({
+  const bounds = {
     x: x + width - 400,
     y: y + 50,
     width: 380,
     height: height - 100,
-  })
+  }
+  overlayWindow.setBounds(bounds)
+  storeManager.patch({ settings: { overlayBounds: bounds } })
 }
 
 // --- Keybinding ---
@@ -71,34 +41,97 @@ function registerKeybinding(accelerator: string) {
     globalShortcut.unregister(currentKeybinding)
   }
   const success = globalShortcut.register(accelerator, () => {
-    if (!mainWindow) return
-    if (isVisible) {
-      mainWindow.hide()
+    if (!overlayWindow) return
+    if (overlayVisible) {
+      overlayWindow.hide()
     } else {
-      mainWindow.show()
+      overlayWindow.show()
     }
-    isVisible = !isVisible
+    overlayVisible = !overlayVisible
   })
   if (success) {
     currentKeybinding = accelerator
   }
 }
 
+// --- Side effects after store patch ---
+
+function handleSideEffects(oldSettings: OverlaySettings, newSettings: OverlaySettings) {
+  if (oldSettings.keybinding !== newSettings.keybinding) {
+    registerKeybinding(newSettings.keybinding)
+  }
+  if (oldSettings.monitorId !== newSettings.monitorId) {
+    positionOverlay(newSettings.monitorId)
+  }
+}
+
+// --- Bounds persistence ---
+
+function scheduleSaveBounds() {
+  const patch: Record<string, unknown> = {}
+  if (overlayWindow) {
+    patch.overlayBounds = overlayWindow.getBounds()
+  }
+  if (mainWindow) {
+    patch.mainBounds = mainWindow.getBounds()
+  }
+  storeManager.patch({ settings: patch })
+}
+
+// --- URL helpers ---
+
+function loadApp(win: BrowserWindow, query?: string) {
+  if (process.env.VITE_DEV_SERVER_URL) {
+    win.loadURL(process.env.VITE_DEV_SERVER_URL + (query ? `?${query}` : ''))
+  } else {
+    win.loadFile(join(__dirname, '../dist/index.html'), {
+      search: query ?? '',
+    })
+  }
+}
+
 // --- Window creation ---
 
-function createWindow() {
-  const display = getTargetDisplay(currentSettings.monitorId)
-  const { x, y, width, height } = display.workArea
+function createMainWindow() {
+  const settings = storeManager.get().settings
+  const bounds = settings.mainBounds ?? { width: 1100, height: 800 }
 
   mainWindow = new BrowserWindow({
-    width: 380,
-    height: height - 100,
+    ...bounds,
+    minWidth: 600,
+    minHeight: 400,
+    title: 'BG Randomizer',
+    webPreferences: {
+      preload: join(__dirname, 'preload.js'),
+      contextIsolation: true,
+    },
+  })
+
+  mainWindow.on('moved', scheduleSaveBounds)
+  mainWindow.on('resized', scheduleSaveBounds)
+  mainWindow.on('closed', () => { mainWindow = null })
+
+  loadApp(mainWindow)
+}
+
+function createOverlayWindow() {
+  const settings = storeManager.get().settings
+  const display = getTargetDisplay(settings.monitorId)
+  const { x, y, width, height } = display.workArea
+
+  const bounds = settings.overlayBounds ?? {
     x: x + width - 400,
     y: y + 50,
+    width: 380,
+    height: height - 100,
+  }
+
+  overlayWindow = new BrowserWindow({
+    ...bounds,
     transparent: true,
     frame: false,
     alwaysOnTop: true,
-    skipTaskbar: false,
+    skipTaskbar: true,
     resizable: true,
     show: false,
     webPreferences: {
@@ -107,32 +140,25 @@ function createWindow() {
     },
   })
 
-  // Don't call setIgnoreMouseEvents — with transparent: true on Windows,
-  // fully transparent pixels (alpha=0) are click-through by default.
-  // Only pixels with actual content capture clicks.
+  overlayWindow.setAlwaysOnTop(true, 'screen-saver')
 
-  if (process.env.VITE_DEV_SERVER_URL) {
-    mainWindow.loadURL(process.env.VITE_DEV_SERVER_URL + '?mode=overlay')
-  } else {
-    mainWindow.loadFile(join(__dirname, '../dist/index.html'), {
-      search: 'mode=overlay',
-    })
-  }
+  overlayWindow.on('moved', scheduleSaveBounds)
+  overlayWindow.on('resized', scheduleSaveBounds)
+  overlayWindow.on('closed', () => { overlayWindow = null })
+
+  loadApp(overlayWindow, 'mode=overlay')
 }
 
 // --- IPC handlers ---
 
 function setupIPC() {
-  ipcMain.handle('update-keybinding', (_event, key: string) => {
-    currentSettings.keybinding = key
-    writeSettings(currentSettings)
-    registerKeybinding(key)
-  })
+  ipcMain.handle('store:get', () => storeManager.get())
 
-  ipcMain.handle('update-monitor', (_event, monitorId: number) => {
-    currentSettings.monitorId = monitorId
-    writeSettings(currentSettings)
-    positionWindow(monitorId)
+  ipcMain.handle('store:patch', (_event, patch: unknown) => {
+    const oldSettings = storeManager.get().settings
+    storeManager.patch(patch as Record<string, unknown>)
+    const newSettings = storeManager.get().settings
+    handleSideEffects(oldSettings, newSettings)
   })
 
   ipcMain.handle('get-displays', () => {
@@ -146,15 +172,23 @@ function setupIPC() {
 // --- App lifecycle ---
 
 app.whenReady().then(() => {
-  currentSettings = readSettings()
+  storeManager = new AppStoreManager()
+
+  // Fix default monitorId (0) to actual primary display ID
+  const settings = storeManager.get().settings
+  if (settings.monitorId === 0) {
+    storeManager.patch({ settings: { monitorId: screen.getPrimaryDisplay().id } })
+  }
 
   setupIPC()
-  createWindow()
-  registerKeybinding(currentSettings.keybinding)
+  createMainWindow()
+  createOverlayWindow()
+  registerKeybinding(storeManager.get().settings.keybinding)
 })
 
 app.on('will-quit', () => {
   globalShortcut.unregisterAll()
+  storeManager?.flush()
 })
 
 app.on('window-all-closed', () => {
