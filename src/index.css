@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Transparent background for Electron overlay — fully transparent pixels are click-through */
+html, body {
+  background: transparent !important;
+}

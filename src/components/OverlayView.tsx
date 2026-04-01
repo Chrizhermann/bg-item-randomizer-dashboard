@@ -73,10 +73,10 @@ export default function OverlayView({
     return () => document.removeEventListener('keydown', handleKeyDown)
   }, [overlayState])
 
-  // Anchor-only state: just the tiny button, rest is transparent
+  // Anchor-only: tiny button in top-right, everything else fully transparent (click-through)
   if (overlayState === 'anchor') {
     return (
-      <div className="h-screen select-none">
+      <div className="flex justify-end select-none">
         <OverlayAnchor
           onLeftClick={handleAnchorLeftClick}
           onRightClick={handleAnchorRightClick}
@@ -85,15 +85,17 @@ export default function OverlayView({
     )
   }
 
-  // Settings state
+  // Settings: anchor + settings panel, rest transparent
   if (overlayState === 'settings') {
     return (
-      <div className="h-screen select-none">
-        <OverlayAnchor
-          onLeftClick={handleAnchorLeftClick}
-          onRightClick={handleAnchorRightClick}
-        />
-        <div className="bg-black/80 rounded-lg mx-2 border border-stone-700">
+      <div className="select-none">
+        <div className="flex justify-end">
+          <OverlayAnchor
+            onLeftClick={handleAnchorLeftClick}
+            onRightClick={handleAnchorRightClick}
+          />
+        </div>
+        <div className="bg-black/90 rounded-lg mx-2 border border-stone-700">
           <SettingsPanel
             settings={settings}
             onUpdateSettings={onUpdateSettings}
@@ -104,7 +106,7 @@ export default function OverlayView({
     )
   }
 
-  // Expanded state: full checklist
+  // Expanded: full checklist with semi-transparent background
   return (
     <div className="h-screen overflow-y-auto bg-black/70 select-none">
       {/* Title bar — draggable for Electron */}

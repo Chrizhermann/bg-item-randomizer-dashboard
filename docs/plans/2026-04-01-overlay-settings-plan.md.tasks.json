@@ -1,0 +1,16 @@
+{
+  "planPath": "docs/plans/2026-04-01-overlay-settings-plan.md",
+  "tasks": [
+    { "id": 25, "subject": "Task 0: Add settings types and localStorage store", "status": "pending" },
+    { "id": 26, "subject": "Task 1: Expand Electron preload API", "status": "pending", "blockedBy": [25] },
+    { "id": 27, "subject": "Task 2: Update Electron main process", "status": "pending", "blockedBy": [26] },
+    { "id": 28, "subject": "Task 3: Create KeybindingInput component", "status": "pending" },
+    { "id": 29, "subject": "Task 4: Create SettingsPanel component", "status": "pending", "blockedBy": [25, 28] },
+    { "id": 30, "subject": "Task 5: Create OverlayAnchor component", "status": "pending" },
+    { "id": 31, "subject": "Task 6: Rewrite OverlayView for three states", "status": "pending", "blockedBy": [29, 30] },
+    { "id": 32, "subject": "Task 7: Add settings gear icon to Header", "status": "pending", "blockedBy": [29] },
+    { "id": 33, "subject": "Task 8: Wire up App.tsx", "status": "pending", "blockedBy": [31, 32] },
+    { "id": 34, "subject": "Task 9: Manual integration testing", "status": "pending", "blockedBy": [33] }
+  ],
+  "lastUpdated": "2026-04-01T09:45:00Z"
+}

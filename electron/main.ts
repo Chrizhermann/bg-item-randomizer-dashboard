@@ -14,7 +14,7 @@ interface Settings {
 const DEFAULT_SETTINGS: Settings = { keybinding: 'F9', monitorId: 0 }
 
 let mainWindow: BrowserWindow | null = null
-let isVisible = false // starts hidden
+let isVisible = false
 let currentKeybinding = ''
 let currentSettings: Settings = { ...DEFAULT_SETTINGS }
 
@@ -100,14 +100,16 @@ function createWindow() {
     alwaysOnTop: true,
     skipTaskbar: false,
     resizable: true,
-    show: false, // starts hidden
+    show: false,
     webPreferences: {
       preload: join(__dirname, 'preload.js'),
       contextIsolation: true,
     },
   })
 
-  mainWindow.setIgnoreMouseEvents(false)
+  // Don't call setIgnoreMouseEvents — with transparent: true on Windows,
+  // fully transparent pixels (alpha=0) are click-through by default.
+  // Only pixels with actual content capture clicks.
 
   if (process.env.VITE_DEV_SERVER_URL) {
     mainWindow.loadURL(process.env.VITE_DEV_SERVER_URL + '?mode=overlay')
