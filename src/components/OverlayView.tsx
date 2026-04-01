@@ -1,12 +1,18 @@
-import { useState, useMemo, useCallback } from 'react'
-import type { LocationState } from '../types'
+import { useState, useMemo, useCallback, useEffect } from 'react'
+import type { LocationState, OverlaySettings } from '../types'
 import { locations } from '../data-loader'
 import { groupLocations } from '../grouping'
 import OverlayLocationRow from './OverlayLocationRow'
+import OverlayAnchor from './OverlayAnchor'
+import SettingsPanel from './SettingsPanel'
+
+type OverlayState = 'anchor' | 'expanded' | 'settings'
 
 interface OverlayViewProps {
   locationStates: Record<string, LocationState>
   onToggleChecked: (locationId: string) => void
+  settings: OverlaySettings
+  onUpdateSettings: (patch: Partial<OverlaySettings>) => void
 }
 
 const DEFAULT_LOCATION_STATE: LocationState = {
@@ -18,7 +24,11 @@ const DEFAULT_LOCATION_STATE: LocationState = {
 export default function OverlayView({
   locationStates,
   onToggleChecked,
+  settings,
+  onUpdateSettings,
 }: OverlayViewProps) {
+  const [overlayState, setOverlayState] = useState<OverlayState>('anchor')
+
   const groups = useMemo(
     () => groupLocations(locations, 'tier', locationStates),
     [locationStates],
@@ -44,6 +54,57 @@ export default function OverlayView({
     return Object.values(locationStates).filter((s) => s.checked).length
   }, [locationStates])
 
+  const handleAnchorLeftClick = useCallback(() => {
+    setOverlayState((prev) => (prev === 'expanded' ? 'anchor' : 'expanded'))
+  }, [])
+
+  const handleAnchorRightClick = useCallback(() => {
+    setOverlayState((prev) => (prev === 'settings' ? 'anchor' : 'settings'))
+  }, [])
+
+  // Escape key returns to anchor from expanded or settings
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && overlayState !== 'anchor') {
+        setOverlayState('anchor')
+      }
+    }
+    document.addEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown)
+  }, [overlayState])
+
+  // Anchor-only state: just the tiny button, rest is transparent
+  if (overlayState === 'anchor') {
+    return (
+      <div className="h-screen select-none">
+        <OverlayAnchor
+          onLeftClick={handleAnchorLeftClick}
+          onRightClick={handleAnchorRightClick}
+        />
+      </div>
+    )
+  }
+
+  // Settings state
+  if (overlayState === 'settings') {
+    return (
+      <div className="h-screen select-none">
+        <OverlayAnchor
+          onLeftClick={handleAnchorLeftClick}
+          onRightClick={handleAnchorRightClick}
+        />
+        <div className="bg-black/80 rounded-lg mx-2 border border-stone-700">
+          <SettingsPanel
+            settings={settings}
+            onUpdateSettings={onUpdateSettings}
+            onClose={() => setOverlayState('anchor')}
+          />
+        </div>
+      </div>
+    )
+  }
+
+  // Expanded state: full checklist
   return (
     <div className="h-screen overflow-y-auto bg-black/70 select-none">
       {/* Title bar — draggable for Electron */}
@@ -51,6 +112,12 @@ export default function OverlayView({
         className="sticky top-0 z-10 bg-black/80 px-3 py-2 flex items-center justify-between"
         style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}
       >
+        <div className="flex items-center gap-2" style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}>
+          <OverlayAnchor
+            onLeftClick={handleAnchorLeftClick}
+            onRightClick={handleAnchorRightClick}
+          />
+        </div>
         <span className="text-xs font-bold text-amber-400">BG Randomizer</span>
         <span className="text-xs text-stone-500">
           {checkedCount}/{locations.length}
@@ -67,7 +134,6 @@ export default function OverlayView({
 
           return (
             <div key={group.id}>
-              {/* Group header */}
               <button
                 onClick={() => toggleGroup(group.id)}
                 className="w-full flex items-center gap-2 px-3 py-1 text-xs bg-stone-900/50 hover:bg-stone-800/50 text-left transition-colors"
