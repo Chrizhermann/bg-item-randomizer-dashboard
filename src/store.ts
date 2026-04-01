@@ -2,12 +2,6 @@ import { useState, useCallback, useEffect } from 'react'
 import type { AppStore, DeepPartial, LocationState, SessionState } from './types'
 import { deepMerge } from './deep-merge'
 
-const DEFAULT_LOCATION_STATE: LocationState = {
-  checked: false,
-  assignedItemId: null,
-  note: '',
-}
-
 const DEFAULT_STORE: AppStore = {
   settings: {
     keybinding: 'F9',
@@ -61,7 +55,7 @@ export function useAppStore() {
     (p: DeepPartial<AppStore>) => {
       setStore((prev) => {
         if (!prev) return prev
-        const next = deepMerge(prev, p as Record<string, unknown>) as unknown as AppStore
+        const next = deepMerge(prev as unknown as Record<string, unknown>, p as Record<string, unknown>) as unknown as AppStore
         if (!isElectron) saveToLocalStorage(next)
         return next
       })
