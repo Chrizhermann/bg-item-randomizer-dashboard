@@ -1,8 +1,7 @@
 import { useState, useMemo } from 'react'
 import type { GroupBy, GameFilter } from './types'
 import { locations } from './data-loader'
-import { useTrackerStore } from './store'
-import { useSettings } from './settings'
+import { useAppStore } from './store'
 import Header from './components/Header'
 import SessionManager from './components/SessionManager'
 import LocationList from './components/LocationList'
@@ -17,9 +16,8 @@ function useIsOverlay(): boolean {
 }
 
 function App() {
-  const store = useTrackerStore()
+  const store = useAppStore()
   const isOverlay = useIsOverlay()
-  const { settings, updateSettings } = useSettings()
   const [groupBy, setGroupBy] = useState<GroupBy>('tier')
   const [gameFilter, setGameFilter] = useState<GameFilter>('all')
   const [showSessionManager, setShowSessionManager] = useState(
@@ -52,13 +50,18 @@ function App() {
     return ids
   }, [store.activeSession])
 
+  if (store.loading) {
+    return null // Brief flash while IPC loads — <1ms in practice
+  }
+
   if (isOverlay) {
     return (
       <OverlayView
         locationStates={store.activeSession?.locationStates ?? {}}
         onToggleChecked={store.toggleChecked}
-        settings={settings}
-        onUpdateSettings={updateSettings}
+        settings={store.settings}
+        onUpdateSettings={(p) => store.patch({ settings: p })}
+        hasSession={store.activeSessionName !== null}
       />
     )
   }
@@ -74,8 +77,9 @@ function App() {
         onGameFilterChange={setGameFilter}
         sessionName={store.activeSessionName}
         onManageSessions={() => setShowSessionManager(true)}
-        settings={settings}
-        onUpdateSettings={updateSettings}
+        onResetSession={store.resetSession}
+        settings={store.settings}
+        onUpdateSettings={(p) => store.patch({ settings: p })}
       />
 
       <main className="p-4">
