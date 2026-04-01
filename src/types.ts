@@ -37,6 +37,8 @@ export interface Region {
 
 export type GroupBy = 'tier' | 'area' | 'status'
 
+export type GameFilter = 'all' | 'bg1' | 'bg2'
+
 export interface LocationState {
   checked: boolean
   assignedItemId: string | null
@@ -47,4 +49,9 @@ export interface SessionState {
   name: string
   createdAt: string
   locationStates: Record<string, LocationState>
+}
+
+export interface OverlaySettings {
+  keybinding: string
+  monitorId: number
 }
