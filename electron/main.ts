@@ -65,17 +65,22 @@ function handleSideEffects(oldSettings: OverlaySettings, newSettings: OverlaySet
   }
 }
 
-// --- Bounds persistence ---
+// --- Bounds persistence (debounced) ---
+
+let boundsTimer: ReturnType<typeof setTimeout> | null = null
 
 function scheduleSaveBounds() {
-  const patch: Record<string, unknown> = {}
-  if (overlayWindow) {
-    patch.overlayBounds = overlayWindow.getBounds()
-  }
-  if (mainWindow) {
-    patch.mainBounds = mainWindow.getBounds()
-  }
-  storeManager.patch({ settings: patch })
+  if (boundsTimer) clearTimeout(boundsTimer)
+  boundsTimer = setTimeout(() => {
+    const patch: Record<string, unknown> = {}
+    if (overlayWindow && !overlayWindow.isDestroyed()) {
+      patch.overlayBounds = overlayWindow.getBounds()
+    }
+    if (mainWindow && !mainWindow.isDestroyed()) {
+      patch.mainBounds = mainWindow.getBounds()
+    }
+    storeManager.patch({ settings: patch })
+  }, 500)
 }
 
 // --- URL helpers ---
@@ -104,6 +109,7 @@ function createMainWindow() {
     webPreferences: {
       preload: join(__dirname, 'preload.js'),
       contextIsolation: true,
+      sandbox: false,
     },
   })
 
@@ -137,6 +143,7 @@ function createOverlayWindow() {
     webPreferences: {
       preload: join(__dirname, 'preload.js'),
       contextIsolation: true,
+      sandbox: false,
     },
   })
 
