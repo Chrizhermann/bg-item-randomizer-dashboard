@@ -20,26 +20,29 @@ export default function OverlayLocationRow({
   return (
     <div
       onClick={onToggleChecked}
-      className={`flex items-center gap-2 px-2 py-1 text-xs cursor-pointer hover:bg-white/5 transition-colors ${
+      className={`flex items-center gap-2 px-2.5 py-0.5 text-xs cursor-pointer hover:bg-gold-500/10 transition-colors ${
         state.checked ? 'opacity-40' : ''
       }`}
+      style={{ fontFamily: 'var(--font-body)' }}
     >
-      <span className={state.checked ? 'text-green-400' : 'text-stone-500'}>
-        {state.checked ? '✓' : '○'}
+      <span
+        className={`w-3 inline-block text-center leading-none shrink-0 ${
+          state.checked ? 'text-gold-300' : 'text-ink-200'
+        }`}
+      >
+        {state.checked ? '✓' : '·'}
       </span>
 
       <span
-        className={
-          state.checked
-            ? 'line-through text-stone-500'
-            : 'text-stone-200'
-        }
+        className={`truncate ${
+          state.checked ? 'line-through text-ink-200' : 'text-ink-50'
+        }`}
       >
         {description}
       </span>
 
       {assignedItem && (
-        <span className="text-amber-400 truncate max-w-[120px]">
+        <span className="text-gold-300 truncate max-w-[130px] ml-auto shrink-0 italic">
           {assignedItem.displayName || assignedItem.resref}
         </span>
       )}

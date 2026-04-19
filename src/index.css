@@ -1,6 +1,100 @@
 @import "tailwindcss";
 
-/* Transparent background for Electron overlay — fully transparent pixels are click-through */
-html, body {
+/* Digital Grimoire palette — aged gold, deep leather, faded parchment */
+@theme {
+  --font-display: "Cinzel", "Cormorant Garamond", Georgia, serif;
+  --font-body: "Crimson Pro", Georgia, serif;
+  --font-sans:
+    ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Gold — refined, aged. Replaces harsh Tailwind amber. */
+  --color-gold-50: #fdf8ee;
+  --color-gold-100: #f8ecc9;
+  --color-gold-200: #f0d88a;
+  --color-gold-300: #e5be52;
+  --color-gold-400: #d4a34a;
+  --color-gold-500: #b88838;
+  --color-gold-600: #926828;
+  --color-gold-700: #6e4e1e;
+  --color-gold-800: #4c361a;
+  --color-gold-900: #2e2114;
+
+  /* Ink — warm near-black. Base surfaces. */
+  --color-ink-50: #f6f3ee;
+  --color-ink-100: #e3ddd1;
+  --color-ink-200: #bdb3a0;
+  --color-ink-300: #8e846f;
+  --color-ink-400: #5a5345;
+  --color-ink-500: #3a3529;
+  --color-ink-600: #2a251c;
+  --color-ink-700: #1e1a13;
+  --color-ink-800: #14110c;
+  --color-ink-900: #0a0806;
+
+  /* Blood — muted red for destructive/warning accents. */
+  --color-blood-400: #c06a5a;
+  --color-blood-600: #863c2e;
+}
+
+html,
+body {
   background: transparent !important;
+  font-family: var(--font-body);
+  font-feature-settings: "onum", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Refined scrollbar — dark, thin, gilt edge */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-ink-500);
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-400);
+}
+
+/* Overlay mode (anchor/expanded/settings): root-level scrollbars never show.
+   The expanded content has its own scroll container. This prevents scrollbar
+   flash during window resize transitions. */
+html[data-overlay-mode] body,
+html[data-overlay-mode] #root {
+  overflow: hidden;
+}
+html[data-overlay-mode="anchor"],
+html[data-overlay-mode="anchor"] body,
+html[data-overlay-mode="anchor"] #root {
+  overflow: hidden !important;
+  scrollbar-width: none;
+}
+html[data-overlay-mode="anchor"] *::-webkit-scrollbar {
+  display: none;
+}
+
+/* Utility: decorative thin gold divider */
+.divider-gilt {
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    var(--color-gold-600) 20%,
+    var(--color-gold-400) 50%,
+    var(--color-gold-600) 80%,
+    transparent
+  );
+  height: 1px;
+}
+
+/* Utility: subtle inner glow for focused elements */
+.ring-gilt {
+  box-shadow:
+    inset 0 0 0 1px var(--color-gold-500),
+    0 0 0 1px rgba(212, 163, 74, 0.15);
 }

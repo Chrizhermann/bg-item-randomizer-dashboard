@@ -34,6 +34,8 @@ pnpm-debug.log*
 # Local screenshots / audit artifacts (not docs/images/)
 /audit-*.png
 /webapp-*.png
+/polish-*.png
+/page-*.png
 /snapshot-header.md
 /.playwright-mcp/
 

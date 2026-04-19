@@ -88,30 +88,43 @@ export default function LocationList({
   return (
     <div className="pb-20">
       {/* Toolbar */}
-      <div className="flex items-center justify-between mb-3">
+      <div className="flex items-center justify-between px-5 py-3 border-b border-ink-700/60">
         <div className="flex items-center gap-2">
           <button
             onClick={expandAll}
-            className="px-2 py-1 text-xs bg-stone-700 text-stone-300 rounded hover:bg-stone-600 transition-colors"
+            className="px-3 py-1 text-[11px] uppercase tracking-wider text-ink-200 border border-ink-500 rounded bg-ink-700/60 hover:bg-ink-600 hover:text-gold-200 hover:border-gold-700/40 transition-colors"
           >
             Expand all
           </button>
           <button
             onClick={collapseAll}
-            className="px-2 py-1 text-xs bg-stone-700 text-stone-300 rounded hover:bg-stone-600 transition-colors"
+            className="px-3 py-1 text-[11px] uppercase tracking-wider text-ink-200 border border-ink-500 rounded bg-ink-700/60 hover:bg-ink-600 hover:text-gold-200 hover:border-gold-700/40 transition-colors"
           >
             Collapse all
           </button>
         </div>
 
-        <label className="flex items-center gap-2 text-sm text-stone-400 cursor-pointer">
+        <label className="flex items-center gap-2 text-xs uppercase tracking-wider text-ink-200 cursor-pointer select-none">
           <input
             type="checkbox"
             checked={showCodes}
             onChange={(e) => setShowCodes(e.target.checked)}
-            className="accent-amber-500"
+            className="peer sr-only"
           />
-          Show codes
+          <span className="w-4 h-4 rounded-sm border border-ink-400 bg-ink-800 flex items-center justify-center peer-checked:bg-gradient-to-br peer-checked:from-gold-500 peer-checked:to-gold-700 peer-checked:border-gold-400 transition-colors">
+            <svg
+              viewBox="0 0 12 12"
+              className={`w-3 h-3 text-ink-900 ${showCodes ? 'block' : 'hidden'}`}
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="2.5 6.5 5 9 9.5 3" />
+            </svg>
+          </span>
+          <span>Show codes</span>
         </label>
       </div>
 

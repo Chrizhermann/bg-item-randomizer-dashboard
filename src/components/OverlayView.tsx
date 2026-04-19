@@ -116,20 +116,26 @@ export default function OverlayView({
     return () => document.removeEventListener('keydown', handleKeyDown)
   }, [overlayState])
 
-  // Tell main process to resize the window when overlay state changes
+  // Tell main process to resize the window when overlay state changes,
+  // and set a data attribute on <html> so CSS can kill scrollbars in anchor mode
   useEffect(() => {
     if (isElectronOverlay) {
       window.electronAPI!.setOverlayMode(overlayState)
     }
+    document.documentElement.dataset.overlayMode = overlayState
+    return () => {
+      delete document.documentElement.dataset.overlayMode
+    }
   }, [overlayState, isElectronOverlay])
 
-  // Anchor-only: just the IR button, window is shrunk to fit
+  // Anchor-only: the IR button fills the window exactly (48x48) with no transparent frame
   if (overlayState === 'anchor') {
     return (
-      <div className="select-none">
+      <div className="select-none h-screen w-screen overflow-hidden">
         <OverlayAnchor
           onLeftClick={handleAnchorLeftClick}
           onRightClick={handleAnchorRightClick}
+          fillWindow
         />
       </div>
     )
@@ -156,100 +162,113 @@ export default function OverlayView({
     )
   }
 
-  // Expanded: full checklist with semi-transparent background
+  // Expanded: full checklist with weathered-parchment backdrop
   return (
-    <div className="h-screen overflow-y-auto bg-black/70 select-none">
+    <div className="h-screen overflow-y-auto bg-ink-900/85 backdrop-blur-md select-none border border-gold-700/20 rounded-md shadow-2xl">
       {/* Title bar */}
       <div
-        className="sticky top-0 z-10 bg-black/80 px-3 py-2 flex items-center justify-between"
+        className="sticky top-0 z-10 bg-ink-800/95 backdrop-blur-sm px-3 py-2 flex items-center justify-between border-b border-gold-700/25"
         style={isElectronOverlay ? undefined : { WebkitAppRegion: 'drag' } as React.CSSProperties}
       >
-        <div className="flex items-center gap-2" style={isElectronOverlay ? undefined : { WebkitAppRegion: 'no-drag' } as React.CSSProperties}>
+        <div
+          className="flex items-center gap-2"
+          style={isElectronOverlay ? undefined : { WebkitAppRegion: 'no-drag' } as React.CSSProperties}
+        >
           <OverlayAnchor
             onLeftClick={handleAnchorLeftClick}
             onRightClick={handleAnchorRightClick}
           />
-          {/* Game filter */}
-          <div className="flex gap-0.5">
-            {GAME_FILTERS.map(f => (
+          <div className="flex rounded overflow-hidden border border-ink-500 bg-ink-700/60">
+            {GAME_FILTERS.map((f, i) => (
               <button
                 key={f.value}
                 onClick={() => setGameFilter(f.value)}
-                className={`px-1.5 py-0.5 text-[10px] rounded transition-colors ${
+                className={`px-1.5 py-0.5 text-[10px] uppercase tracking-wider transition-colors ${
                   gameFilter === f.value
-                    ? 'bg-amber-600 text-white'
-                    : 'bg-stone-700/50 text-stone-400 hover:bg-stone-600/50'
-                }`}
+                    ? 'bg-gold-700 text-gold-50'
+                    : 'text-ink-200 hover:bg-ink-600 hover:text-gold-200'
+                } ${i > 0 ? 'border-l border-ink-500' : ''}`}
               >
                 {f.label}
               </button>
             ))}
           </div>
-          {/* Expand/Collapse all */}
-          <div className="flex gap-0.5">
+          <div className="flex rounded overflow-hidden border border-ink-500 bg-ink-700/60">
             <button
               onClick={expandAll}
-              className="px-1.5 py-0.5 text-[10px] rounded bg-stone-700/50 text-stone-400 hover:bg-stone-600/50 transition-colors"
+              className="px-1.5 py-0.5 text-[10px] text-ink-200 hover:bg-ink-600 hover:text-gold-200 transition-colors"
               title="Expand all"
+              aria-label="Expand all"
             >
               +
             </button>
             <button
               onClick={collapseAll}
-              className="px-1.5 py-0.5 text-[10px] rounded bg-stone-700/50 text-stone-400 hover:bg-stone-600/50 transition-colors"
+              className="px-1.5 py-0.5 text-[10px] text-ink-200 hover:bg-ink-600 hover:text-gold-200 transition-colors border-l border-ink-500"
               title="Collapse all"
+              aria-label="Collapse all"
             >
               −
             </button>
           </div>
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-[10px] text-stone-500 whitespace-nowrap">
-            BG 1/2 Item Randomizer Checklist — {checkedCount}/{filteredLocations.length}
+          <span
+            className="text-[10px] text-gold-400/70 whitespace-nowrap tracking-[0.1em] uppercase"
+            style={{ fontFamily: 'var(--font-display)' }}
+          >
+            Item Randomizer — {checkedCount}/{filteredLocations.length}
           </span>
           {isElectronOverlay && (
             <button
               onClick={() => window.electronAPI?.quit()}
-              className="text-stone-600 hover:text-red-400 text-xs leading-none transition-colors"
+              className="text-ink-300 hover:text-blood-400 text-xs leading-none transition-colors w-4 h-4 flex items-center justify-center"
               title="Quit application"
+              aria-label="Quit"
             >
-              ✕
+              ×
             </button>
           )}
         </div>
       </div>
 
-      {/* No session warning */}
       {!hasSession && (
-        <div className="px-3 py-2 bg-red-900/50 text-red-300 text-xs text-center">
-          No active session — create one in the web app
+        <div
+          className="px-3 py-2 bg-blood-600/30 text-blood-400 text-xs text-center italic border-b border-blood-600/30"
+          style={{ fontFamily: 'var(--font-body)' }}
+        >
+          No active session — create one in the web app.
         </div>
       )}
 
-      {/* Group list */}
       <div style={isElectronOverlay ? undefined : { WebkitAppRegion: 'no-drag' } as React.CSSProperties}>
         {groups.map((group) => {
           const isExpanded = !collapsedGroups.has(group.id)
           const groupCheckedCount = group.locations.filter(
             (loc) => locationStates[loc.id]?.checked,
           ).length
+          const complete = groupCheckedCount === group.locations.length && group.locations.length > 0
 
           return (
             <div key={group.id}>
               <button
                 onClick={() => toggleGroup(group.id)}
-                className="w-full flex items-center gap-2 px-3 py-1 text-xs bg-stone-900/50 hover:bg-stone-800/50 text-left transition-colors"
+                className="w-full flex items-center gap-2 px-3 py-1 text-[11px] bg-ink-800/60 hover:bg-ink-700/80 text-left transition-colors border-b border-ink-700/40"
               >
                 <span
-                  className="text-stone-500 text-[10px] transition-transform duration-200"
-                  style={{
-                    transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)',
-                  }}
+                  className="text-ink-200 text-[9px] transition-transform duration-200"
+                  style={{ transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)' }}
+                  aria-hidden
                 >
                   ▶
                 </span>
-                <span className="text-amber-300 font-medium">{group.name}</span>
-                <span className="text-stone-600">
+                <span
+                  className={`tracking-wider ${complete ? 'text-gold-300' : 'text-gold-200'}`}
+                  style={{ fontFamily: 'var(--font-display)', fontWeight: 500 }}
+                >
+                  {group.name}
+                </span>
+                <span className="text-ink-200 tabular-nums text-[10px] ml-auto">
                   {groupCheckedCount}/{group.locations.length}
                 </span>
               </button>

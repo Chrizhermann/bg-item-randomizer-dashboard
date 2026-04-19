@@ -18,6 +18,7 @@ export default function GroupHeader({
   onTogglePool,
 }: GroupHeaderProps) {
   const isComplete = checkedCount === totalCount && totalCount > 0
+  const progress = totalCount > 0 ? (checkedCount / totalCount) * 100 : 0
 
   const handlePoolClick = (e: React.MouseEvent) => {
     e.stopPropagation()
@@ -25,37 +26,85 @@ export default function GroupHeader({
   }
 
   return (
-    <button
-      onClick={onToggle}
-      className="sticky top-[57px] z-[5] w-full flex items-center gap-3 px-4 py-2 bg-stone-800 hover:bg-stone-700/50 border-b border-stone-700 text-left transition-colors"
-    >
-      <span
-        className="text-stone-400 text-sm transition-transform duration-200"
-        style={{ transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)' }}
-      >
-        ▶
-      </span>
-
-      <span className="font-medium text-amber-300">{name}</span>
-
-      <span className="text-sm text-stone-500">
-        {checkedCount}/{totalCount}
-      </span>
-
-      {isComplete && (
-        <span className="text-sm text-green-500">Complete</span>
-      )}
-
-      <span
-        onClick={handlePoolClick}
-        className={`ml-auto text-xs px-2 py-0.5 rounded border transition-colors ${
-          isPoolOpen
-            ? 'bg-amber-600/20 text-amber-400 border-amber-600/30'
-            : 'text-stone-500 border-stone-600 hover:text-stone-300 hover:border-stone-500'
+    <div className="sticky top-[57px] z-[5]">
+      <button
+        onClick={onToggle}
+        className={`w-full flex items-center gap-3 px-5 py-2 text-left transition-colors bg-ink-700/95 backdrop-blur-sm hover:bg-ink-600/80 border-y border-ink-600 ${
+          isComplete ? 'border-b-gold-700/40' : ''
         }`}
       >
-        Items
-      </span>
-    </button>
+        <span
+          className="text-ink-200 text-[10px] transition-transform duration-200 w-3 flex-shrink-0"
+          style={{ transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)' }}
+          aria-hidden
+        >
+          ▶
+        </span>
+
+        <h2
+          className={`tracking-[0.04em] text-[17px] ${
+            isComplete ? 'text-gold-300' : 'text-gold-200'
+          }`}
+          style={{ fontFamily: 'var(--font-display)', fontWeight: 500 }}
+        >
+          {name}
+        </h2>
+
+        <span
+          className="text-xs tabular-nums text-ink-200"
+          style={{ fontFamily: 'var(--font-body)' }}
+        >
+          <span className={isComplete ? 'text-gold-300 font-semibold' : 'text-ink-100'}>
+            {checkedCount}
+          </span>
+          <span className="text-ink-300 mx-0.5">/</span>
+          <span>{totalCount}</span>
+        </span>
+
+        {isComplete && (
+          <span
+            className="text-[10px] uppercase tracking-widest text-gold-300 italic border-b border-gold-600/40 pb-px"
+            style={{ fontFamily: 'var(--font-body)' }}
+          >
+            Complete
+          </span>
+        )}
+
+        {/* tiny inline progress glyph — doubles as visual rhythm */}
+        <span className="hidden sm:flex items-center gap-0.5 ml-1" aria-hidden>
+          {Array.from({ length: 5 }).map((_, i) => {
+            const threshold = (i + 1) * 20
+            const filled = progress >= threshold
+            const partial = !filled && progress >= threshold - 20
+            return (
+              <span
+                key={i}
+                className={`w-1 h-2 rounded-[1px] transition-colors ${
+                  filled
+                    ? 'bg-gold-400'
+                    : partial
+                      ? 'bg-gold-700/60'
+                      : 'bg-ink-500'
+                }`}
+              />
+            )
+          })}
+        </span>
+
+        <span
+          onClick={handlePoolClick}
+          className={`ml-auto text-[10px] uppercase tracking-wider px-2.5 py-1 rounded border transition-colors cursor-pointer ${
+            isPoolOpen
+              ? 'bg-gold-700/25 text-gold-200 border-gold-600/40'
+              : 'text-ink-200 border-ink-500 hover:text-gold-200 hover:border-gold-700/50'
+          }`}
+          style={{ fontFamily: 'var(--font-body)' }}
+        >
+          Pool
+        </span>
+      </button>
+      {/* gilt underline */}
+      <div className="divider-gilt opacity-40" />
+    </div>
   )
 }
