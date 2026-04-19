@@ -6,6 +6,7 @@ export interface LocationGroup {
   name: string
   sortOrder: number
   locations: Location[]
+  tiers: string[]
 }
 
 // --- Tier grouping helpers ---
@@ -102,10 +103,15 @@ function groupByTier(allLocations: Location[]): LocationGroup[] {
       name: tierDisplayName(tier),
       sortOrder: tierSortOrder(tier),
       locations: locs,
+      tiers: [tier],
     })
   }
 
   return groups.sort((a, b) => a.sortOrder - b.sortOrder)
+}
+
+function uniqueTiers(locs: Location[]): string[] {
+  return [...new Set(locs.map((l) => l.tier))]
 }
 
 // --- Area grouping helpers ---
@@ -178,6 +184,7 @@ function groupByArea(allLocations: Location[]): LocationGroup[] {
       name: region.name,
       sortOrder: region.sortOrder,
       locations,
+      tiers: uniqueTiers(locations),
     })
   }
 
@@ -210,6 +217,7 @@ function groupByStatus(
       name: 'Unchecked',
       sortOrder: 0,
       locations: unchecked,
+      tiers: uniqueTiers(unchecked),
     })
   }
 
@@ -219,6 +227,7 @@ function groupByStatus(
       name: 'Checked',
       sortOrder: 1,
       locations: checked,
+      tiers: uniqueTiers(checked),
     })
   }
 

@@ -19,4 +19,12 @@ contextBridge.exposeInMainWorld('electronAPI', {
 
   // Electron-only queries
   getDisplays: () => ipcRenderer.invoke('get-displays') as Promise<{ id: number; label: string }[]>,
+  quit: () => ipcRenderer.invoke('app:quit'),
+
+  // Overlay window control
+  setOverlayMode: (mode: 'anchor' | 'expanded' | 'settings') => {
+    ipcRenderer.send('overlay:set-mode', mode)
+  },
+  startDrag: () => ipcRenderer.send('overlay:start-drag'),
+  stopDrag: () => ipcRenderer.send('overlay:stop-drag'),
 })

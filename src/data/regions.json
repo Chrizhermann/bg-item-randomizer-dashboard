@@ -1,198 +1,282 @@
 [
   {
-    "id": "bg2-athkatla-waukeen",
-    "name": "Athkatla - Waukeen's Promenade",
-    "areaPattern": "^ar0(?:7[0-9][0-9])$",
+    "id": "bg1-friendly-arm",
+    "name": "Friendly Arm Inn",
+    "areaPattern": "^ar23\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 50
+  },
+  {
+    "id": "bg1-beregost",
+    "name": "Beregost",
+    "areaPattern": "^ar33\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 51
+  },
+  {
+    "id": "bg1-nashkel",
+    "name": "Nashkel & Carnival",
+    "areaPattern": "^ar(?:48|49)\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 52
+  },
+  {
+    "id": "bg1-nashkel-mines",
+    "name": "Nashkel Mines",
+    "areaPattern": "^ar54\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 53
+  },
+  {
+    "id": "bg1-ankheg",
+    "name": "Ankheg Lair",
+    "areaPattern": "^ar14\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 54
+  },
+  {
+    "id": "bg1-bandit-camp",
+    "name": "Bandit Camp",
+    "areaPattern": "^ar19\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 56
+  },
+  {
+    "id": "bg1-cloakwood",
+    "name": "Cloakwood & Mines",
+    "areaPattern": "^ar(?:18|21|22|45)\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 57
+  },
+  {
+    "id": "bg1-durlag",
+    "name": "Durlag's Tower",
+    "areaPattern": "^ar05\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 60
+  },
+  {
+    "id": "bg1-ice-island",
+    "name": "Ice Island",
+    "areaPattern": "^ar10\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 61
+  },
+  {
+    "id": "bg1-balduran",
+    "name": "Balduran's Isle & Ship",
+    "areaPattern": "^ar15\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 62
+  },
+  {
+    "id": "bg1-candlekeep-return",
+    "name": "Candlekeep Return & Catacombs",
+    "areaPattern": "^ar26\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 59
+  },
+  {
+    "id": "bg1-baldurs-gate",
+    "name": "Baldur's Gate City",
+    "areaPattern": "^ar(?:0[0-4]|0[6-9]|11)\\d{2}$",
+    "game": "bg1",
+    "sortOrder": 58
+  },
+  {
+    "id": "bg1-wilderness",
+    "name": "BG1 Wilderness",
+    "areaPattern": "^ar[3-5]\\d{3}$",
+    "game": "bg1",
+    "sortOrder": 55
+  },
+  {
+    "id": "bg2-athkatla-gates",
+    "name": "Athkatla - City Gates",
+    "areaPattern": "^ar00\\d{2}$",
     "game": "bg2",
     "sortOrder": 0
   },
   {
-    "id": "bg2-athkatla-slums",
-    "name": "Athkatla - Slums",
-    "areaPattern": "^ar0(?:4[0-9][0-9])$",
+    "id": "bg2-athkatla-underground",
+    "name": "Athkatla - Underground",
+    "areaPattern": "^ar02\\d{2}$",
     "game": "bg2",
     "sortOrder": 1
   },
   {
     "id": "bg2-athkatla-docks",
     "name": "Athkatla - Docks",
-    "areaPattern": "^ar0(?:3[0-9][0-9])$",
+    "areaPattern": "^ar(?:03\\d{2}|0407)$",
     "game": "bg2",
     "sortOrder": 2
   },
   {
-    "id": "bg2-athkatla-gates",
-    "name": "Athkatla - City Gates",
-    "areaPattern": "^ar0(?:0[0-9][0-9])$",
-    "game": "bg2",
-    "sortOrder": 3
-  },
-  {
-    "id": "bg2-athkatla-bridge",
-    "name": "Athkatla - Bridge District",
-    "areaPattern": "^ar0(?:5[0-9][0-9])$",
+    "id": "bg2-planar-sphere",
+    "name": "Planar Sphere",
+    "areaPattern": "^ar04[1-4]\\d$",
     "game": "bg2",
     "sortOrder": 4
   },
   {
-    "id": "bg2-athkatla-graveyard",
-    "name": "Athkatla - Graveyard",
-    "areaPattern": "^ar0(?:8[0-9][0-9])$",
+    "id": "bg2-athkatla-slums",
+    "name": "Athkatla - Slums",
+    "areaPattern": "^ar04\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 3
+  },
+  {
+    "id": "bg2-planar-prison",
+    "name": "Planar Prison",
+    "areaPattern": "^ar0516$",
     "game": "bg2",
     "sortOrder": 5
   },
   {
-    "id": "bg2-athkatla-temple",
-    "name": "Athkatla - Temple District",
-    "areaPattern": "^ar0(?:9[0-9][0-9])$",
+    "id": "bg2-athkatla-bridge",
+    "name": "Athkatla - Bridge District",
+    "areaPattern": "^ar(?:05\\d{2}|1008)$",
     "game": "bg2",
     "sortOrder": 6
   },
   {
-    "id": "bg2-athkatla-government",
-    "name": "Athkatla - Government",
-    "areaPattern": "^ar1(?:0[0-9][0-9])$",
-    "game": "bg2",
-    "sortOrder": 7
-  },
-  {
-    "id": "bg2-de-arnise",
-    "name": "De'Arnise Keep",
-    "areaPattern": "^ar1(?:1[0-9][0-9])$",
+    "id": "bg2-athkatla-temple",
+    "name": "Athkatla - Temple District",
+    "areaPattern": "^ar(?:09\\d{2}|07(?:01|05|11))$",
     "game": "bg2",
     "sortOrder": 8
   },
   {
-    "id": "bg2-trademeet",
-    "name": "Trademeet",
-    "areaPattern": "^ar2(?:0[0-9][0-9])$",
+    "id": "bg2-athkatla-waukeen",
+    "name": "Athkatla - Waukeen's Promenade",
+    "areaPattern": "^ar07\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 7
+  },
+  {
+    "id": "bg2-athkatla-graveyard",
+    "name": "Athkatla - Graveyard",
+    "areaPattern": "^ar08\\d{2}$",
     "game": "bg2",
     "sortOrder": 9
   },
   {
     "id": "bg2-umar-hills",
     "name": "Umar Hills",
-    "areaPattern": "^ar1(?:1[0-9][0-9]|2[0-9][0-9])$",
-    "game": "bg2",
-    "sortOrder": 10
-  },
-  {
-    "id": "bg2-windspear",
-    "name": "Windspear Hills",
-    "areaPattern": "^ar1(?:2[0-9][0-9])$",
+    "areaPattern": "^ar11\\d{2}$",
     "game": "bg2",
     "sortOrder": 11
   },
   {
-    "id": "bg2-underdark",
-    "name": "Underdark",
-    "areaPattern": "^ar2(?:1[0-9][0-9]|2[0-9][0-9])$",
+    "id": "bg2-windspear",
+    "name": "Windspear Hills",
+    "areaPattern": "^ar12\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 11
+  },
+  {
+    "id": "bg2-de-arnise",
+    "name": "De'Arnise Keep",
+    "areaPattern": "^ar13\\d{2}$",
     "game": "bg2",
     "sortOrder": 12
   },
   {
-    "id": "bg2-brynnlaw",
-    "name": "Brynnlaw",
-    "areaPattern": "^ar1(?:6[0-9][0-9])$",
+    "id": "bg2-temple-ruins",
+    "name": "Temple Ruins",
+    "areaPattern": "^ar14\\d{2}$",
     "game": "bg2",
     "sortOrder": 13
   },
   {
     "id": "bg2-spellhold",
     "name": "Spellhold",
-    "areaPattern": "^ar1(?:5[0-9][0-9])$",
+    "areaPattern": "^ar15\\d{2}$",
     "game": "bg2",
     "sortOrder": 14
   },
   {
-    "id": "bg2-sahuagin",
-    "name": "Sahuagin City",
-    "areaPattern": "^ar2(?:3[0-9][0-9])$",
+    "id": "bg2-brynnlaw",
+    "name": "Brynnlaw",
+    "areaPattern": "^ar16\\d{2}$",
     "game": "bg2",
     "sortOrder": 15
   },
   {
-    "id": "bg2-suldanessellar",
-    "name": "Suldanessellar",
-    "areaPattern": "^ar2(?:8[0-9][0-9])$",
+    "id": "bg2-north-forest",
+    "name": "North Forest & Druid Grove",
+    "areaPattern": "^ar1[89]\\d{2}$",
     "game": "bg2",
     "sortOrder": 16
   },
   {
-    "id": "bg2-tob",
-    "name": "Throne of Bhaal",
-    "areaPattern": "^ar(?:3|4|5|6)[0-9]{3}$",
+    "id": "bg2-trademeet",
+    "name": "Trademeet & Tethyr",
+    "areaPattern": "^ar(?:20|26)\\d{2}$",
     "game": "bg2",
     "sortOrder": 17
   },
   {
-    "id": "bg2-other",
-    "name": "BG2 - Other",
-    "areaPattern": "^ar(?!2[6-9])[0-9]{4}$",
+    "id": "bg2-underdark",
+    "name": "Underdark",
+    "areaPattern": "^ar2[1-4]\\d{2}$",
     "game": "bg2",
     "sortOrder": 18
   },
   {
-    "id": "bg1-candlekeep",
-    "name": "Candlekeep",
-    "areaPattern": "^ar26[0-9]{2}$",
-    "game": "bg1",
+    "id": "bg2-suldanessellar",
+    "name": "Suldanessellar",
+    "areaPattern": "^ar28\\d{2}$",
+    "game": "bg2",
     "sortOrder": 19
   },
   {
-    "id": "bg1-friendly-arm",
-    "name": "Friendly Arm Inn",
-    "areaPattern": "^ar27[0-9]{2}$",
-    "game": "bg1",
-    "sortOrder": 20
-  },
-  {
-    "id": "bg1-beregost",
-    "name": "Beregost",
-    "areaPattern": "^ar28[0-9]{2}$",
-    "game": "bg1",
-    "sortOrder": 21
-  },
-  {
-    "id": "bg1-nashkel",
-    "name": "Nashkel",
-    "areaPattern": "^ar29[0-9]{2}$",
-    "game": "bg1",
-    "sortOrder": 22
-  },
-  {
-    "id": "bg1-baldurs-gate",
-    "name": "Baldur's Gate City",
-    "areaPattern": "^ar(?:3[0-9]|0[1-2])[0-9]{2}$",
-    "game": "bg1",
-    "sortOrder": 23
-  },
-  {
-    "id": "bg1-cloakwood",
-    "name": "Cloakwood",
-    "areaPattern": "^ar(?:21|22)[0-9]{2}$",
-    "game": "bg1",
-    "sortOrder": 24
-  },
-  {
-    "id": "bg1-wilderness",
-    "name": "BG1 Wilderness",
-    "areaPattern": "^ar(?:2[0-9]|3[0-9])[0-9]{2}$",
-    "game": "bg1",
-    "sortOrder": 25
-  },
-  {
-    "id": "bg1-other",
-    "name": "BG1 - Other",
-    "areaPattern": "^ar[2-9][0-9]{3}$",
-    "game": "bg1",
-    "sortOrder": 26
-  },
-  {
-    "id": "other",
-    "name": "Other",
-    "areaPattern": ".*",
+    "id": "bg2-watchers-keep",
+    "name": "Watcher's Keep",
+    "areaPattern": "^ar30\\d{2}$",
     "game": "bg2",
-    "sortOrder": 27
+    "sortOrder": 30
+  },
+  {
+    "id": "bg2-saradush",
+    "name": "Saradush",
+    "areaPattern": "^ar50\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 31
+  },
+  {
+    "id": "bg2-yaga-shura",
+    "name": "Yaga-Shura's Lair",
+    "areaPattern": "^ar52\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 32
+  },
+  {
+    "id": "bg2-amkethran",
+    "name": "Amkethran",
+    "areaPattern": "^ar55\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 33
+  },
+  {
+    "id": "bg2-abazigal",
+    "name": "Abazigal's Lair",
+    "areaPattern": "^ar60\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 34
+  },
+  {
+    "id": "bg2-sendai",
+    "name": "Sendai's Lair",
+    "areaPattern": "^ar61\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 35
+  },
+  {
+    "id": "bg2-tob-other",
+    "name": "ToB - Other",
+    "areaPattern": "^ar6[2-9]\\d{2}$",
+    "game": "bg2",
+    "sortOrder": 36
   }
 ]

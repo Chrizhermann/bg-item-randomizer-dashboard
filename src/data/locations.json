@@ -5,7 +5,7 @@
     "locationIndex": 1,
     "target": "thugs.flg",
     "area": "ar0701",
-    "comment": "sewer gang",
+    "comment": "Temple district, sewers, gang of thugs",
     "targetType": "group",
     "game": "bg2"
   },
@@ -15,7 +15,7 @@
     "locationIndex": 2,
     "target": "mimicchest",
     "area": "ar1106",
-    "comment": "Mimic's chest, umar hills",
+    "comment": "Umar hills, cave, mimic chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -25,7 +25,7 @@
     "locationIndex": 3,
     "target": "gaal01.cre",
     "area": "ar0202",
-    "comment": "",
+    "comment": "Unseeing Eye cult lair, Gaal",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -35,7 +35,7 @@
     "locationIndex": 4,
     "target": "crate2",
     "area": "ar0503",
-    "comment": "big one, skinner's sub-basement",
+    "comment": "Bridge district, Tanner's basement, big crate",
     "targetType": "container",
     "game": "bg2"
   },
@@ -45,7 +45,7 @@
     "locationIndex": 5,
     "target": "thugs.flg",
     "area": "ar0701",
-    "comment": "Sewer gang gets one",
+    "comment": "Temple district, sewers, gang of thugs",
     "targetType": "group",
     "game": "bg2"
   },
@@ -55,7 +55,7 @@
     "locationIndex": 6,
     "target": "container5",
     "area": "ar1202",
-    "comment": "formerly Horn of Blasting, closet past wolfweres",
+    "comment": "Windspear hills, Firkraag's dungeon, closet past wolfweres",
     "targetType": "container",
     "game": "bg2"
   },
@@ -65,7 +65,7 @@
     "locationIndex": 7,
     "target": "slavers.flg",
     "area": "ar0405",
-    "comment": "slums, slavers",
+    "comment": "Slums, slaver stockade, Haegan, priest of Cyric or slaver wizards",
     "targetType": "group",
     "game": "bg2"
   },
@@ -75,7 +75,7 @@
     "locationIndex": 8,
     "target": "container9",
     "area": "ar0705",
-    "comment": "bedroom, mekrath's",
+    "comment": "Mekrath's lair, bedroom",
     "targetType": "container",
     "game": "bg2"
   },
@@ -85,7 +85,7 @@
     "locationIndex": 9,
     "target": "chest1",
     "area": "ar0528",
-    "comment": "formerly Silver Horn of Valhalla, house in bridge district",
+    "comment": "Bridge district, house west of Balthis estate, second floor, chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -95,7 +95,7 @@
     "locationIndex": 10,
     "target": "drawer2",
     "area": "ar0303",
-    "comment": "Mae'Var's strongbox, need edwinkey",
+    "comment": "Docks, Mae'Var's strongbox",
     "targetType": "container",
     "game": "bg2"
   },
@@ -105,7 +105,7 @@
     "locationIndex": 11,
     "target": "container1",
     "area": "ar0811",
-    "comment": "tomb, orphan outside",
+    "comment": "Graveyard district, tomb northwest of entrance",
     "targetType": "container",
     "game": "bg2"
   },
@@ -115,7 +115,7 @@
     "locationIndex": 12,
     "target": "container1",
     "area": "ar1302",
-    "comment": "lion(?) statue, (ring of earth control)",
+    "comment": "de'Arnise keep, first floor, animal statue",
     "targetType": "container",
     "game": "bg2"
   },
@@ -125,7 +125,7 @@
     "locationIndex": 13,
     "target": "container2",
     "area": "ar1103",
-    "comment": "jermien's",
+    "comment": "Umar hills, Jermien's house",
     "targetType": "container",
     "game": "bg2"
   },
@@ -135,7 +135,7 @@
     "locationIndex": 14,
     "target": "sewrak01.cre",
     "area": "ar0701",
-    "comment": "sewer rakshasa",
+    "comment": "Temple district, sewers, rakshasa",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -145,7 +145,7 @@
     "locationIndex": 15,
     "target": "beast.cre",
     "area": "ar0406",
-    "comment": "beastmaster",
+    "comment": "Slums, Copper Coronet, beastmaster",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -155,7 +155,7 @@
     "locationIndex": 16,
     "target": "drawer2",
     "area": "ar0303",
-    "comment": "Mae'var's strongbox, need edwinkey",
+    "comment": "Docks, Mae'Var's strongbox",
     "targetType": "container",
     "game": "bg2"
   },
@@ -165,7 +165,7 @@
     "locationIndex": 17,
     "target": "chest1",
     "area": "ar0530",
-    "comment": "valeria's chest",
+    "comment": "Bridge district, Valeria's warehouse, chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -175,7 +175,7 @@
     "locationIndex": 18,
     "target": "bounty.flg",
     "area": "ar0516",
-    "comment": "Bounty Hunter leader, Planar prison",
+    "comment": "Planar prison, bounty hunters",
     "targetType": "group",
     "game": "bg2"
   },
@@ -185,7 +185,7 @@
     "locationIndex": 19,
     "target": "container3",
     "area": "ar0407",
-    "comment": "Prebek's house",
+    "comment": "Docks, Prebek's house",
     "targetType": "container",
     "game": "bg2"
   },
@@ -195,7 +195,7 @@
     "locationIndex": 20,
     "target": "bounty.flg",
     "area": "ar0516",
-    "comment": "bounty hunters, planar prison",
+    "comment": "Planar prison, bounty hunters",
     "targetType": "group",
     "game": "bg2"
   },
@@ -205,7 +205,7 @@
     "locationIndex": 21,
     "target": "container2",
     "area": "ar1904",
-    "comment": "Pile in troll mound",
+    "comment": "Druid grove, troll mound, bottommost pile",
     "targetType": "container",
     "game": "bg2"
   },
@@ -215,7 +215,7 @@
     "locationIndex": 22,
     "target": "table2",
     "area": "ar0406",
-    "comment": "Table in back room, CC",
+    "comment": "Copper Coronet, desk in retired pickpocket's room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -225,7 +225,7 @@
     "locationIndex": 23,
     "target": "container6",
     "area": "ar1401",
-    "comment": "top rubble in magma",
+    "comment": "Ruined temple, topmost pile of rubble in magma",
     "targetType": "container",
     "game": "bg2"
   },
@@ -235,7 +235,7 @@
     "locationIndex": 1,
     "target": "bones1",
     "area": "ar0206",
-    "comment": "pile of bones (gauntlets of dex)",
+    "comment": "Undead village, Unseeing Eye quest, pile of bones",
     "targetType": "container",
     "game": "bg2"
   },
@@ -245,7 +245,7 @@
     "locationIndex": 2,
     "target": "container1",
     "area": "ar0804",
-    "comment": "Pai'Na's",
+    "comment": "Graveyard district, Pai'Na's lair",
     "targetType": "container",
     "game": "bg2"
   },
@@ -255,7 +255,7 @@
     "locationIndex": 3,
     "target": "pthral05.cre",
     "area": "ar0516",
-    "comment": "female thrall, prison",
+    "comment": "Planar prison, female thrall",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -265,7 +265,7 @@
     "locationIndex": 4,
     "target": "table3",
     "area": "ar0202",
-    "comment": "Gaal's table",
+    "comment": "Unseeing Eye cult quarters, Gaal's table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -275,7 +275,7 @@
     "locationIndex": 5,
     "target": "maevar.cre",
     "area": "ar0301",
-    "comment": "",
+    "comment": "Docks, Mae'Var's guild, Mae'Var",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -285,7 +285,7 @@
     "locationIndex": 6,
     "target": "theshal.cre",
     "area": "ar0206",
-    "comment": "Mr. Mayor (deceased)",
+    "comment": "Undead village, Unseeing Eye quest, Theshal",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -295,7 +295,7 @@
     "locationIndex": 7,
     "target": "pthral09.cre",
     "area": "ar0516",
-    "comment": "cleric thrall by the warden",
+    "comment": "Planar prison, cleric thrall by the warden",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -305,7 +305,7 @@
     "locationIndex": 8,
     "target": "decret1",
     "area": "ar1601",
-    "comment": "hoho, typo. in the right corner, pirate lord's",
+    "comment": "Brynnlaw, pirate lord's house, painting in west corner",
     "targetType": "container",
     "game": "bg2"
   },
@@ -315,7 +315,7 @@
     "locationIndex": 9,
     "target": "container2",
     "area": "ar1301",
-    "comment": "pillar cache, behind torgal",
+    "comment": "de'Arnise keep, dungeon, pillar cache behind TorGal",
     "targetType": "container",
     "game": "bg2"
   },
@@ -325,7 +325,7 @@
     "locationIndex": 10,
     "target": "ironpot.flg",
     "area": "ar0411",
-    "comment": "feral halfers, Sphere",
+    "comment": "Planar Sphere, feral halflings",
     "targetType": "group",
     "game": "bg2"
   },
@@ -335,7 +335,7 @@
     "locationIndex": 11,
     "target": "container3",
     "area": "ar1202",
-    "comment": "chest among the debris, by the vampires",
+    "comment": "Windspear hills, dungeon, chest among the debris",
     "targetType": "container",
     "game": "bg2"
   },
@@ -345,7 +345,7 @@
     "locationIndex": 12,
     "target": "sevpat.flg",
     "area": "ar0712",
-    "comment": "Seven Vales gang",
+    "comment": "Waukeen's Promenade, Den of the Seven Vales, gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -355,7 +355,7 @@
     "locationIndex": 13,
     "target": "container11",
     "area": "ar1301",
-    "comment": "chest in de'Arnise keep basement",
+    "comment": "de'Arnise keep, dungeon, chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -365,7 +365,7 @@
     "locationIndex": 14,
     "target": "ppmind01.cre",
     "area": "ar1514",
-    "comment": "painting-illithid, spellhold",
+    "comment": "Spellhold, Mind Flayer behind painting",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -375,7 +375,7 @@
     "locationIndex": 15,
     "target": "container6",
     "area": "ar0529",
-    "comment": "Painting containter, Neb's house",
+    "comment": "Bridge district, derelict house, Neb's painting",
     "targetType": "container",
     "game": "bg2"
   },
@@ -385,7 +385,7 @@
     "locationIndex": 16,
     "target": "container1",
     "area": "ar0308",
-    "comment": "Harper hq eye painting",
+    "comment": "Docks, Harper compound, painting",
     "targetType": "container",
     "game": "bg2"
   },
@@ -395,7 +395,7 @@
     "locationIndex": 17,
     "target": "container1",
     "area": "ar1904",
-    "comment": "the one without the bracers, troll mound",
+    "comment": "Druid grove, troll mound, northmost pile",
     "targetType": "container",
     "game": "bg2"
   },
@@ -405,7 +405,7 @@
     "locationIndex": 18,
     "target": "container1",
     "area": "ar1613",
-    "comment": "cupboard, galvena's",
+    "comment": "Brynnlaw, Galvena's festhall, fancy room, cupboard",
     "targetType": "container",
     "game": "bg2"
   },
@@ -415,7 +415,7 @@
     "locationIndex": 19,
     "target": "sevpat.flg",
     "area": "ar0712",
-    "comment": "",
+    "comment": "Waukeen's Promenade, Den of the Seven Vales, gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -425,7 +425,7 @@
     "locationIndex": 1,
     "target": "blpool.bcs",
     "area": "ar0801",
-    "comment": "ar0801 (mace of disruption)",
+    "comment": "Graveyard district, chapter 3, vampire lair, pool of blood",
     "targetType": "script",
     "game": "bg2"
   },
@@ -435,7 +435,7 @@
     "locationIndex": 2,
     "target": "troalt.bcs",
     "area": "ar1506",
-    "comment": "ar1506 troll altar in Spellhold",
+    "comment": "Spellhold, Troll altar",
     "targetType": "script",
     "game": "bg2"
   },
@@ -445,7 +445,7 @@
     "locationIndex": 3,
     "target": "container2",
     "area": "ar0412",
-    "comment": "fire room, sphere",
+    "comment": "Planar sphere, fire room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -455,7 +455,7 @@
     "locationIndex": 4,
     "target": "container1",
     "area": "ar2602",
-    "comment": "(mana bow)",
+    "comment": "Tethyr forest, cave",
     "targetType": "container",
     "game": "bg2"
   },
@@ -465,7 +465,7 @@
     "locationIndex": 5,
     "target": "closet1",
     "area": "ar1515",
-    "comment": "closet, irenicus' room, spellhold",
+    "comment": "Spellhold, Irenicus' room, closet",
     "targetType": "container",
     "game": "bg2"
   },
@@ -475,7 +475,7 @@
     "locationIndex": 6,
     "target": "chest1",
     "area": "ar0803",
-    "comment": "Chest, second level of vampire nest, chapter 3",
+    "comment": "Graveyard district, chapter 3, vampire lair, second level, chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -485,7 +485,7 @@
     "locationIndex": 7,
     "target": "tazok.cre",
     "area": "ar1202",
-    "comment": "duh",
+    "comment": "Windspear hills, dungeon, Tazok",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -495,7 +495,7 @@
     "locationIndex": 8,
     "target": "container4",
     "area": "ar0205",
-    "comment": "topmost, unseeing's",
+    "comment": "Beholder tunnels, Unseeing Eye quest, northernmost pulsating container",
     "targetType": "container",
     "game": "bg2"
   },
@@ -505,7 +505,7 @@
     "locationIndex": 9,
     "target": "trrak01.cre",
     "area": "ar1902",
-    "comment": "ithafeer",
+    "comment": "Druid grove, ruined house, Ithafeer",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -515,7 +515,7 @@
     "locationIndex": 10,
     "target": "container2",
     "area": "ar0412",
-    "comment": "fire room",
+    "comment": "Planar sphere, fire room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -525,7 +525,7 @@
     "locationIndex": 11,
     "target": "bounty.flg",
     "area": "ar0516",
-    "comment": "",
+    "comment": "Planar prison, bounty hunters",
     "targetType": "group",
     "game": "bg2"
   },
@@ -535,7 +535,7 @@
     "locationIndex": 12,
     "target": "thugs.flg",
     "area": "ar0701",
-    "comment": "",
+    "comment": "Temple district, sewers, gang of thugs",
     "targetType": "group",
     "game": "bg2"
   },
@@ -545,7 +545,7 @@
     "locationIndex": 13,
     "target": "uddwarf.cre",
     "area": "ar2400",
-    "comment": "crazy dwarf (ring of fire control)",
+    "comment": "Illithid city, insane dwarf warrior",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -555,7 +555,7 @@
     "locationIndex": 14,
     "target": "container10",
     "area": "ar0705",
-    "comment": "Mekrath's altar",
+    "comment": "Mekrath's lair, altar",
     "targetType": "container",
     "game": "bg2"
   },
@@ -565,7 +565,7 @@
     "locationIndex": 15,
     "target": "rngsha02.cre",
     "area": "ar1404",
-    "comment": "Shadow Patrick",
+    "comment": "Temple ruins, Shadow Patrick",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -575,7 +575,7 @@
     "locationIndex": 16,
     "target": "secret2",
     "area": "ar1511",
-    "comment": "Spellhold, room with table, drawer",
+    "comment": "Spellhold, room with table and ghosts, drawer",
     "targetType": "container",
     "game": "bg2"
   },
@@ -585,7 +585,7 @@
     "locationIndex": 17,
     "target": "sevpat.flg",
     "area": "ar0712",
-    "comment": "",
+    "comment": "Waukeen's Promenade, Den of the Seven Vales, gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -595,7 +595,7 @@
     "locationIndex": 18,
     "target": "container1",
     "area": "ar0413",
-    "comment": "engine room, sphere",
+    "comment": "Planar Sphere, engine room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -605,7 +605,7 @@
     "locationIndex": 19,
     "target": "gc.flg",
     "area": "ar0907",
-    "comment": "need to enter via ar0906",
+    "comment": "Temple district, guarded compound, gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -615,7 +615,7 @@
     "locationIndex": 20,
     "target": "ar18gang.flg",
     "area": "ar1800",
-    "comment": "",
+    "comment": "North Forest, group of people",
     "targetType": "group",
     "game": "bg2"
   },
@@ -625,7 +625,7 @@
     "locationIndex": 1,
     "target": "container4",
     "area": "ar1401",
-    "comment": "temple ruins, pillar cache, across the magma",
+    "comment": "Temple ruins, pillar cache across the magma",
     "targetType": "container",
     "game": "bg2"
   },
@@ -635,7 +635,7 @@
     "locationIndex": 2,
     "target": "container3",
     "area": "ar1401",
-    "comment": "temple ruins, statue with the hands, across the word game",
+    "comment": "Temple ruins, statue across the word game",
     "targetType": "container",
     "game": "bg2"
   },
@@ -645,7 +645,7 @@
     "locationIndex": 3,
     "target": "container1",
     "area": "ar1605",
-    "comment": "chest, perth's",
+    "comment": "Brynnlaw, Perth's house, chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -655,7 +655,7 @@
     "locationIndex": 4,
     "target": "container1",
     "area": "ar1800",
-    "comment": "tomb, north forest",
+    "comment": "North forest, tomb",
     "targetType": "container",
     "game": "bg2"
   },
@@ -665,7 +665,7 @@
     "locationIndex": 5,
     "target": "udsilver.cre",
     "area": "ar2102",
-    "comment": "adalon",
+    "comment": "Underdark, Adalon",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -675,7 +675,7 @@
     "locationIndex": 6,
     "target": "trrak01.cre",
     "area": "ar1902",
-    "comment": "ithafeer",
+    "comment": "Druid grove, ruined house, Ithafeer",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -685,7 +685,7 @@
     "locationIndex": 7,
     "target": "container9",
     "area": "ar1202",
-    "comment": "closet by DigDag and tazok",
+    "comment": "Windspear hills, dungeon, closet by prison cells",
     "targetType": "container",
     "game": "bg2"
   },
@@ -695,7 +695,7 @@
     "locationIndex": 8,
     "target": "pmaster.cre",
     "area": "ar0516",
-    "comment": "demon, prison",
+    "comment": "Planar prison, master of thralls",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -705,7 +705,7 @@
     "locationIndex": 9,
     "target": "pwarden.cre",
     "area": "ar0516",
-    "comment": "warden, prison",
+    "comment": "Planar prison, prison warden",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -715,7 +715,7 @@
     "locationIndex": 10,
     "target": "container11",
     "area": "ar1202",
-    "comment": "golem stash, firkraag's",
+    "comment": "Windspear hills, Firkraag's dungeon, container guarded by golems",
     "targetType": "container",
     "game": "bg2"
   },
@@ -725,7 +725,7 @@
     "locationIndex": 11,
     "target": "container3",
     "area": "ar1401",
-    "comment": "statue, ruined temple",
+    "comment": "Temple ruins, statue across the word game",
     "targetType": "container",
     "game": "bg2"
   },
@@ -735,7 +735,7 @@
     "locationIndex": 12,
     "target": "spectatorchest",
     "area": "ar2300",
-    "comment": "not the spectator's chest",
+    "comment": "City-of-Caverns, spectator's chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -745,7 +745,7 @@
     "locationIndex": 13,
     "target": "bounty.flg",
     "area": "ar0516",
-    "comment": "bounty hunters",
+    "comment": "Planar prison, bounty hunters",
     "targetType": "group",
     "game": "bg2"
   },
@@ -755,7 +755,7 @@
     "locationIndex": 14,
     "target": "sahzom01.cre",
     "area": "ar2300",
-    "comment": "Sea Zombie Lord",
+    "comment": "City-of-Caverns, Sea Zombie Lord",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -765,7 +765,7 @@
     "locationIndex": 15,
     "target": "jael.flg",
     "area": "ar2209",
-    "comment": "",
+    "comment": "Underdark, Ust Natha, House Jae'llat, family Jae'llat",
     "targetType": "group",
     "game": "bg2"
   },
@@ -775,7 +775,7 @@
     "locationIndex": 16,
     "target": "ironpot.flg",
     "area": "ar0411",
-    "comment": "",
+    "comment": "Planar Sphere, feral halflings",
     "targetType": "group",
     "game": "bg2"
   },
@@ -785,7 +785,7 @@
     "locationIndex": 17,
     "target": "goons.flg",
     "area": "ar0530",
-    "comment": "Valeria etc",
+    "comment": "Bridge district, warehouse, Valeria and gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -795,7 +795,7 @@
     "locationIndex": 18,
     "target": "sahramb3.cre",
     "area": "ar2300",
-    "comment": "sahuagin priestess, fish-mouth ambush",
+    "comment": "City-of-Caverns, ambushing rebel priestess",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -805,7 +805,7 @@
     "locationIndex": 19,
     "target": "bhcrypt.cre",
     "area": "ar0806",
-    "comment": "Crypt King",
+    "comment": "Graveyard district, tomb, Crypt King",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -815,7 +815,7 @@
     "locationIndex": 20,
     "target": "shelf3",
     "area": "ar2207",
-    "comment": "closet in Deirex' quarters, Deirex kills you unless you have miscbe",
+    "comment": "Ust Natha, Deirex' house, first floor, closet",
     "targetType": "container",
     "game": "bg2"
   },
@@ -825,7 +825,7 @@
     "locationIndex": 1,
     "target": "container1",
     "area": "ar0711",
-    "comment": "big pot, sewer illithids",
+    "comment": "Temple district, sewers, Illithids, big pot",
     "targetType": "container",
     "game": "bg2"
   },
@@ -835,7 +835,7 @@
     "locationIndex": 2,
     "target": "container1",
     "area": "ar0205",
-    "comment": "Mr. Eye's private stash, rift device",
+    "comment": "Beholder tunnels, Unseeing Eye quest, westernmost pulsating container",
     "targetType": "container",
     "game": "bg2"
   },
@@ -845,7 +845,7 @@
     "locationIndex": 3,
     "target": "container1",
     "area": "ar0711",
-    "comment": "also big pot",
+    "comment": "Temple district, sewers, Illithids, big pot",
     "targetType": "container",
     "game": "bg2"
   },
@@ -855,7 +855,7 @@
     "locationIndex": 4,
     "target": "pwarden.cre",
     "area": "ar0516",
-    "comment": "prison warden",
+    "comment": "Planar prison, prison warden",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -865,7 +865,7 @@
     "locationIndex": 5,
     "target": "gpfight.flg",
     "area": "ar2100",
-    "comment": "",
+    "comment": "Underdark, surfacer adventurer party",
     "targetType": "group",
     "game": "bg2"
   },
@@ -875,7 +875,7 @@
     "locationIndex": 6,
     "target": "suadsaan.cre",
     "area": "ar2801",
-    "comment": "",
+    "comment": "Suldanessellar, Demin's house, Adsaan",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -885,7 +885,7 @@
     "locationIndex": 7,
     "target": "gc.flg",
     "area": "ar0907",
-    "comment": "Guarded compound gang",
+    "comment": "Temple district, guarded compound, gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -895,7 +895,7 @@
     "locationIndex": 8,
     "target": "shadra01.cre",
     "area": "ar1402",
-    "comment": "temple ruins",
+    "comment": "Temple ruins, Thaxll'ssillyia",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -905,7 +905,7 @@
     "locationIndex": 9,
     "target": "uddeath2.cre",
     "area": "ar2402",
-    "comment": "Demonknight in underdark",
+    "comment": "Underdark, Demon Knight",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -915,7 +915,7 @@
     "locationIndex": 10,
     "target": "chest6",
     "area": "ar2300",
-    "comment": "Imp riddle",
+    "comment": "City-of-Caverns, Imp riddle",
     "targetType": "container",
     "game": "bg2"
   },
@@ -925,7 +925,7 @@
     "locationIndex": 11,
     "target": "container2",
     "area": "ar1301",
-    "comment": "pillar cache",
+    "comment": "de'Arnise keep, dungeon, pillar cache behind TorGal",
     "targetType": "container",
     "game": "bg2"
   },
@@ -935,7 +935,7 @@
     "locationIndex": 12,
     "target": "gpfight.flg",
     "area": "ar2100",
-    "comment": "",
+    "comment": "Underdark, surfacer adventurer party",
     "targetType": "group",
     "game": "bg2"
   },
@@ -945,7 +945,7 @@
     "locationIndex": 13,
     "target": "ironpot.flg",
     "area": "ar0411",
-    "comment": "feral halfers",
+    "comment": "Planar Sphere, feral halflings",
     "targetType": "group",
     "game": "bg2"
   },
@@ -955,7 +955,7 @@
     "locationIndex": 14,
     "target": "wyvcult.flg",
     "area": "ar2600",
-    "comment": "",
+    "comment": "Tethyr forest, Wyvern cultists",
     "targetType": "group",
     "game": "bg2"
   },
@@ -965,7 +965,7 @@
     "locationIndex": 15,
     "target": "hidden4",
     "area": "ar2101",
-    "comment": "by the drow fighting the beholder",
+    "comment": "Underdark, Beholder city, container in wall by drow fighting a beholder",
     "targetType": "container",
     "game": "bg2"
   },
@@ -975,7 +975,7 @@
     "locationIndex": 16,
     "target": "container1",
     "area": "ar0412",
-    "comment": "Sphere ice room",
+    "comment": "Planar Sphere, container in ice room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -985,7 +985,7 @@
     "locationIndex": 1,
     "target": "ppbook.bcs",
     "area": "ar1513",
-    "comment": "ar1513 (ring of free action)",
+    "comment": "Spellhold, dungeon, second level, magical tome",
     "targetType": "script",
     "game": "bg2"
   },
@@ -995,7 +995,7 @@
     "locationIndex": 2,
     "target": "container1",
     "area": "ar2210",
-    "comment": "deirex' stash",
+    "comment": "Ust Natha, Deirex' tower, second floor",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1005,7 +1005,7 @@
     "locationIndex": 3,
     "target": "chest1",
     "area": "ar0808",
-    "comment": "chapter 6, bodhi's lair, by the collapsed entrance",
+    "comment": "Graveyard district, chapter 6, vampire lair, chest by the collapsed entrance",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1015,7 +1015,7 @@
     "locationIndex": 4,
     "target": "udprince.cre",
     "area": "ar2402",
-    "comment": "kuo-toa one",
+    "comment": "Underdark, Kuo-Toa prince",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1025,7 +1025,7 @@
     "locationIndex": 5,
     "target": "suadsaan.cre",
     "area": "ar2801",
-    "comment": "adsaan, Suldanessellar",
+    "comment": "Suldanessellar, Demin's house, Adsaan",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1035,7 +1035,7 @@
     "locationIndex": 6,
     "target": "container1",
     "area": "ar0082",
-    "comment": "lich-in-the-wall's chest",
+    "comment": "City gates, Crooked Crane, \"lich-in-the-wall\"'s chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1045,7 +1045,7 @@
     "locationIndex": 7,
     "target": "udardul.cre",
     "area": "ar2201",
-    "comment": "",
+    "comment": "Underdark, Ust Natha, Temple of Lolth, Ardulace",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1055,7 +1055,7 @@
     "locationIndex": 8,
     "target": "container1",
     "area": "ar0410",
-    "comment": "in lavok's room",
+    "comment": "Planar Sphere, Lavok's chamber, container under Lavok's platform",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1065,7 +1065,7 @@
     "locationIndex": 9,
     "target": "suraam.cre",
     "area": "ar2800",
-    "comment": "drow in Suldanessellar",
+    "comment": "Suldanessellar, Raamilat",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1075,7 +1075,7 @@
     "locationIndex": 10,
     "target": "firkra02.cre",
     "area": "ar1203",
-    "comment": "big dragon",
+    "comment": "Windspear hills, Firkraag",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1085,7 +1085,7 @@
     "locationIndex": 11,
     "target": "eggs",
     "area": "ar2201",
-    "comment": "egg room, drow temple",
+    "comment": "Ust Natha, Temple of Lolth, egg room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1095,7 +1095,7 @@
     "locationIndex": 12,
     "target": "udelder.cre",
     "area": "ar2101",
-    "comment": "elder orb (the one with the equalizer bit)",
+    "comment": "Underdark, beholder city, elder orb",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1105,7 +1105,7 @@
     "locationIndex": 13,
     "target": "shadra01.cre",
     "area": "ar1402",
-    "comment": "",
+    "comment": "Temple ruins, Thaxll'ssillyia",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1115,7 +1115,7 @@
     "locationIndex": 14,
     "target": "udmaster.cre",
     "area": "ar2400",
-    "comment": "",
+    "comment": "Illithid city, master brain",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1125,7 +1125,7 @@
     "locationIndex": 15,
     "target": "uddoor.flg",
     "area": "ar2402",
-    "comment": "drow party guarding the way out of the underdark",
+    "comment": "Underdark, kuo-toa tunnels, gang of drow",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1135,7 +1135,7 @@
     "locationIndex": 16,
     "target": "susuneer.cre",
     "area": "ar2803",
-    "comment": "",
+    "comment": "Suldanessellar, Temple of Rillifane, Suneer",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1145,7 +1145,7 @@
     "locationIndex": 17,
     "target": "firkra02.cre",
     "area": "ar1203",
-    "comment": "",
+    "comment": "Windspear hills, Firkraag",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1155,7 +1155,7 @@
     "locationIndex": 18,
     "target": "daqilue.cre",
     "area": "ar2206",
-    "comment": "",
+    "comment": "Ust Natha, Qilue",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1165,7 +1165,7 @@
     "locationIndex": 19,
     "target": "jael.flg",
     "area": "ar2209",
-    "comment": "",
+    "comment": "Underdark, Ust Natha, House Jae'llat, family Jae'llat",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1175,7 +1175,7 @@
     "locationIndex": 20,
     "target": "obsdem01.cre",
     "area": "ar0414",
-    "comment": "lea'liyl",
+    "comment": "Planar Sphere, abyss, Lea'liyl",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1185,7 +1185,7 @@
     "locationIndex": 21,
     "target": "ar18gang.flg",
     "area": "ar1800",
-    "comment": "",
+    "comment": "North Forest, group of people",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1195,7 +1195,7 @@
     "locationIndex": 22,
     "target": "gc.flg",
     "area": "ar0907",
-    "comment": "",
+    "comment": "Temple district, guarded compound, gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1205,7 +1205,7 @@
     "locationIndex": 1,
     "target": "dragblac.cre",
     "area": "ar2807",
-    "comment": "(bladesinger)",
+    "comment": "Suldanessellar, Nizidramanii'yt",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1215,7 +1215,7 @@
     "locationIndex": 2,
     "target": "container6",
     "area": "ar0808",
-    "comment": "spike room, chaper 6",
+    "comment": "Graveyard district, chapter 6, vampire lair, spike room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1225,7 +1225,7 @@
     "locationIndex": 3,
     "target": "udmaster.cre",
     "area": "ar2400",
-    "comment": "master brain",
+    "comment": "Illithid city, master brain",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1235,7 +1235,7 @@
     "locationIndex": 4,
     "target": "jael.flg",
     "area": "ar2209",
-    "comment": "Jae'llat",
+    "comment": "Underdark, Ust Natha, House Jae'llat, family Jae'llat",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1245,7 +1245,7 @@
     "locationIndex": 5,
     "target": "twisted.flg",
     "area": "ar1008",
-    "comment": "Runies",
+    "comment": "Bridge district, Twisted Rune",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1255,7 +1255,7 @@
     "locationIndex": 6,
     "target": "endtreasure",
     "area": "ar2101",
-    "comment": "amusingly enough, not by the second elder orb. topmost, in the wall",
+    "comment": "Underdark, beholder city, northernmost room, container in the wall",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1265,7 +1265,7 @@
     "locationIndex": 7,
     "target": "dragblac.cre",
     "area": "ar2807",
-    "comment": "",
+    "comment": "Suldanessellar, Nizidramanii'yt",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1275,7 +1275,7 @@
     "locationIndex": 8,
     "target": "twisted.flg",
     "area": "ar1008",
-    "comment": "",
+    "comment": "Bridge district, Twisted Rune",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1285,7 +1285,7 @@
     "locationIndex": 9,
     "target": "uddeath2.cre",
     "area": "ar2402",
-    "comment": "Demonknight in underdark",
+    "comment": "Underdark, Demon Knight",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1295,7 +1295,7 @@
     "locationIndex": 10,
     "target": "udelder.cre",
     "area": "ar2101",
-    "comment": "",
+    "comment": "Underdark, beholder city, elder orb",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1305,7 +1305,7 @@
     "locationIndex": 11,
     "target": "uddeath2.cre",
     "area": "ar2402",
-    "comment": "",
+    "comment": "Underdark, Demon Knight",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1315,7 +1315,7 @@
     "locationIndex": 12,
     "target": "altar1",
     "area": "ar0809",
-    "comment": "Bodhi's lair, boat",
+    "comment": "Graveyard district, chapter 6, vampire lair, second level, Bodhi's boat",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1325,7 +1325,7 @@
     "locationIndex": 13,
     "target": "jarlich.cre",
     "area": "ar2207",
-    "comment": "Deirex",
+    "comment": "Ust Natha, Deirex' house, Deirex",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1335,7 +1335,7 @@
     "locationIndex": 1,
     "target": "gorgua01.cre",
     "area": "ar3019",
-    "comment": "aurumach rilmani, wk",
+    "comment": "Watcher's Keep, fifth level, aurumach Rilmani",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1345,7 +1345,7 @@
     "locationIndex": 2,
     "target": "gorwom.flg",
     "area": "ar3019",
-    "comment": "y'tossi, wk",
+    "comment": "Watcher's Keep, fifth level, final seal guardians",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1355,7 +1355,7 @@
     "locationIndex": 3,
     "target": "demilich.cre",
     "area": "ar3027",
-    "comment": "wk",
+    "comment": "Watcher's Keep, fourth level, demi-lich",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1365,7 +1365,7 @@
     "locationIndex": 4,
     "target": "elemimix.cre",
     "area": "ar5204",
-    "comment": "imix, yaga's",
+    "comment": "Yaga-Shura's lair, Imix",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1375,7 +1375,7 @@
     "locationIndex": 7,
     "target": "gorlic01.cre",
     "area": "ar3019",
-    "comment": "azamantes",
+    "comment": "Watcher's Keep, fifth level, Azamantes",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1385,7 +1385,7 @@
     "locationIndex": 8,
     "target": "gorsal.cre",
     "area": "ar3018",
-    "comment": "saladrex",
+    "comment": "Watcher's Keep, fourth level, Saladrex",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1395,7 +1395,7 @@
     "locationIndex": 9,
     "target": "fsdragon.cre",
     "area": "ar3024",
-    "comment": "dragon you defeat as part of getting the courage key, wk",
+    "comment": "Watcher's Keep, fifth level, anonymous dragon",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1405,7 +1405,7 @@
     "locationIndex": 10,
     "target": "dragblue.cre",
     "area": "ar6005",
-    "comment": "abazigal",
+    "comment": "Abazigal's lair, Abazigal",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1415,7 +1415,7 @@
     "locationIndex": 11,
     "target": "bazdra03.cre",
     "area": "ar6004",
-    "comment": "Fll'Yissetat",
+    "comment": "Abazigal's lair, Fll'Yissetat",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1425,7 +1425,7 @@
     "locationIndex": 12,
     "target": "amlich01.cre",
     "area": "ar5509",
-    "comment": "Vongoethe",
+    "comment": "Amkethran, Vongoethe",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1435,7 +1435,7 @@
     "locationIndex": 13,
     "target": "senlich.cre",
     "area": "ar6110",
-    "comment": "Odamaron",
+    "comment": "Sendai's lair, Odamaron",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1445,7 +1445,7 @@
     "locationIndex": 15,
     "target": "amlich01.cre",
     "area": "ar5509",
-    "comment": "Vongoethe",
+    "comment": "Amkethran, Vongoethe",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1455,7 +1455,7 @@
     "locationIndex": 16,
     "target": "container5",
     "area": "ar3014",
-    "comment": "Demon Wraith's",
+    "comment": "Watcher's Keep, third level, pile on floor by demon wraith",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1465,7 +1465,7 @@
     "locationIndex": 17,
     "target": "pool1",
     "area": "ar3025",
-    "comment": "orc horde, wk",
+    "comment": "Watcher's Keep, fifth level, pool next to orc horde",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1475,7 +1475,7 @@
     "locationIndex": 18,
     "target": "gorwom.flg",
     "area": "ar3019",
-    "comment": "Xei Win Toh",
+    "comment": "Watcher's Keep, fifth level, final seal guardians",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1485,7 +1485,7 @@
     "locationIndex": 19,
     "target": "rock.cre",
     "area": "ar3017",
-    "comment": "",
+    "comment": "Watcher's Keep, fourth level, Rock",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1495,7 +1495,7 @@
     "locationIndex": 20,
     "target": "gorgit.cre",
     "area": "ar3022",
-    "comment": "wk gith captain",
+    "comment": "Watcher's Keep, fourth level, Githyanki captain",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1505,7 +1505,7 @@
     "locationIndex": 21,
     "target": "gorchr.cre",
     "area": "ar3016",
-    "comment": "",
+    "comment": "Watcher's Keep, second floor, chromatic demon",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1515,7 +1515,7 @@
     "locationIndex": 1,
     "target": "bed2",
     "area": "ar5006",
-    "comment": "saradush prison, end treasure",
+    "comment": "Saradush, prison, end treasure",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1525,7 +1525,7 @@
     "locationIndex": 2,
     "target": "firepit2",
     "area": "ar5201",
-    "comment": "where you used to find Psion's Blade",
+    "comment": "Yaga-Shura's lair, first floor, southwesternmost fire pit",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1535,7 +1535,7 @@
     "locationIndex": 3,
     "target": "slimepit",
     "area": "ar3016",
-    "comment": "where you used to find the FoA poison head",
+    "comment": "Watcher's Keep, second level, slime pit",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1545,7 +1545,7 @@
     "locationIndex": 4,
     "target": "chest1",
     "area": "ar3001",
-    "comment": "where you used to find Paladin's Bracers, first floor of wk",
+    "comment": "Watcher's Keep, first level, chest to the left of the entrance",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1555,7 +1555,7 @@
     "locationIndex": 5,
     "target": "shelf6",
     "area": "ar3001",
-    "comment": "where you used to find the Case of Plenty +1, also wk, 1st",
+    "comment": "Watcher's Keep, first level, bookshelf northwest of statue of demogorgon",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1565,7 +1565,7 @@
     "locationIndex": 6,
     "target": "bed",
     "area": "ar5204",
-    "comment": "yaga's stone slab",
+    "comment": "Yaga-Shura's lair, second floor, Yaga-Shura's bed",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1575,7 +1575,7 @@
     "locationIndex": 7,
     "target": "container1",
     "area": "ar6111",
-    "comment": "Wodcutter's lodge",
+    "comment": "Sendai's lair, woodcutter's house",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1585,7 +1585,7 @@
     "locationIndex": 8,
     "target": "garock.cre",
     "area": "ar3017",
-    "comment": "Carston! Lord of the Level! or not",
+    "comment": "Watcher's Keep, fourth level, Garock",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1595,7 +1595,7 @@
     "locationIndex": 9,
     "target": "gflunk.flg",
     "area": "ar5002",
-    "comment": "Gromnir's henchies",
+    "comment": "Saradush, castle, Gromnir's henchmen",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1605,7 +1605,7 @@
     "locationIndex": 10,
     "target": "amarch01.cre",
     "area": "ar5500",
-    "comment": "captain erelon, amkethran",
+    "comment": "Amkethran, captain Erelon",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1615,7 +1615,7 @@
     "locationIndex": 11,
     "target": "gflunk.flg",
     "area": "ar5002",
-    "comment": "Karun the Black",
+    "comment": "Saradush, castle, Gromnir's henchmen",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1625,7 +1625,7 @@
     "locationIndex": 12,
     "target": "container1",
     "area": "ar5007",
-    "comment": "where you used to find Fflar's Scabbard",
+    "comment": "Saradush, castle basement, chest south of sewer entrance",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1635,7 +1635,7 @@
     "locationIndex": 13,
     "target": "senill02.cre",
     "area": "ar6107",
-    "comment": "Mithykyl",
+    "comment": "Sendai's lair, Mithykyl",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1645,7 +1645,7 @@
     "locationIndex": 14,
     "target": "sengua03.cre",
     "area": "ar6106",
-    "comment": "Captain Egeissag",
+    "comment": "Sendai's lair, captain Egeissag",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1655,7 +1655,7 @@
     "locationIndex": 15,
     "target": "amtgen01.cre",
     "area": "ar6300",
-    "comment": "Tethyrian general, oasis ambush",
+    "comment": "Oasis, Jamis Tombelthen",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1665,7 +1665,7 @@
     "locationIndex": 16,
     "target": "gorsta.flg",
     "area": "ar3001",
-    "comment": "wk first floor, statues",
+    "comment": "Watcher's Keep, first level, statues",
     "targetType": "group",
     "game": "bg2"
   },
@@ -1675,7 +1675,7 @@
     "locationIndex": 17,
     "target": "elemimix.cre",
     "area": "ar5204",
-    "comment": "",
+    "comment": "Yaga-Shura's lair, Imix",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1685,7 +1685,7 @@
     "locationIndex": 18,
     "target": "tent",
     "area": "ar3011",
-    "comment": "Yakman's garbage",
+    "comment": "Watcher's keep, third level, Yakman's garbage",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1695,7 +1695,7 @@
     "locationIndex": 19,
     "target": "container5",
     "area": "ar3022",
-    "comment": "Githyanki wk hideout, table",
+    "comment": "Watcher's Keep, fourth level, Githyanki area, table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1705,7 +1705,7 @@
     "locationIndex": 20,
     "target": "table5",
     "area": "ar3016",
-    "comment": "chromatic demon level",
+    "comment": "Watcher's Keep, second floor, table in ice library",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1715,7 +1715,7 @@
     "locationIndex": 1,
     "target": "shelf10",
     "area": "ar3001",
-    "comment": "quiver of plenty, wk, 1st",
+    "comment": "Watcher's Keep, first level, cupboard in room south of priest's room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1725,7 +1725,7 @@
     "locationIndex": 2,
     "target": "container2",
     "area": "ar3021",
-    "comment": "illithids in wk",
+    "comment": "Watcher's Keep, fourth level, container holding rod part",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1735,7 +1735,7 @@
     "locationIndex": 3,
     "target": "senill02.cre",
     "area": "ar6107",
-    "comment": "Mithykyl",
+    "comment": "Sendai's lair, Mithykyl",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1745,7 +1745,7 @@
     "locationIndex": 4,
     "target": "senlich.cre",
     "area": "ar6110",
-    "comment": "Odamaron",
+    "comment": "Sendai's lair, Odamaron",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1755,7 +1755,7 @@
     "locationIndex": 5,
     "target": "hgber01.cre",
     "area": "ar5204",
-    "comment": "Berenn",
+    "comment": "Yaga-Shura's lair, second floor, Berenn",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1765,7 +1765,7 @@
     "locationIndex": 6,
     "target": "amlich01.cre",
     "area": "ar5509",
-    "comment": "",
+    "comment": "Amkethran, Vongoethe",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1775,7 +1775,7 @@
     "locationIndex": 7,
     "target": "gromnir.cre",
     "area": "ar5002",
-    "comment": "",
+    "comment": "Saradush, castle, Gromnir",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1785,7 +1785,7 @@
     "locationIndex": 8,
     "target": "senlich.cre",
     "area": "ar6110",
-    "comment": "",
+    "comment": "Sendai's lair, Odamaron",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1795,7 +1795,7 @@
     "locationIndex": 9,
     "target": "bazmonk.cre",
     "area": "ar6002",
-    "comment": "Monk at Abazigal's",
+    "comment": "Abazigal's lair, imprisoned monk",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1805,7 +1805,7 @@
     "locationIndex": 10,
     "target": "picture1",
     "area": "ar5008",
-    "comment": "Kiser's",
+    "comment": "Saradush, Kiser's house, behind the painting",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1815,7 +1815,7 @@
     "locationIndex": 11,
     "target": "gorgit.cre",
     "area": "ar3022",
-    "comment": "Githyanki Captain",
+    "comment": "Watcher's Keep, fourth level, Githyanki captain",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1825,7 +1825,7 @@
     "locationIndex": 12,
     "target": "gorgoli.cre",
     "area": "ar3016",
-    "comment": "Ice Golem, chromatic demon level",
+    "comment": "Watcher's Keep, second level, ice golem",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1835,7 +1835,7 @@
     "locationIndex": 13,
     "target": "hgnya01.cre",
     "area": "ar5202",
-    "comment": "Nyalee",
+    "comment": "Nyalee's lair, Nyalee",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1845,7 +1845,7 @@
     "locationIndex": 14,
     "target": "gorchr.cre",
     "area": "ar3016",
-    "comment": "Chromatic Demon",
+    "comment": "Watcher's Keep, second floor, chromatic demon",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1855,7 +1855,7 @@
     "locationIndex": 15,
     "target": "container2",
     "area": "ar3014",
-    "comment": "Demon Wraith's",
+    "comment": "Watcher's Keep, third level, pile on floor by demon wraith",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1865,7 +1865,7 @@
     "locationIndex": 16,
     "target": "table2",
     "area": "ar6003",
-    "comment": "Iycanth's",
+    "comment": "Abazigal's lair, Iycanth's table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1875,7 +1875,7 @@
     "locationIndex": 17,
     "target": "gorsal.cre",
     "area": "ar3018",
-    "comment": "",
+    "comment": "Watcher's Keep, fourth level, Saladrex",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1885,7 +1885,7 @@
     "locationIndex": 18,
     "target": "dragblue.cre",
     "area": "ar6005",
-    "comment": "",
+    "comment": "Abazigal's lair, Abazigal",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1895,7 +1895,7 @@
     "locationIndex": 19,
     "target": "dragblue.cre",
     "area": "ar6005",
-    "comment": "",
+    "comment": "Abazigal's lair, Abazigal",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1905,7 +1905,7 @@
     "locationIndex": 20,
     "target": "bed",
     "area": "ar5204",
-    "comment": "",
+    "comment": "Yaga-Shura's lair, second floor, Yaga-Shura's bed",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1915,7 +1915,7 @@
     "locationIndex": 1,
     "target": "bed",
     "area": "ar5204",
-    "comment": "yaga's",
+    "comment": "Yaga-Shura's lair, second floor, Yaga-Shura's bed",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1925,7 +1925,7 @@
     "locationIndex": 2,
     "target": "gromnir.cre",
     "area": "ar5002",
-    "comment": "",
+    "comment": "Saradush, castle, Gromnir",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1935,7 +1935,7 @@
     "locationIndex": 3,
     "target": "bazeye01.cre",
     "area": "ar6003",
-    "comment": "Iycanth",
+    "comment": "Abazigal's lair, Iycanth",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1945,7 +1945,7 @@
     "locationIndex": 4,
     "target": "shelf4",
     "area": "ar3016",
-    "comment": "chromatic demon level",
+    "comment": "Watcher's Keep, second floor, bookshelf by north wall in ice library",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1955,7 +1955,7 @@
     "locationIndex": 5,
     "target": "picture1",
     "area": "ar5008",
-    "comment": "kiser's",
+    "comment": "Saradush, Kiser's house, behind the painting",
     "targetType": "container",
     "game": "bg2"
   },
@@ -1965,7 +1965,7 @@
     "locationIndex": 6,
     "target": "sengua01.cre",
     "area": "ar6100",
-    "comment": "Woodcutter",
+    "comment": "Sendai's lair, woodcutter",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1975,7 +1975,7 @@
     "locationIndex": 7,
     "target": "gorchr.cre",
     "area": "ar3016",
-    "comment": "Chromatic Demon",
+    "comment": "Watcher's Keep, second floor, chromatic demon",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1985,7 +1985,7 @@
     "locationIndex": 8,
     "target": "gormind.cre",
     "area": "ar3021",
-    "comment": "Ulitharid with Illithid Rod part",
+    "comment": "Watcher's Keep, fourth level, Ulitharid with rod part",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -1995,7 +1995,7 @@
     "locationIndex": 9,
     "target": "gorsta.flg",
     "area": "ar3001",
-    "comment": "statues",
+    "comment": "Watcher's Keep, first level, statues",
     "targetType": "group",
     "game": "bg2"
   },
@@ -2005,7 +2005,7 @@
     "locationIndex": 10,
     "target": "gorlic01.cre",
     "area": "ar3019",
-    "comment": "",
+    "comment": "Watcher's Keep, fifth level, Azamantes",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2015,7 +2015,7 @@
     "locationIndex": 11,
     "target": "table1",
     "area": "ar6003",
-    "comment": "Iycanth's",
+    "comment": "Abazigal's lair, Iycanth's table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2025,7 +2025,7 @@
     "locationIndex": 12,
     "target": "gorfirg.cre",
     "area": "ar3016",
-    "comment": "Fire Giant on second WK level",
+    "comment": "Watcher's Keep, second level, fire giant",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2035,7 +2035,7 @@
     "locationIndex": 1,
     "target": "container3",
     "area": "ar1301",
-    "comment": "chest by stairs",
+    "comment": "de'Arnise keep, dungeon, chest by stairs",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2045,7 +2045,7 @@
     "locationIndex": 2,
     "target": "container5",
     "area": "ar1301",
-    "comment": "",
+    "comment": "de'Arnise keep, dungeon, chest by umber hulks",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2055,7 +2055,7 @@
     "locationIndex": 3,
     "target": "container6",
     "area": "ar1301",
-    "comment": "",
+    "comment": "de'Arnise keep, dungeon, chest by umber hulks",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2065,7 +2065,7 @@
     "locationIndex": 4,
     "target": "container2",
     "area": "ar1301",
-    "comment": "pillar cache",
+    "comment": "de'Arnise keep, dungeon, pillar cache behind TorGal",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2075,7 +2075,7 @@
     "locationIndex": 5,
     "target": "container1",
     "area": "ar1303",
-    "comment": "chapel statue",
+    "comment": "de'Arnise keep, second floor, right statue",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2085,7 +2085,7 @@
     "locationIndex": 6,
     "target": "container2",
     "area": "ar1303",
-    "comment": "chapel",
+    "comment": "de'Arnise keep, second floor, middle statue",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2095,7 +2095,7 @@
     "locationIndex": 7,
     "target": "container3",
     "area": "ar1303",
-    "comment": "chapel",
+    "comment": "de'Arnise keep, second floor, left statue",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2105,7 +2105,7 @@
     "locationIndex": 8,
     "target": "kpglai01.cre",
     "area": "ar1303",
-    "comment": "",
+    "comment": "de'Arnise keep, second floor, Glaicus",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2115,7 +2115,7 @@
     "locationIndex": 9,
     "target": "container4",
     "area": "ar1303",
-    "comment": "",
+    "comment": "de'Arnise keep, second floor, chest outside Glaicus' door",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2125,7 +2125,7 @@
     "locationIndex": 10,
     "target": "container5",
     "area": "ar1303",
-    "comment": "",
+    "comment": "de'Arnise keep, second floor, chest outside Glaicus' door",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2135,7 +2135,7 @@
     "locationIndex": 11,
     "target": "container1",
     "area": "ar1302",
-    "comment": "",
+    "comment": "de'Arnise keep, first floor, animal statue",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2145,7 +2145,7 @@
     "locationIndex": 1,
     "target": "altar1",
     "area": "ar0809",
-    "comment": "",
+    "comment": "Graveyard district, chapter 6, vampire lair, second level, Bodhi's boat",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2155,7 +2155,7 @@
     "locationIndex": 2,
     "target": "obsdem01.cre",
     "area": "ar0414",
-    "comment": "lea'liyl",
+    "comment": "Planar Sphere, abyss, Lea'liyl",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2165,7 +2165,7 @@
     "locationIndex": 3,
     "target": "ar18gang.flg",
     "area": "ar1800",
-    "comment": "",
+    "comment": "North Forest, group of people",
     "targetType": "group",
     "game": "bg2"
   },
@@ -2175,7 +2175,7 @@
     "locationIndex": 4,
     "target": "twisted.flg",
     "area": "ar1008",
-    "comment": "",
+    "comment": "Bridge district, Twisted Rune",
     "targetType": "group",
     "game": "bg2"
   },
@@ -2185,7 +2185,7 @@
     "locationIndex": 5,
     "target": "jarlich.cre",
     "area": "ar2207",
-    "comment": "Deirex",
+    "comment": "Ust Natha, Deirex' house, Deirex",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2195,7 +2195,7 @@
     "locationIndex": 6,
     "target": "shadra01.cre",
     "area": "ar1402",
-    "comment": "",
+    "comment": "Temple ruins, Thaxll'ssillyia",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2205,7 +2205,7 @@
     "locationIndex": 7,
     "target": "udmaster.cre",
     "area": "ar2400",
-    "comment": "",
+    "comment": "Illithid city, master brain",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2215,7 +2215,7 @@
     "locationIndex": 8,
     "target": "firkra02.cre",
     "area": "ar1203",
-    "comment": "",
+    "comment": "Windspear hills, Firkraag",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2225,7 +2225,7 @@
     "locationIndex": 9,
     "target": "udardul.cre",
     "area": "ar2201",
-    "comment": "",
+    "comment": "Underdark, Ust Natha, Temple of Lolth, Ardulace",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2235,7 +2235,7 @@
     "locationIndex": 10,
     "target": "gc.flg",
     "area": "ar0907",
-    "comment": "",
+    "comment": "Temple district, guarded compound, gang",
     "targetType": "group",
     "game": "bg2"
   },
@@ -2245,7 +2245,7 @@
     "locationIndex": 1,
     "target": "container4",
     "area": "ar1103",
-    "comment": "jermien's closet",
+    "comment": "Umar hills, Jermien's house, closet",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2255,7 +2255,7 @@
     "locationIndex": 2,
     "target": "container5",
     "area": "ar1302",
-    "comment": "servant's table on first floor",
+    "comment": "de'Arnise Keep, first floor, servant's quarters by secret entrance, table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2265,7 +2265,7 @@
     "locationIndex": 3,
     "target": "container14",
     "area": "ar1302",
-    "comment": "chest in dormitory",
+    "comment": "de'Arnise keep, first floor, chest in dormitory",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2275,7 +2275,7 @@
     "locationIndex": 4,
     "target": "container1",
     "area": "ar0804",
-    "comment": "",
+    "comment": "Graveyard district, Pai'Na's lair",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2285,7 +2285,7 @@
     "locationIndex": 5,
     "target": "container9",
     "area": "ar1202",
-    "comment": "",
+    "comment": "Windspear hills, dungeon, closet by prison cells",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2295,7 +2295,7 @@
     "locationIndex": 6,
     "target": "container2",
     "area": "ar0205",
-    "comment": "southern pulsating container",
+    "comment": "Beholder tunnels, Unseeing Eye quest, southern pulsating container",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2305,7 +2305,7 @@
     "locationIndex": 7,
     "target": "container8",
     "area": "ar1202",
-    "comment": "Tazok's table",
+    "comment": "Windspear hills, Firkraag's dungeon, table by Tazok",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2315,7 +2315,7 @@
     "locationIndex": 8,
     "target": "container1",
     "area": "ar0204",
-    "comment": "screaming statue",
+    "comment": "Tunnels under Athkatla, Unseeing Eye quest, screaming statue",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2325,7 +2325,7 @@
     "locationIndex": 9,
     "target": "container1",
     "area": "ar0510",
-    "comment": "crate",
+    "comment": "Bridge district, Five Flagons, play house, crate",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2335,7 +2335,7 @@
     "locationIndex": 10,
     "target": "container2",
     "area": "ar0412",
-    "comment": "",
+    "comment": "Planar sphere, fire room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2345,7 +2345,7 @@
     "locationIndex": 11,
     "target": "shelf1",
     "area": "ar0530",
-    "comment": "closet",
+    "comment": "Bridge district, Valeria's warehouse, closet",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2355,7 +2355,7 @@
     "locationIndex": 12,
     "target": "vase1",
     "area": "ar1513",
-    "comment": "by the door in the room with the secret door",
+    "comment": "Spellhold, dungeon, second level, vase closest to the door leading to the magical tome",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2365,7 +2365,7 @@
     "locationIndex": 13,
     "target": "tolmag02.cre",
     "area": "ar0412",
-    "comment": "",
+    "comment": "Planar Sphere, Tolgerias' henchwoman",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2375,7 +2375,7 @@
     "locationIndex": 14,
     "target": "shelf2",
     "area": "ar0302",
-    "comment": "bookshelf in the middle",
+    "comment": "Docks, Mae'Var's guild hall, first floor, bookshelf",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2385,7 +2385,7 @@
     "locationIndex": 15,
     "target": "container1",
     "area": "ar0503",
-    "comment": "small crate",
+    "comment": "Bridge district, Tanner's basement, small crate",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2395,7 +2395,7 @@
     "locationIndex": 16,
     "target": "pirsea03.cre",
     "area": "ar0310",
-    "comment": "",
+    "comment": "Docks, Sea's Bounty, pirate mage",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2405,7 +2405,7 @@
     "locationIndex": 1,
     "target": "toolct4",
     "area": "ar0411",
-    "comment": "tool shed, chest by the door",
+    "comment": "Planar Sphere, golem tool shed room, chest closest to the door",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2415,7 +2415,7 @@
     "locationIndex": 2,
     "target": "container7",
     "area": "ar1303",
-    "comment": "southernmost bookshelf",
+    "comment": "de'Arnise Keep, second floor, library, southernmost bookshelf",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2425,7 +2425,7 @@
     "locationIndex": 3,
     "target": "shelf1",
     "area": "ar0309",
-    "comment": "leftmost bookshelf on catwalk",
+    "comment": "Docks, Harper compound, second floor, catwalk, leftmost bookshelf",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2435,7 +2435,7 @@
     "locationIndex": 4,
     "target": "container9",
     "area": "ar1514",
-    "comment": "vase outside golem room",
+    "comment": "Spellhold, dungeon, third level, vase outside golem room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2445,7 +2445,7 @@
     "locationIndex": 5,
     "target": "container4",
     "area": "ar0205",
-    "comment": "",
+    "comment": "Beholder tunnels, Unseeing Eye quest, northernmost pulsating container",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2455,7 +2455,7 @@
     "locationIndex": 6,
     "target": "chest3",
     "area": "ar0202",
-    "comment": "third chest clockwise",
+    "comment": "Temple district, sewers, Unseeing Eye cult lair, third chest clockwise",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2465,7 +2465,7 @@
     "locationIndex": 7,
     "target": "chest1",
     "area": "ar0202",
-    "comment": "first chest clockwise",
+    "comment": "Temple district, sewers, Unseeing Eye cult lair, first chest clockwise",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2475,7 +2475,7 @@
     "locationIndex": 8,
     "target": "xappren2.cre",
     "area": "ar0407",
-    "comment": "",
+    "comment": "Docks, Prebek's house, Sanasha",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2485,7 +2485,7 @@
     "locationIndex": 9,
     "target": "container4",
     "area": "ar1202",
-    "comment": "wolfwere table",
+    "comment": "Windspear hills, Firkraag's dungeon, table past wolfweres",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2495,7 +2495,7 @@
     "locationIndex": 10,
     "target": "container4",
     "area": "ar1202",
-    "comment": "",
+    "comment": "Windspear hills, Firkraag's dungeon, table past wolfweres",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2505,7 +2505,7 @@
     "locationIndex": 11,
     "target": "chest1",
     "area": "ar0202",
-    "comment": "",
+    "comment": "Temple district, sewers, Unseeing Eye cult lair, first chest clockwise",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2515,7 +2515,7 @@
     "locationIndex": 12,
     "target": "body1",
     "area": "ar0411",
-    "comment": "corpse by elder orb",
+    "comment": "Planar Sphere, corpse by Elder Orb",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2525,7 +2525,7 @@
     "locationIndex": 13,
     "target": "toolct1",
     "area": "ar0411",
-    "comment": "furnace",
+    "comment": "Planar Sphere, golem tool shed room, furnace",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2535,7 +2535,7 @@
     "locationIndex": 14,
     "target": "shelf1",
     "area": "ar0530",
-    "comment": "",
+    "comment": "Bridge district, Valeria's warehouse, closet",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2545,7 +2545,7 @@
     "locationIndex": 15,
     "target": "container14",
     "area": "ar1302",
-    "comment": "",
+    "comment": "de'Arnise keep, first floor, chest in dormitory",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2555,7 +2555,7 @@
     "locationIndex": 16,
     "target": "container8",
     "area": "ar1514",
-    "comment": "vase, horseshoe-shaped passage",
+    "comment": "Spellhold, dungeon, third level, vase in secret passage unlocked by turning a wheel",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2565,7 +2565,7 @@
     "locationIndex": 17,
     "target": "chest7",
     "area": "ar0202",
-    "comment": "outcast cultists, northmost chest",
+    "comment": "Temple district, sewers, Unseeing Eye cult lair, outcast cultists' northmost chest",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2575,7 +2575,7 @@
     "locationIndex": 18,
     "target": "container1",
     "area": "ar0804",
-    "comment": "",
+    "comment": "Graveyard district, Pai'Na's lair",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2585,7 +2585,7 @@
     "locationIndex": 19,
     "target": "container9",
     "area": "ar1202",
-    "comment": "digdag's closet",
+    "comment": "Windspear hills, dungeon, closet by prison cells",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2595,7 +2595,7 @@
     "locationIndex": 20,
     "target": "container6",
     "area": "ar1202",
-    "comment": "wolfwere barrel",
+    "comment": "Windspear hills, Firkraag's dungeon, barrel by wolfweres",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2605,7 +2605,7 @@
     "locationIndex": 21,
     "target": "container7",
     "area": "ar1514",
-    "comment": "minotaur vase",
+    "comment": "Spellhold, dungeon, third level, vase by minotaurs by trapped statues",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2615,7 +2615,7 @@
     "locationIndex": 22,
     "target": "pirsea03.cre",
     "area": "ar0310",
-    "comment": "",
+    "comment": "Docks, Sea's Bounty, pirate mage",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2625,7 +2625,7 @@
     "locationIndex": 1,
     "target": "lehtin.cre",
     "area": "ar0406",
-    "comment": "",
+    "comment": "Slums, Copper Coronet, Lehtinan",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2635,7 +2635,7 @@
     "locationIndex": 2,
     "target": "container9",
     "area": "ar0705",
-    "comment": "",
+    "comment": "Mekrath's lair, bedroom",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2645,7 +2645,7 @@
     "locationIndex": 3,
     "target": "container4",
     "area": "ar1401",
-    "comment": "",
+    "comment": "Temple ruins, pillar cache across the magma",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2655,7 +2655,7 @@
     "locationIndex": 4,
     "target": "container5",
     "area": "ar0705",
-    "comment": "",
+    "comment": "Mekrath's lair, library",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2665,7 +2665,7 @@
     "locationIndex": 5,
     "target": "container4",
     "area": "ar0705",
-    "comment": "",
+    "comment": "Mekrath's lair, library",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2675,7 +2675,7 @@
     "locationIndex": 6,
     "target": "container4",
     "area": "ar1103",
-    "comment": "",
+    "comment": "Umar hills, Jermien's house, closet",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2685,7 +2685,7 @@
     "locationIndex": 7,
     "target": "container3",
     "area": "ar1401",
-    "comment": "",
+    "comment": "Temple ruins, statue across the word game",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2695,7 +2695,7 @@
     "locationIndex": 8,
     "target": "container4",
     "area": "ar1514",
-    "comment": "",
+    "comment": "Spellhold, dungeon, third level, pool by minotaur statue",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2705,7 +2705,7 @@
     "locationIndex": 9,
     "target": "pbhunt03.cre",
     "area": "ar0516",
-    "comment": "",
+    "comment": "Planar prison, bounty hunter mage",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2715,7 +2715,7 @@
     "locationIndex": 10,
     "target": "lehtin.cre",
     "area": "ar0406",
-    "comment": "",
+    "comment": "Slums, Copper Coronet, Lehtinan",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2725,7 +2725,7 @@
     "locationIndex": 11,
     "target": "container3",
     "area": "ar1401",
-    "comment": "",
+    "comment": "Temple ruins, statue across the word game",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2735,7 +2735,7 @@
     "locationIndex": 12,
     "target": "container1",
     "area": "ar1401",
-    "comment": "",
+    "comment": "Temple ruins, tomb by ghosts",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2745,7 +2745,7 @@
     "locationIndex": 13,
     "target": "table1",
     "area": "ar0317",
-    "comment": "",
+    "comment": "Docks, Rayic's house, second floor, table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2755,7 +2755,7 @@
     "locationIndex": 14,
     "target": "table1",
     "area": "ar0315",
-    "comment": "",
+    "comment": "Docks, Rayic's house, first floor, table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2765,7 +2765,7 @@
     "locationIndex": 15,
     "target": "pbhunt03.cre",
     "area": "ar0516",
-    "comment": "",
+    "comment": "Planar prison, bounty hunter mage",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2775,7 +2775,7 @@
     "locationIndex": 16,
     "target": "xappren1.cre",
     "area": "ar0407",
-    "comment": "",
+    "comment": "Docks, Prebek's house, Prebek",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2785,7 +2785,7 @@
     "locationIndex": 17,
     "target": "pbhunt01.cre",
     "area": "ar0516",
-    "comment": "",
+    "comment": "Planar prison, bounty hunter leader",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2795,7 +2795,7 @@
     "locationIndex": 18,
     "target": "container2",
     "area": "ar0412",
-    "comment": "",
+    "comment": "Planar sphere, fire room",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2805,7 +2805,7 @@
     "locationIndex": 19,
     "target": "container1",
     "area": "ar0407",
-    "comment": "",
+    "comment": "Docks, Prebek's house, table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2815,7 +2815,7 @@
     "locationIndex": 20,
     "target": "firmag01.cre",
     "area": "ar1202",
-    "comment": "",
+    "comment": "Windspear hills, Firkraag's dungeon, Conster",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2825,7 +2825,7 @@
     "locationIndex": 22,
     "target": "maevar.cre",
     "area": "ar0301",
-    "comment": "",
+    "comment": "Docks, Mae'Var's guild, Mae'Var",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2835,7 +2835,7 @@
     "locationIndex": 23,
     "target": "container1",
     "area": "ar0410",
-    "comment": "",
+    "comment": "Planar Sphere, Lavok's chamber, container under Lavok's platform",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2845,7 +2845,7 @@
     "locationIndex": 1,
     "target": "shelf1",
     "area": "ar1513",
-    "comment": "",
+    "comment": "Spellhold, dungeon, second level, library",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2855,7 +2855,7 @@
     "locationIndex": 2,
     "target": "container4",
     "area": "ar1512",
-    "comment": "",
+    "comment": "Spellhold, dungeon, first level, room with clay golem, easternmost barrel",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2865,7 +2865,7 @@
     "locationIndex": 3,
     "target": "chest1",
     "area": "ar0808",
-    "comment": "",
+    "comment": "Graveyard district, chapter 6, vampire lair, chest by the collapsed entrance",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2875,7 +2875,7 @@
     "locationIndex": 4,
     "target": "shelf1",
     "area": "ar1513",
-    "comment": "",
+    "comment": "Spellhold, dungeon, second level, library",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2885,7 +2885,7 @@
     "locationIndex": 5,
     "target": "container19",
     "area": "ar1512",
-    "comment": "",
+    "comment": "Spellhold, dungeon, first level, vase by giant head",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2895,7 +2895,7 @@
     "locationIndex": 6,
     "target": "container1",
     "area": "ar2210",
-    "comment": "",
+    "comment": "Ust Natha, Deirex' tower, second floor",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2905,7 +2905,7 @@
     "locationIndex": 7,
     "target": "knighttable",
     "area": "ar0411",
-    "comment": "",
+    "comment": "Planar Sphere, table by knghts",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2915,7 +2915,7 @@
     "locationIndex": 8,
     "target": "container1",
     "area": "ar2210",
-    "comment": "",
+    "comment": "Ust Natha, Deirex' tower, second floor",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2925,7 +2925,7 @@
     "locationIndex": 9,
     "target": "container19",
     "area": "ar1512",
-    "comment": "",
+    "comment": "Spellhold, dungeon, first level, vase by giant head",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2935,7 +2935,7 @@
     "locationIndex": 10,
     "target": "treasury",
     "area": "ar2300",
-    "comment": "",
+    "comment": "City-of-Caverns, treasury",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2945,7 +2945,7 @@
     "locationIndex": 11,
     "target": "mekrat.cre",
     "area": "ar0705",
-    "comment": "",
+    "comment": "Mekrath's lair, Mekrath",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -2955,7 +2955,7 @@
     "locationIndex": 12,
     "target": "ironpot.flg",
     "area": "ar0411",
-    "comment": "",
+    "comment": "Planar Sphere, feral halflings",
     "targetType": "group",
     "game": "bg2"
   },
@@ -2965,7 +2965,7 @@
     "locationIndex": 1,
     "target": "container5",
     "area": "ar1514",
-    "comment": "",
+    "comment": "Spellhold, dungeon, third level, vase by the door leading to the boot machine",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2975,7 +2975,7 @@
     "locationIndex": 2,
     "target": "vase2",
     "area": "ar1513",
-    "comment": "",
+    "comment": "Spellhold, dungeon, second level, big vase in the room with the kobold's secret passage",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2985,7 +2985,7 @@
     "locationIndex": 3,
     "target": "altar1",
     "area": "ar0809",
-    "comment": "",
+    "comment": "Graveyard district, chapter 6, vampire lair, second level, Bodhi's boat",
     "targetType": "container",
     "game": "bg2"
   },
@@ -2995,7 +2995,7 @@
     "locationIndex": 4,
     "target": "altar1",
     "area": "ar0809",
-    "comment": "",
+    "comment": "Graveyard district, chapter 6, vampire lair, second level, Bodhi's boat",
     "targetType": "container",
     "game": "bg2"
   },
@@ -3005,7 +3005,7 @@
     "locationIndex": 5,
     "target": "gpmage1.cre",
     "area": "ar2100",
-    "comment": "",
+    "comment": "Underdark, N'ashtar",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -3015,7 +3015,7 @@
     "locationIndex": 6,
     "target": "firmag01.cre",
     "area": "ar1202",
-    "comment": "",
+    "comment": "Windspear hills, Firkraag's dungeon, Conster",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -3025,7 +3025,7 @@
     "locationIndex": 7,
     "target": "tolger2.cre",
     "area": "ar0412",
-    "comment": "",
+    "comment": "Planar Sphere, Tolgerias",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -3035,7 +3035,7 @@
     "locationIndex": 1,
     "target": "table2",
     "area": "ar2809",
-    "comment": "Suldanessellar",
+    "comment": "Suldanessellar, house with puzzle box, table",
     "targetType": "container",
     "game": "bg2"
   },
@@ -3045,7 +3045,7 @@
     "locationIndex": 2,
     "target": "ar18mage.cre",
     "area": "ar1800",
-    "comment": "",
+    "comment": "North Forest, mage",
     "targetType": "creature",
     "game": "bg2"
   },
@@ -3055,7 +3055,7 @@
     "locationIndex": 3,
     "target": "drawer1",
     "area": "ar2810",
-    "comment": "Suldanessellar",
+    "comment": "Suldanessellar, house with priest stone, drawer",
     "targetType": "container",
     "game": "bg2"
   },
@@ -3065,7 +3065,7 @@
     "locationIndex": 4,
     "target": "drawer1",
     "area": "ar2801",
-    "comment": "Suldanessellar",
+    "comment": "Suldanessellar, Demin's house, drawer",
     "targetType": "container",
     "game": "bg2"
   },
@@ -3075,7 +3075,7 @@
     "locationIndex": 5,
     "target": "shelf1",
     "area": "ar2808",
-    "comment": "Suldanessellar",
+    "comment": "Suldanessellar, house with Moon Blade, shelf",
     "targetType": "container",
     "game": "bg2"
   },
@@ -3085,7 +3085,7 @@
     "locationIndex": 6,
     "target": "twisted.flg",
     "area": "ar1008",
-    "comment": "",
+    "comment": "Bridge district, Twisted Rune",
     "targetType": "group",
     "game": "bg2"
   },
@@ -3095,7 +3095,7 @@
     "locationIndex": 1,
     "target": "container1",
     "area": "ar5500",
-    "comment": "formerly star sapphire, mount gibberling",
+    "comment": "Gibberling mountains, crevice in rock wall",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3105,7 +3105,7 @@
     "locationIndex": 2,
     "target": "container1",
     "area": "ar1401",
-    "comment": "ankheg",
+    "comment": "Ankheg lair, treasure trove",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3115,7 +3115,7 @@
     "locationIndex": 3,
     "target": "container1",
     "area": "ar2101",
-    "comment": "cloakwood spider nest",
+    "comment": "Cloakwood, spider nest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3125,7 +3125,7 @@
     "locationIndex": 4,
     "target": "neira.cre",
     "area": "ar4801",
-    "comment": "",
+    "comment": "Nashkel Inn, Neira",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3135,7 +3135,7 @@
     "locationIndex": 5,
     "target": "container1",
     "area": "ar5400",
-    "comment": "nashkel mine exterior",
+    "comment": "Nashkel mines exterior, tree in northeastern corner",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3145,7 +3145,7 @@
     "locationIndex": 6,
     "target": "container13",
     "area": "ar3321",
-    "comment": "Travenhurst manor",
+    "comment": "Beregost, manor, second floor, central room, chest of drawers by the door",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3155,7 +3155,7 @@
     "locationIndex": 7,
     "target": "container6",
     "area": "ar5001",
-    "comment": "valley of the tombs, tomb interior",
+    "comment": "Valley of the tombs, lower chamber, lower tomb",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3165,7 +3165,7 @@
     "locationIndex": 8,
     "target": "container7",
     "area": "ar4800",
-    "comment": "formerly ankheg plate, nashkel",
+    "comment": "Nashkel, hole by field",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3175,7 +3175,7 @@
     "locationIndex": 9,
     "target": "container1",
     "area": "ar5500",
-    "comment": "formerly ring of fire resistance, mount gibberling",
+    "comment": "Gibberling mountains, crevice in rock wall",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3185,7 +3185,7 @@
     "locationIndex": 10,
     "target": "container4",
     "area": "ar5001",
-    "comment": "valley of tombs, tomb interior",
+    "comment": "Valley of the tombs, lower chamber, upper tomb",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3195,7 +3195,7 @@
     "locationIndex": 11,
     "target": "container1",
     "area": "ar5202",
-    "comment": "formerly cave with halberd +1",
+    "comment": "Cave by Dryad Falls",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3205,7 +3205,7 @@
     "locationIndex": 12,
     "target": "hairto.cre",
     "area": "ar5100",
-    "comment": "",
+    "comment": "Gnoll fortress, Hairtooth",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3215,7 +3215,7 @@
     "locationIndex": 13,
     "target": "denak.cre",
     "area": "ar3000",
-    "comment": "",
+    "comment": "Spider wood, Denak",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3225,7 +3225,7 @@
     "locationIndex": 1,
     "target": "container1",
     "area": "ar5102",
-    "comment": "formerly manual of CHA",
+    "comment": "Westernmost cave by gnoll fortress",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3235,7 +3235,7 @@
     "locationIndex": 2,
     "target": "container4",
     "area": "ar1803",
-    "comment": "davaeron's lair",
+    "comment": "Cloakwood mines, bottom level, westernmost bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3245,7 +3245,7 @@
     "locationIndex": 3,
     "target": "knightsk.cre",
     "area": "ar5201",
-    "comment": "Firewine, undead knight",
+    "comment": "Firewine ruins, Undead Knight",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3255,7 +3255,7 @@
     "locationIndex": 4,
     "target": "container1",
     "area": "ar1401",
-    "comment": "ankheg pit",
+    "comment": "Ankheg lair, treasure trove",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3265,7 +3265,7 @@
     "locationIndex": 5,
     "target": "container1",
     "area": "ar2615",
-    "comment": "candlekeep catacombs, first area, pile of bodies",
+    "comment": "Candlekeep catacombs, pile of bodies",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3275,7 +3275,7 @@
     "locationIndex": 6,
     "target": "zargal.cre",
     "area": "ar3700",
-    "comment": "known knobgoblin",
+    "comment": "Red Canyons, Zargal",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3285,7 +3285,7 @@
     "locationIndex": 7,
     "target": "container1",
     "area": "ar4701",
-    "comment": "formerly cave with morning star +1, by xvart village",
+    "comment": "Cave by Xvart village",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3295,7 +3295,7 @@
     "locationIndex": 8,
     "target": "bassil.cre",
     "area": "ar3700",
-    "comment": "",
+    "comment": "Red Canyons, Bassilus",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3305,7 +3305,7 @@
     "locationIndex": 9,
     "target": "container9",
     "area": "ar1900",
-    "comment": "bandit camp, locked chest at 1710x825",
+    "comment": "Bandit camp, chest by cart with tan covering",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3315,7 +3315,7 @@
     "locationIndex": 10,
     "target": "meilum.cre",
     "area": "ar4500",
-    "comment": "",
+    "comment": "Firewine bridge, Meilum",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3325,7 +3325,7 @@
     "locationIndex": 11,
     "target": "container1",
     "area": "ar4501",
-    "comment": "cloakwood wyvern cave",
+    "comment": "Cloakwood wyvern cave, dead body",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3335,7 +3335,7 @@
     "locationIndex": 12,
     "target": "container1",
     "area": "ar4101",
-    "comment": "archeological site interior",
+    "comment": "Archaeological site, interior",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3345,7 +3345,7 @@
     "locationIndex": 13,
     "target": "teynga.cre",
     "area": "ar4200",
-    "comment": "bandit trio by lake",
+    "comment": "Fisherman's lake, Teyngan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3355,7 +3355,7 @@
     "locationIndex": 14,
     "target": "jalant.cre",
     "area": "ar0609",
-    "comment": "Jalantha Mistmyr (T of Umberlee)",
+    "comment": "Baldur's Gate, Temple of Umberlee, Jalantha Mistmyr",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3365,7 +3365,7 @@
     "locationIndex": 15,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "Iron Throne flunkies",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3375,7 +3375,7 @@
     "locationIndex": 16,
     "target": "container1",
     "area": "ar3601",
-    "comment": "pirate cave",
+    "comment": "Black Alaric's cave",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3385,7 +3385,7 @@
     "locationIndex": 17,
     "target": "canto.cre",
     "area": "ar4400",
-    "comment": "Ioin Gallchobhair, lonely peaks",
+    "comment": "Lonely Peaks, Ioin Gallchobhair",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3395,7 +3395,7 @@
     "locationIndex": 18,
     "target": "silke.cre",
     "area": "ar3300",
-    "comment": "",
+    "comment": "Beregost, Silke",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3405,7 +3405,7 @@
     "locationIndex": 19,
     "target": "mine.flg",
     "area": "ar1800",
-    "comment": "",
+    "comment": "Cloakwood mines, bounty hunters",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3415,7 +3415,7 @@
     "locationIndex": 20,
     "target": "mulahe.cre",
     "area": "ar5405",
-    "comment": "",
+    "comment": "Nashkel mines, Mulahey",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3425,7 +3425,7 @@
     "locationIndex": 1,
     "target": "container2",
     "area": "ar2615",
-    "comment": "candlekeep catacombs, formerly manual of WIS",
+    "comment": "Candlekeep catacombs, first level, southernmost tomb",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3435,7 +3435,7 @@
     "locationIndex": 2,
     "target": "container1",
     "area": "ar2101",
-    "comment": "cloakwood spider nest",
+    "comment": "Cloakwood, spider nest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3445,7 +3445,7 @@
     "locationIndex": 3,
     "target": "container1",
     "area": "ar5405",
-    "comment": "mulahey's chest",
+    "comment": "Nashkel mines, Mulahey's chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3455,7 +3455,7 @@
     "locationIndex": 4,
     "target": "container6",
     "area": "ar5001",
-    "comment": "valley of tombs, tomb interior",
+    "comment": "Valley of the tombs, lower chamber, lower tomb",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3465,7 +3465,7 @@
     "locationIndex": 5,
     "target": "zhents.flg",
     "area": "ar0704",
-    "comment": "Party of 4, SS",
+    "comment": "Baldur's Gate, Sorcerous Sundries, second floor, Zhentarim mages",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3475,7 +3475,7 @@
     "locationIndex": 6,
     "target": "jardak.cre",
     "area": "ar0011",
-    "comment": "",
+    "comment": "Baldur's Gate, Jardak's house, Jardak",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3485,7 +3485,7 @@
     "locationIndex": 7,
     "target": "resar.cre",
     "area": "ar0153",
-    "comment": "Mage jerk in Thieves' Guild",
+    "comment": "Baldur's Gate, Thieves guild, Resar",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3495,7 +3495,7 @@
     "locationIndex": 8,
     "target": "tranzi.cre",
     "area": "ar3352",
-    "comment": "",
+    "comment": "Beregost, Feldepost's Inn, Tranzig",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3505,7 +3505,7 @@
     "locationIndex": 9,
     "target": "mutami.cre",
     "area": "ar3500",
-    "comment": "Mutamin",
+    "comment": "Mutamin's Garden, Mutamin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3515,7 +3515,7 @@
     "locationIndex": 10,
     "target": "natash.cre",
     "area": "ar1802",
-    "comment": "Natasha, CW mines",
+    "comment": "Cloakwood mines, Natasha",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3525,7 +3525,7 @@
     "locationIndex": 11,
     "target": "mine.flg",
     "area": "ar1800",
-    "comment": "Cloakwood mines exterior",
+    "comment": "Cloakwood mines, bounty hunters",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3535,7 +3535,7 @@
     "locationIndex": 12,
     "target": "william.cre",
     "area": "ar0704",
-    "comment": "Party of 4 in Sorcerous Sundries",
+    "comment": "Baldur's Gate, Sorcerous Sundries, William Garst",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3545,7 +3545,7 @@
     "locationIndex": 13,
     "target": "silke.cre",
     "area": "ar3300",
-    "comment": "",
+    "comment": "Beregost, Silke",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3555,7 +3555,7 @@
     "locationIndex": 14,
     "target": "denak.cre",
     "area": "ar3000",
-    "comment": "Denak, Spider Wood",
+    "comment": "Spider wood, Denak",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3565,7 +3565,7 @@
     "locationIndex": 15,
     "target": "kirian.cre",
     "area": "ar3500",
-    "comment": "",
+    "comment": "Mutamin's Garden, Kirian",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3575,7 +3575,7 @@
     "locationIndex": 16,
     "target": "mine.flg",
     "area": "ar1800",
-    "comment": "mine",
+    "comment": "Cloakwood mines, bounty hunters",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3585,7 +3585,7 @@
     "locationIndex": 17,
     "target": "mulahe.cre",
     "area": "ar5405",
-    "comment": "",
+    "comment": "Nashkel mines, Mulahey",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3595,7 +3595,7 @@
     "locationIndex": 18,
     "target": "davaeo.cre",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, Davaeorn",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3605,7 +3605,7 @@
     "locationIndex": 19,
     "target": "taugos.cre",
     "area": "ar1900",
-    "comment": "",
+    "comment": "Bandit camp, Taugosz Khosann",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3615,7 +3615,7 @@
     "locationIndex": 20,
     "target": "zal.cre",
     "area": "ar5300",
-    "comment": "",
+    "comment": "Fire Leaf forest, Zal",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3625,7 +3625,7 @@
     "locationIndex": 21,
     "target": "ardeno.cre",
     "area": "ar1900",
-    "comment": "Ardernor Crush",
+    "comment": "Bandit camp, Ardenor Crush",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3635,7 +3635,7 @@
     "locationIndex": 22,
     "target": "bgsendai.flg",
     "area": "ar5300",
-    "comment": "",
+    "comment": "Fire Leaf forest, Sendai",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3645,7 +3645,7 @@
     "locationIndex": 1,
     "target": "mutami.cre",
     "area": "ar3500",
-    "comment": "",
+    "comment": "Mutamin's Garden, Mutamin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3655,7 +3655,7 @@
     "locationIndex": 2,
     "target": "container1",
     "area": "ar3601",
-    "comment": "pirate cave",
+    "comment": "Black Alaric's cave",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3665,7 +3665,7 @@
     "locationIndex": 3,
     "target": "container10",
     "area": "ar1803",
-    "comment": "davaeron's",
+    "comment": "Cloakwood mines, bottom level, chest guarded by slime",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3675,7 +3675,7 @@
     "locationIndex": 4,
     "target": "container8",
     "area": "ar0138",
-    "comment": "formerly manual of INT",
+    "comment": "Baldur's Gate, Ramazith's tower, top floor, southwestern bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3685,7 +3685,7 @@
     "locationIndex": 5,
     "target": "arkion.cre",
     "area": "ar0805",
-    "comment": "",
+    "comment": "Baldur's Gate, Arkion's house, Arkion",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3695,7 +3695,7 @@
     "locationIndex": 6,
     "target": "container3",
     "area": "ar1111",
-    "comment": "Sunin's",
+    "comment": "Baldur's Gate, Sunin's house, Sunin's wardrobe",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3705,7 +3705,7 @@
     "locationIndex": 7,
     "target": "ragefa.cre",
     "area": "ar0126",
-    "comment": "",
+    "comment": "Baldur's Gate, Ragefast's house, Ragefast",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3715,7 +3715,7 @@
     "locationIndex": 8,
     "target": "davaeo.cre",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, Davaeorn",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3725,7 +3725,7 @@
     "locationIndex": 9,
     "target": "container10",
     "area": "ar1803",
-    "comment": "davaeron's chest",
+    "comment": "Cloakwood mines, Davaeorn's lair, chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3735,7 +3735,7 @@
     "locationIndex": 10,
     "target": "ogrmba.cre",
     "area": "ar0226",
-    "comment": "Sewer ogre",
+    "comment": "Baldur's Gate, sewers, sewer ogre",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3745,7 +3745,7 @@
     "locationIndex": 11,
     "target": "container3",
     "area": "ar0603",
-    "comment": "Seven Suns basement",
+    "comment": "Baldur's Gate, Seven Suns, basement, stack of chests, lower chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3755,7 +3755,7 @@
     "locationIndex": 12,
     "target": "schlum.cre",
     "area": "ar0224",
-    "comment": "Schlumpsha",
+    "comment": "Baldur's Gate, sewers, Schlumpsha",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3765,7 +3765,7 @@
     "locationIndex": 13,
     "target": "degrod.cre",
     "area": "ar0161",
-    "comment": "Degrodel",
+    "comment": "Baldur's Gate, Degrodel's house, Degrodel",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3785,7 +3785,7 @@
     "locationIndex": 15,
     "target": "void.flg",
     "area": "ar0134",
-    "comment": "Desreta and friend",
+    "comment": "Baldur's Gate, Low Lantern, Desreta or Vay-ya",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3795,7 +3795,7 @@
     "locationIndex": 16,
     "target": "container9",
     "area": "ar0138",
-    "comment": "Desk in Ramazith's abode",
+    "comment": "Baldur's Gate, Ramazith's tower, top floor, desk",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3805,7 +3805,7 @@
     "locationIndex": 17,
     "target": "killers.flg",
     "area": "ar0112",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercellars, Krystin or Slythe",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3815,7 +3815,7 @@
     "locationIndex": 18,
     "target": "killers.flg",
     "area": "ar0112",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercellars, Krystin or Slythe",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3825,7 +3825,7 @@
     "locationIndex": 19,
     "target": "container2",
     "area": "ar0608",
-    "comment": "FF compound, second floor",
+    "comment": "Baldur's Gate, Flaming Fist compound, second floor, chest by canopied bed",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3835,7 +3835,7 @@
     "locationIndex": 20,
     "target": "container2",
     "area": "ar2615",
-    "comment": "",
+    "comment": "Candlekeep catacombs, first level, southernmost tomb",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3845,7 +3845,7 @@
     "locationIndex": 1,
     "target": "container5",
     "area": "ar2615",
-    "comment": "candlekeep catacombs, formerly tome of STR",
+    "comment": "Candlekeep catacombs, first level, northeasternmost tomb",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3855,7 +3855,7 @@
     "locationIndex": 2,
     "target": "container5",
     "area": "ar2615",
-    "comment": "candlekeep catacombs, formerly cloak of prot +2",
+    "comment": "Candlekeep catacombs, first level, northeasternmost tomb",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3865,7 +3865,7 @@
     "locationIndex": 3,
     "target": "container1",
     "area": "ar0102",
-    "comment": "Silvershield estate",
+    "comment": "Baldur's Gate, Silvershield estate, second floor, treasure chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3875,7 +3875,7 @@
     "locationIndex": 4,
     "target": "pileofbodies",
     "area": "ar3901",
-    "comment": "Ulcaster dungeon",
+    "comment": "Ulcaster ruins, pile of bodies",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3885,7 +3885,7 @@
     "locationIndex": 5,
     "target": "lendar.cre",
     "area": "ar5201",
-    "comment": "Lendarn",
+    "comment": "Firewine ruins, Lendarn",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3895,7 +3895,7 @@
     "locationIndex": 6,
     "target": "under.flg",
     "area": "ar0123",
-    "comment": "undercity",
+    "comment": "Baldur's Gate, Undercity, Iron Throne hitmen",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3905,7 +3905,7 @@
     "locationIndex": 7,
     "target": "under.flg",
     "area": "ar0123",
-    "comment": "undercity",
+    "comment": "Baldur's Gate, Undercity, Iron Throne hitmen",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3915,7 +3915,7 @@
     "locationIndex": 8,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "iron throne",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3925,7 +3925,7 @@
     "locationIndex": 9,
     "target": "killers.flg",
     "area": "ar0112",
-    "comment": "Slythe or Krystin",
+    "comment": "Baldur's Gate, Undercellars, Krystin or Slythe",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3935,7 +3935,7 @@
     "locationIndex": 10,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "Iron Throne, top floor",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -3945,7 +3945,7 @@
     "locationIndex": 11,
     "target": "rielta.cre",
     "area": "ar2610",
-    "comment": "Rieltar, Candlekeep",
+    "comment": "Candlekeep, third floor, Rieltar",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3955,7 +3955,7 @@
     "locationIndex": 12,
     "target": "tuth.cre",
     "area": "ar2610",
-    "comment": "Tuth, Candlekeep",
+    "comment": "Candlekeep, third floor, Tuth",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3965,7 +3965,7 @@
     "locationIndex": 13,
     "target": "container2",
     "area": "ar0128",
-    "comment": "Trading Coster, desk on second floor",
+    "comment": "Baldur's Gate, Trading Coster, Desk",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3975,7 +3975,7 @@
     "locationIndex": 14,
     "target": "gretek.cre",
     "area": "ar0116",
-    "comment": "of the Maulers of the Undermountain",
+    "comment": "Baldur's Gate, Helm and Cloak, Gretek",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -3985,7 +3985,7 @@
     "locationIndex": 1,
     "target": "slime15",
     "area": "ar0514",
-    "comment": "totsc starts here, 1859x2862",
+    "comment": "Durlag's tower, fifth subterranean level, pool of slime past hidden door southwest of the entrance to the slime area",
     "targetType": "container",
     "game": "bg1"
   },
@@ -3995,7 +3995,7 @@
     "locationIndex": 2,
     "target": "container9",
     "area": "ar0504",
-    "comment": "durlag's, chest by rigglio",
+    "comment": "Durlag's tower, third floor, chest by Rigglio",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4005,7 +4005,7 @@
     "locationIndex": 3,
     "target": "container12",
     "area": "ar0511",
-    "comment": "504x1751",
+    "comment": "Durlag's tower, second subterranean level, right cupboard in room northeast of bedroom",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4015,7 +4015,7 @@
     "locationIndex": 4,
     "target": "slime16",
     "area": "ar0514",
-    "comment": "1442x2622",
+    "comment": "Durlag's tower, fifth subterranean level, pool of slime in \"slime curve\"",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4025,7 +4025,7 @@
     "locationIndex": 5,
     "target": "container2",
     "area": "ar1501",
-    "comment": "bad doggie ship, small, hidden, 221x513",
+    "comment": "Balduran's ship, ground floor, small container in the south end of the ship",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4035,7 +4035,7 @@
     "locationIndex": 6,
     "target": "container1",
     "area": "ar1505",
-    "comment": "dradeel's cabin",
+    "comment": "Balduran's isle, Dradeel's house",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4045,7 +4045,7 @@
     "locationIndex": 7,
     "target": "chimneycontainer",
     "area": "ar0500",
-    "comment": "durlag's roof",
+    "comment": "Durlag's tower, chimney on roof",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4055,7 +4055,7 @@
     "locationIndex": 8,
     "target": "container1",
     "area": "ar0513",
-    "comment": "statue in maze",
+    "comment": "Durlag's Tower, fourth subterranean level, statue in maze",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4065,7 +4065,7 @@
     "locationIndex": 9,
     "target": "container36",
     "area": "ar0512",
-    "comment": "chest next to kiel's",
+    "comment": "Durlag's Tower, third subterranean level, chest by Kiel's grave",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4075,7 +4075,7 @@
     "locationIndex": 10,
     "target": "container3",
     "area": "ar1502",
-    "comment": "bad doggie ship, bracers of binding",
+    "comment": "Balduran's ship, second floor, container in south end of ship",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4085,7 +4085,7 @@
     "locationIndex": 11,
     "target": "garan.cre",
     "area": "ar1009",
-    "comment": "",
+    "comment": "Ice island, dungeon, Garan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4095,7 +4095,7 @@
     "locationIndex": 1,
     "target": "container23",
     "area": "ar0512",
-    "comment": "same container as the lvl 2 exit wardstone",
+    "comment": "Durlag's Tower, third subterranean level, same container as the exit wardstone",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4105,7 +4105,7 @@
     "locationIndex": 2,
     "target": "tellan.cre",
     "area": "ar1009",
-    "comment": "",
+    "comment": "Ice island, dungeon, Tellan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4115,7 +4115,7 @@
     "locationIndex": 3,
     "target": "container18",
     "area": "ar0511",
-    "comment": "1044x2324",
+    "comment": "Durlag's tower, second subterranean level, chest in bedroom",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4125,7 +4125,7 @@
     "locationIndex": 4,
     "target": "crate01",
     "area": "ar0514",
-    "comment": "container by Clair",
+    "comment": "Durlag's tower, fifth subterranean level, container in Clair's room",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4135,7 +4135,7 @@
     "locationIndex": 5,
     "target": "container2",
     "area": "ar1502",
-    "comment": "323x414",
+    "comment": "Balduran's ship, second floor, barrel",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4145,7 +4145,7 @@
     "locationIndex": 6,
     "target": "container10",
     "area": "ar0504",
-    "comment": "formerly tome of WIS",
+    "comment": "Durlag's Tower, third floor, altar",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4155,7 +4155,7 @@
     "locationIndex": 7,
     "target": "chest01",
     "area": "ar0514",
-    "comment": "chest past the slime, formerly flame tongue",
+    "comment": "Durlag's tower, fifth subterranean level, chest in hidden room",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4165,7 +4165,7 @@
     "locationIndex": 8,
     "target": "andris.cre",
     "area": "ar1009",
-    "comment": "",
+    "comment": "Ice island, dungeon, Andris",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4175,7 +4175,7 @@
     "locationIndex": 9,
     "target": "container24",
     "area": "ar0512",
-    "comment": "kiel's chest",
+    "comment": "Durlag's Tower, third subterranean level, chest by Kiel's grave",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4185,7 +4185,7 @@
     "locationIndex": 10,
     "target": "islsir.cre",
     "area": "ar1500",
-    "comment": "sirine queen",
+    "comment": "Balduran's isle, sirine queen",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4195,7 +4195,7 @@
     "locationIndex": 11,
     "target": "kirinh.cre",
     "area": "ar0505",
-    "comment": "Kirinhale",
+    "comment": "Durlag's Tower, fourth floor, Kirinhale",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4205,7 +4205,7 @@
     "locationIndex": 1,
     "target": "chest02",
     "area": "ar0514",
-    "comment": "durlag's tower lvl 4, first chest past rune trap",
+    "comment": "Durlag's tower, fifth subterranean level, first chest past rune trap",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4215,7 +4215,7 @@
     "locationIndex": 2,
     "target": "chest02",
     "area": "ar0514",
-    "comment": "3016x719",
+    "comment": "Durlag's tower, fifth subterranean level, first chest past rune trap",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4225,7 +4225,7 @@
     "locationIndex": 3,
     "target": "container2",
     "area": "ar1504",
-    "comment": "balduran's table, bad doggie ship",
+    "comment": "Balduran's ship, fourth floor, table",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4235,7 +4235,7 @@
     "locationIndex": 4,
     "target": "container36",
     "area": "ar0514",
-    "comment": "durlag's vault, lvl 4",
+    "comment": "Durlag's tower, fifth subterranean level, vault",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4245,7 +4245,7 @@
     "locationIndex": 5,
     "target": "chest01",
     "area": "ar0514",
-    "comment": "formerly staff of striking lvl 4",
+    "comment": "Durlag's tower, fifth subterranean level, chest in hidden room",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4255,7 +4255,7 @@
     "locationIndex": 6,
     "target": "king.cre",
     "area": "ar0506",
-    "comment": "chess",
+    "comment": "Durlag's tower, chessboard king",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4265,7 +4265,7 @@
     "locationIndex": 1,
     "target": "arkush.cre",
     "area": "ar3600",
-    "comment": "",
+    "comment": "Lighthouse, Arkushule",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4275,7 +4275,7 @@
     "locationIndex": 2,
     "target": "red.flg",
     "area": "ar3000",
-    "comment": "red wizards",
+    "comment": "Spider forest, Red Wizards",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4285,7 +4285,7 @@
     "locationIndex": 3,
     "target": "red.flg",
     "area": "ar3000",
-    "comment": "",
+    "comment": "Spider forest, Red Wizards",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4295,7 +4295,7 @@
     "locationIndex": 4,
     "target": "tarnes.cre",
     "area": "ar2300",
-    "comment": "",
+    "comment": "Friendly Arm Inn, Tarnesh",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4305,7 +4305,7 @@
     "locationIndex": 5,
     "target": "narcil.cre",
     "area": "ar5000",
-    "comment": "",
+    "comment": "Valley of the Tombs, Narcillicus Harwilliger Neen",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4315,7 +4315,7 @@
     "locationIndex": 6,
     "target": "jemby.cre",
     "area": "ar4200",
-    "comment": "",
+    "comment": "Fisherman's lake, Jemby",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4325,7 +4325,7 @@
     "locationIndex": 7,
     "target": "mutami.cre",
     "area": "ar3500",
-    "comment": "",
+    "comment": "Mutamin's Garden, Mutamin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4335,7 +4335,7 @@
     "locationIndex": 8,
     "target": "zordra.cre",
     "area": "ar4906",
-    "comment": "",
+    "comment": "Nashkel carnival, tent, Zordral",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4345,7 +4345,7 @@
     "locationIndex": 9,
     "target": "tarnes.cre",
     "area": "ar2300",
-    "comment": "",
+    "comment": "Friendly Arm Inn, Tarnesh",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4355,7 +4355,7 @@
     "locationIndex": 10,
     "target": "tarnes.cre",
     "area": "ar2300",
-    "comment": "",
+    "comment": "Friendly Arm Inn, Tarnesh",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4365,7 +4365,7 @@
     "locationIndex": 11,
     "target": "kirian.cre",
     "area": "ar3500",
-    "comment": "",
+    "comment": "Mutamin's Garden, Kirian",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4375,7 +4375,7 @@
     "locationIndex": 12,
     "target": "red.flg",
     "area": "ar3000",
-    "comment": "",
+    "comment": "Spider forest, Red Wizards",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4385,7 +4385,7 @@
     "locationIndex": 13,
     "target": "hareis.cre",
     "area": "ar1804",
-    "comment": "",
+    "comment": "Cloakwood mines, Hareishan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4395,7 +4395,7 @@
     "locationIndex": 14,
     "target": "natash.cre",
     "area": "ar1802",
-    "comment": "",
+    "comment": "Cloakwood mines, Natasha",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4405,7 +4405,7 @@
     "locationIndex": 15,
     "target": "bentha.cre",
     "area": "ar4906",
-    "comment": "",
+    "comment": "Nashkel carnival, tent, Bentha",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4415,7 +4415,7 @@
     "locationIndex": 16,
     "target": "container1",
     "area": "ar5405",
-    "comment": "mulahey's chest",
+    "comment": "Nashkel mines, Mulahey's chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4425,7 +4425,7 @@
     "locationIndex": 17,
     "target": "container1",
     "area": "ar5405",
-    "comment": "mulahey's chest",
+    "comment": "Nashkel mines, Mulahey's chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4435,7 +4435,7 @@
     "locationIndex": 18,
     "target": "arkush.cre",
     "area": "ar3600",
-    "comment": "",
+    "comment": "Lighthouse, Arkushule",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4445,7 +4445,7 @@
     "locationIndex": 19,
     "target": "narcil.cre",
     "area": "ar5000",
-    "comment": "",
+    "comment": "Valley of the Tombs, Narcillicus Harwilliger Neen",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4455,7 +4455,7 @@
     "locationIndex": 20,
     "target": "mutami.cre",
     "area": "ar3500",
-    "comment": "",
+    "comment": "Mutamin's Garden, Mutamin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4465,7 +4465,7 @@
     "locationIndex": 1,
     "target": "arkush.cre",
     "area": "ar3600",
-    "comment": "",
+    "comment": "Lighthouse, Arkushule",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4475,7 +4475,7 @@
     "locationIndex": 2,
     "target": "hareis.cre",
     "area": "ar1804",
-    "comment": "",
+    "comment": "Cloakwood mines, Hareishan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4485,7 +4485,7 @@
     "locationIndex": 3,
     "target": "natash.cre",
     "area": "ar1802",
-    "comment": "",
+    "comment": "Cloakwood mines, Natasha",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4495,7 +4495,7 @@
     "locationIndex": 4,
     "target": "tarnes.cre",
     "area": "ar2300",
-    "comment": "",
+    "comment": "Friendly Arm Inn, Tarnesh",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4505,7 +4505,7 @@
     "locationIndex": 5,
     "target": "container11",
     "area": "ar2609",
-    "comment": "",
+    "comment": "Candlekeep, first floor, bookshelf along the north wall",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4515,7 +4515,7 @@
     "locationIndex": 6,
     "target": "container1",
     "area": "ar1901",
-    "comment": "main test, chest",
+    "comment": "Bandit camp, main tent, big chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4525,7 +4525,7 @@
     "locationIndex": 7,
     "target": "red.flg",
     "area": "ar3000",
-    "comment": "",
+    "comment": "Spider forest, Red Wizards",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4535,7 +4535,7 @@
     "locationIndex": 8,
     "target": "red.flg",
     "area": "ar3000",
-    "comment": "",
+    "comment": "Spider forest, Red Wizards",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4545,7 +4545,7 @@
     "locationIndex": 9,
     "target": "mutami.cre",
     "area": "ar3500",
-    "comment": "",
+    "comment": "Mutamin's Garden, Mutamin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4555,7 +4555,7 @@
     "locationIndex": 10,
     "target": "narcil.cre",
     "area": "ar5000",
-    "comment": "",
+    "comment": "Valley of the Tombs, Narcillicus Harwilliger Neen",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4565,7 +4565,7 @@
     "locationIndex": 11,
     "target": "jemby.cre",
     "area": "ar4200",
-    "comment": "",
+    "comment": "Fisherman's lake, Jemby",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4575,7 +4575,7 @@
     "locationIndex": 12,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4585,7 +4585,7 @@
     "locationIndex": 13,
     "target": "container7",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, Davaeorn's lair, bookshelf in Stephan's room",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4595,7 +4595,7 @@
     "locationIndex": 14,
     "target": "container12",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, Davaeorn's lair, chest by mustard slime",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4605,7 +4605,7 @@
     "locationIndex": 15,
     "target": "natash.cre",
     "area": "ar1802",
-    "comment": "",
+    "comment": "Cloakwood mines, Natasha",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4615,7 +4615,7 @@
     "locationIndex": 16,
     "target": "container9",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, Davaeorn's lair, bookshelf in Stephan's room",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4625,7 +4625,7 @@
     "locationIndex": 17,
     "target": "container13",
     "area": "ar2611",
-    "comment": "",
+    "comment": "Candlekeep, third floor, bookshelf along the north wall",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4635,7 +4635,7 @@
     "locationIndex": 18,
     "target": "container4",
     "area": "ar2610",
-    "comment": "",
+    "comment": "Candlekeep, second floor, bookshelf in the southwestern corner",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4645,7 +4645,7 @@
     "locationIndex": 19,
     "target": "zhents.flg",
     "area": "ar0704",
-    "comment": "",
+    "comment": "Baldur's Gate, Sorcerous Sundries, second floor, Zhentarim mages",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4655,7 +4655,7 @@
     "locationIndex": 20,
     "target": "hareis.cre",
     "area": "ar1804",
-    "comment": "",
+    "comment": "Cloakwood mines, Hareishan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4665,7 +4665,7 @@
     "locationIndex": 21,
     "target": "container10",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, bottom level, chest guarded by slime",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4675,7 +4675,7 @@
     "locationIndex": 22,
     "target": "zhents.flg",
     "area": "ar0704",
-    "comment": "",
+    "comment": "Baldur's Gate, Sorcerous Sundries, second floor, Zhentarim mages",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4685,7 +4685,7 @@
     "locationIndex": 23,
     "target": "container1",
     "area": "ar1901",
-    "comment": "",
+    "comment": "Bandit camp, main tent, big chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4695,7 +4695,7 @@
     "locationIndex": 24,
     "target": "container11",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, Davaeorn's lair, chest by mustard slime",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4705,7 +4705,7 @@
     "locationIndex": 25,
     "target": "container4",
     "area": "ar1803",
-    "comment": "",
+    "comment": "Cloakwood mines, bottom level, westernmost bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4715,7 +4715,7 @@
     "locationIndex": 1,
     "target": "krysti.cre",
     "area": "ar0112",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercellars, Krystin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4725,7 +4725,7 @@
     "locationIndex": 2,
     "target": "degrod.cre",
     "area": "ar0161",
-    "comment": "",
+    "comment": "Baldur's Gate, Degrodel's house, Degrodel",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4735,7 +4735,7 @@
     "locationIndex": 3,
     "target": "hareis.cre",
     "area": "ar1804",
-    "comment": "",
+    "comment": "Cloakwood mines, Hareishan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4745,7 +4745,7 @@
     "locationIndex": 4,
     "target": "natash.cre",
     "area": "ar1802",
-    "comment": "",
+    "comment": "Cloakwood mines, Natasha",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4755,7 +4755,7 @@
     "locationIndex": 5,
     "target": "narcil.cre",
     "area": "ar5000",
-    "comment": "",
+    "comment": "Valley of the Tombs, Narcillicus Harwilliger Neen",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4765,7 +4765,7 @@
     "locationIndex": 6,
     "target": "krysti.cre",
     "area": "ar0112",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercellars, Krystin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4775,7 +4775,7 @@
     "locationIndex": 7,
     "target": "wiven.cre",
     "area": "ar1101",
-    "comment": "",
+    "comment": "Baldur's Gate, burglarised house, Wiven",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4785,7 +4785,7 @@
     "locationIndex": 8,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4795,7 +4795,7 @@
     "locationIndex": 9,
     "target": "hareis.cre",
     "area": "ar1804",
-    "comment": "",
+    "comment": "Cloakwood mines, Hareishan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4805,7 +4805,7 @@
     "locationIndex": 10,
     "target": "cythan.cre",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Cythandria",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4815,7 +4815,7 @@
     "locationIndex": 11,
     "target": "drelik.cre",
     "area": "ar0010",
-    "comment": "",
+    "comment": "Baldur's Gate, Drelik the butler",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4825,7 +4825,7 @@
     "locationIndex": 12,
     "target": "nevill.cre",
     "area": "ar4600",
-    "comment": "",
+    "comment": "Bear River, Neville, the fairest of all fair bandits",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4835,7 +4835,7 @@
     "locationIndex": 13,
     "target": "container28",
     "area": "ar1802",
-    "comment": "",
+    "comment": "Cloakwood mines, third level, drawers in northeastern bedroom",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4845,7 +4845,7 @@
     "locationIndex": 14,
     "target": "container7",
     "area": "ar1900",
-    "comment": "",
+    "comment": "Bandit camp, table to the west",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4855,7 +4855,7 @@
     "locationIndex": 15,
     "target": "container2",
     "area": "ar1907",
-    "comment": "",
+    "comment": "Bandit camp, tent south of main tent, chest",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4865,7 +4865,7 @@
     "locationIndex": 16,
     "target": "container3",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, top floor, desk",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4875,7 +4875,7 @@
     "locationIndex": 17,
     "target": "container2",
     "area": "ar2613",
-    "comment": "",
+    "comment": "Candlekeep, entrance to catacombs, bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4885,7 +4885,7 @@
     "locationIndex": 18,
     "target": "container5",
     "area": "ar0144",
-    "comment": "",
+    "comment": "Baldur's Gate, Oberan's estate, second floor, bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4895,7 +4895,7 @@
     "locationIndex": 19,
     "target": "container1",
     "area": "ar1401",
-    "comment": "",
+    "comment": "Ankheg lair, treasure trove",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4905,7 +4905,7 @@
     "locationIndex": 20,
     "target": "container1",
     "area": "ar1401",
-    "comment": "",
+    "comment": "Ankheg lair, treasure trove",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4915,7 +4915,7 @@
     "locationIndex": 21,
     "target": "shaldr.cre",
     "area": "ar0123",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercity, Shaldrissa",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4925,7 +4925,7 @@
     "locationIndex": 1,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4935,7 +4935,7 @@
     "locationIndex": 2,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -4945,7 +4945,7 @@
     "locationIndex": 3,
     "target": "garan.cre",
     "area": "ar1009",
-    "comment": "",
+    "comment": "Ice island, dungeon, Garan",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4955,7 +4955,7 @@
     "locationIndex": 4,
     "target": "king.cre",
     "area": "ar0506",
-    "comment": "",
+    "comment": "Durlag's tower, chessboard king",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4965,7 +4965,7 @@
     "locationIndex": 5,
     "target": "king.cre",
     "area": "ar0506",
-    "comment": "",
+    "comment": "Durlag's tower, chessboard king",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -4975,7 +4975,7 @@
     "locationIndex": 6,
     "target": "container18",
     "area": "ar0511",
-    "comment": "",
+    "comment": "Durlag's tower, second subterranean level, chest in bedroom",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4985,7 +4985,7 @@
     "locationIndex": 7,
     "target": "container10",
     "area": "ar0511",
-    "comment": "",
+    "comment": "Durlag's tower, second subterranean level, northernmost bookshelf in room with doppelgangers",
     "targetType": "container",
     "game": "bg1"
   },
@@ -4995,7 +4995,7 @@
     "locationIndex": 8,
     "target": "container23",
     "area": "ar0512",
-    "comment": "",
+    "comment": "Durlag's Tower, third subterranean level, same container as the exit wardstone",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5005,7 +5005,7 @@
     "locationIndex": 9,
     "target": "container26",
     "area": "ar0512",
-    "comment": "",
+    "comment": "Durlag's tower, third subterranean level, globe-shaped container in room with doppelganger rug",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5015,7 +5015,7 @@
     "locationIndex": 10,
     "target": "ogrmba.cre",
     "area": "ar0226",
-    "comment": "",
+    "comment": "Baldur's Gate, sewers, sewer ogre",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5025,7 +5025,7 @@
     "locationIndex": 11,
     "target": "container1",
     "area": "ar2613",
-    "comment": "",
+    "comment": "Candlekeep, entrance to catacombs, bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5035,7 +5035,7 @@
     "locationIndex": 12,
     "target": "container1",
     "area": "ar2613",
-    "comment": "",
+    "comment": "Candlekeep, entrance to catacombs, bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5045,7 +5045,7 @@
     "locationIndex": 13,
     "target": "container3",
     "area": "ar2613",
-    "comment": "",
+    "comment": "Candlekeep, entrance to catacombs, bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5055,7 +5055,7 @@
     "locationIndex": 14,
     "target": "container3",
     "area": "ar2613",
-    "comment": "",
+    "comment": "Candlekeep, entrance to catacombs, bookshelf",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5065,7 +5065,7 @@
     "locationIndex": 15,
     "target": "krysti.cre",
     "area": "ar0112",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercellars, Krystin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5075,7 +5075,7 @@
     "locationIndex": 16,
     "target": "container1",
     "area": "ar5300",
-    "comment": "hollow in ground",
+    "comment": "Fire Leaf forest, hollow in ground",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5085,7 +5085,7 @@
     "locationIndex": 17,
     "target": "container11",
     "area": "ar1803",
-    "comment": "davaeron's chest",
+    "comment": "Cloakwood mines, Davaeorn's lair, chest by mustard slime",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5095,7 +5095,7 @@
     "locationIndex": 18,
     "target": "shaldr.cre",
     "area": "ar0123",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercity, Shaldrissa",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5105,7 +5105,7 @@
     "locationIndex": 19,
     "target": "cythan.cre",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Cythandria",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5115,7 +5115,7 @@
     "locationIndex": 20,
     "target": "resar.cre",
     "area": "ar0153",
-    "comment": "",
+    "comment": "Baldur's Gate, Thieves guild, Resar",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5125,7 +5125,7 @@
     "locationIndex": 1,
     "target": "lendar.cre",
     "area": "ar5201",
-    "comment": "",
+    "comment": "Firewine ruins, Lendarn",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5135,7 +5135,7 @@
     "locationIndex": 2,
     "target": "container8",
     "area": "ar0511",
-    "comment": "",
+    "comment": "Durlag's tower, second subterranean level, northernmost bookshelf in room before room with doppelgangers",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5145,7 +5145,7 @@
     "locationIndex": 3,
     "target": "container25",
     "area": "ar0512",
-    "comment": "",
+    "comment": "Durlag's Tower, third subterranean level, closet in Islanne's room",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5155,7 +5155,7 @@
     "locationIndex": 4,
     "target": "container1",
     "area": "ar0513",
-    "comment": "",
+    "comment": "Durlag's Tower, fourth subterranean level, statue in maze",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5165,7 +5165,7 @@
     "locationIndex": 5,
     "target": "container1",
     "area": "ar0511",
-    "comment": "",
+    "comment": "Durlag's tower, second subterranean level, chest in room before smithy",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5175,7 +5175,7 @@
     "locationIndex": 6,
     "target": "container1",
     "area": "ar0513",
-    "comment": "",
+    "comment": "Durlag's Tower, fourth subterranean level, statue in maze",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5185,7 +5185,7 @@
     "locationIndex": 7,
     "target": "krysti.cre",
     "area": "ar0112",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercellars, Krystin",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5195,7 +5195,7 @@
     "locationIndex": 8,
     "target": "throne.flg",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Iron Throne flunkies",
     "targetType": "group",
     "game": "bg1"
   },
@@ -5205,7 +5205,7 @@
     "locationIndex": 9,
     "target": "cythan.cre",
     "area": "ar0615",
-    "comment": "",
+    "comment": "Baldur's Gate, Iron Throne compound, Cythandria",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5215,7 +5215,7 @@
     "locationIndex": 10,
     "target": "andris.cre",
     "area": "ar1009",
-    "comment": "",
+    "comment": "Ice island, dungeon, Andris",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5225,7 +5225,7 @@
     "locationIndex": 11,
     "target": "shaldr.cre",
     "area": "ar0123",
-    "comment": "",
+    "comment": "Baldur's Gate, Undercity, Shaldrissa",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5235,7 +5235,7 @@
     "locationIndex": 12,
     "target": "container11",
     "area": "ar1803",
-    "comment": "davaeorn's chest",
+    "comment": "Cloakwood mines, Davaeorn's lair, chest by mustard slime",
     "targetType": "container",
     "game": "bg1"
   },
@@ -5245,7 +5245,7 @@
     "locationIndex": 13,
     "target": "degrod.cre",
     "area": "ar0161",
-    "comment": "",
+    "comment": "Baldur's Gate, Degrodel's house, Degrodel",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5255,7 +5255,7 @@
     "locationIndex": 14,
     "target": "queen.cre",
     "area": "ar0506",
-    "comment": "",
+    "comment": "Durlag's tower, chessboard queen",
     "targetType": "creature",
     "game": "bg1"
   },
@@ -5265,7 +5265,7 @@
     "locationIndex": 15,
     "target": "droth.cre",
     "area": "ar3100",
-    "comment": "",
+    "comment": "Shipwreck Coast, Droth",
     "targetType": "creature",
     "game": "bg1"
   }

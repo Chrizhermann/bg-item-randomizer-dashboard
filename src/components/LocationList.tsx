@@ -1,13 +1,15 @@
 import { useState, useMemo, useCallback, useEffect } from 'react'
-import type { GroupBy, LocationState } from '../types'
-import { locations } from '../data-loader'
+import type { GroupBy, Location, LocationState } from '../types'
 import { groupLocations } from '../grouping'
 import GroupHeader from './GroupHeader'
 import LocationRow from './LocationRow'
+import ItemPoolPanel from './ItemPoolPanel'
 
 interface LocationListProps {
+  locations: Location[]
   groupBy: GroupBy
   locationStates: Record<string, LocationState>
+  assignedItemIds: Set<string>
   onToggleChecked: (locationId: string) => void
   onAssignItem: (locationId: string, itemId: string | null) => void
   onSetNote: (locationId: string, note: string) => void
@@ -20,25 +22,33 @@ const DEFAULT_LOCATION_STATE: LocationState = {
 }
 
 export default function LocationList({
+  locations,
   groupBy,
   locationStates,
+  assignedItemIds,
   onToggleChecked,
   onAssignItem,
   onSetNote,
 }: LocationListProps) {
   const groups = useMemo(
     () => groupLocations(locations, groupBy, locationStates),
-    [groupBy, locationStates],
+    [locations, groupBy, locationStates],
   )
 
   const [expandedGroups, setExpandedGroups] = useState<Set<string>>(
     () => new Set(groups.map((g) => g.id)),
   )
   const [showCodes, setShowCodes] = useState(false)
+  const [openPickerRowId, setOpenPickerRowId] = useState<string | null>(null)
+  const [openPoolGroupIds, setOpenPoolGroupIds] = useState<Set<string>>(
+    () => new Set(),
+  )
 
-  // Reset expanded groups when groupBy changes (group IDs change entirely)
+  // Reset expanded groups when groupBy changes
   useEffect(() => {
     setExpandedGroups(new Set(groups.map((g) => g.id)))
+    setOpenPickerRowId(null)
+    setOpenPoolGroupIds(new Set())
   }, [groupBy]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const expandAll = useCallback(() => {
@@ -47,10 +57,24 @@ export default function LocationList({
 
   const collapseAll = useCallback(() => {
     setExpandedGroups(new Set())
+    setOpenPickerRowId(null)
+    setOpenPoolGroupIds(new Set())
   }, [])
 
   const toggleGroup = useCallback((groupId: string) => {
     setExpandedGroups((prev) => {
+      const next = new Set(prev)
+      if (next.has(groupId)) {
+        next.delete(groupId)
+      } else {
+        next.add(groupId)
+      }
+      return next
+    })
+  }, [])
+
+  const togglePool = useCallback((groupId: string) => {
+    setOpenPoolGroupIds((prev) => {
       const next = new Set(prev)
       if (next.has(groupId)) {
         next.delete(groupId)
@@ -94,6 +118,7 @@ export default function LocationList({
       {/* Groups */}
       {groups.map((group) => {
         const isExpanded = expandedGroups.has(group.id)
+        const isPoolOpen = openPoolGroupIds.has(group.id)
         const checkedCount = group.locations.filter(
           (loc) => locationStates[loc.id]?.checked,
         ).length
@@ -105,8 +130,17 @@ export default function LocationList({
               checkedCount={checkedCount}
               totalCount={group.locations.length}
               isExpanded={isExpanded}
+              isPoolOpen={isPoolOpen}
               onToggle={() => toggleGroup(group.id)}
+              onTogglePool={() => togglePool(group.id)}
             />
+
+            {isPoolOpen && (
+              <ItemPoolPanel
+                tiers={group.tiers}
+                assignedItemIds={assignedItemIds}
+              />
+            )}
 
             {isExpanded &&
               group.locations.map((loc) => (
@@ -114,9 +148,13 @@ export default function LocationList({
                   key={loc.id}
                   location={loc}
                   state={locationStates[loc.id] ?? DEFAULT_LOCATION_STATE}
+                  isPickerOpen={openPickerRowId === loc.id}
+                  assignedItemIds={assignedItemIds}
                   onToggleChecked={() => onToggleChecked(loc.id)}
                   onAssignItem={(itemId) => onAssignItem(loc.id, itemId)}
                   onSetNote={(note) => onSetNote(loc.id, note)}
+                  onOpenPicker={() => setOpenPickerRowId(loc.id)}
+                  onClosePicker={() => setOpenPickerRowId(null)}
                   showCodes={showCodes}
                 />
               ))}

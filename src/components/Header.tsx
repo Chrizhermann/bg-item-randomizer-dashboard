@@ -11,6 +11,7 @@ interface HeaderProps {
   onGameFilterChange: (filter: GameFilter) => void
   sessionName: string | null
   onManageSessions: () => void
+  onResetSession: () => void
   settings: OverlaySettings
   onUpdateSettings: (patch: Partial<OverlaySettings>) => void
 }
@@ -36,10 +37,12 @@ export default function Header({
   onGameFilterChange,
   sessionName,
   onManageSessions,
+  onResetSession,
   settings,
   onUpdateSettings,
 }: HeaderProps) {
   const [showSettings, setShowSettings] = useState(false)
+  const [confirmReset, setConfirmReset] = useState(false)
   const progressPct =
     totalLocations > 0 ? (checkedCount / totalLocations) * 100 : 0
 
@@ -122,6 +125,34 @@ export default function Header({
               </div>
             )}
           </div>
+
+          {sessionName && (
+            confirmReset ? (
+              <div className="flex items-center gap-1">
+                <span className="text-xs text-red-400">Reset all progress?</span>
+                <button
+                  onClick={() => { onResetSession(); setConfirmReset(false) }}
+                  className="px-2 py-1 text-xs bg-red-600 text-white rounded hover:bg-red-500 transition-colors"
+                >
+                  Yes
+                </button>
+                <button
+                  onClick={() => setConfirmReset(false)}
+                  className="px-2 py-1 text-xs bg-stone-600 text-stone-300 rounded hover:bg-stone-500 transition-colors"
+                >
+                  No
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => setConfirmReset(true)}
+                className="px-2 py-1.5 text-sm bg-stone-700 border border-stone-600 rounded-md text-stone-400 hover:bg-red-900/50 hover:text-red-300 hover:border-red-800 transition-colors"
+                title="Reset session progress"
+              >
+                Reset
+              </button>
+            )
+          )}
 
           <button
             onClick={onManageSessions}

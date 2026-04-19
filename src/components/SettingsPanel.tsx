@@ -50,6 +50,16 @@ export default function SettingsPanel({
         />
       </div>
 
+      {/* Quit app */}
+      {isElectron && (
+        <button
+          onClick={() => window.electronAPI?.quit()}
+          className="w-full text-xs text-red-400 hover:text-red-300 hover:bg-stone-700/50 rounded px-2 py-1.5 text-left transition-colors"
+        >
+          Quit Application
+        </button>
+      )}
+
       {/* Monitor selection */}
       <div className="space-y-1">
         <label className="text-xs text-stone-400">Monitor</label>
