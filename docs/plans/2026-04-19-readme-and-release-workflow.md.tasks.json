@@ -1,0 +1,15 @@
+{
+  "planPath": "docs/plans/2026-04-19-readme-and-release-workflow.md",
+  "tasks": [
+    {"id": 54, "subject": "Task 1: Update package.json (version + multi-platform build config)", "status": "pending"},
+    {"id": 55, "subject": "Task 2: Stage hero screenshots in docs/images/", "status": "pending", "blockedBy": [54]},
+    {"id": 56, "subject": "Task 3: Update .gitignore", "status": "pending", "blockedBy": [55]},
+    {"id": 57, "subject": "Task 4: Create README.md", "status": "pending", "blockedBy": [56]},
+    {"id": 58, "subject": "Task 5: Create .github/workflows/release.yml", "status": "pending", "blockedBy": [57]},
+    {"id": 59, "subject": "Task 6: Verify local build still works", "status": "pending", "blockedBy": [58]},
+    {"id": 60, "subject": "Task 7: Commit release infrastructure", "status": "pending", "blockedBy": [59]},
+    {"id": 61, "subject": "Task 8: Commit prior uncommitted work", "status": "pending", "blockedBy": [60]},
+    {"id": 62, "subject": "Task 9: Push and monitor first release run", "status": "pending", "blockedBy": [61]}
+  ],
+  "lastUpdated": "2026-04-19"
+}

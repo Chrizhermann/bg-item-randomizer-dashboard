@@ -30,3 +30,15 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Local screenshots / audit artifacts (not docs/images/)
+/audit-*.png
+/webapp-*.png
+/snapshot-header.md
+/.playwright-mcp/
+
+# Build output
+/release/
+
+# OS
+.DS_Store

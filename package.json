@@ -1,7 +1,7 @@
 {
   "name": "bg-item-randomizer-dashboard",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0-alpha",
   "type": "module",
   "main": "dist-electron/main.js",
   "scripts": {
@@ -9,7 +9,45 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "extract-data": "tsx scripts/extract-data.ts"
+    "extract-data": "tsx scripts/extract-data.ts",
+    "package": "npm run build && electron-builder --win portable",
+    "package:installer": "npm run build && electron-builder --win nsis"
+  },
+  "build": {
+    "appId": "com.bg-randomizer.dashboard",
+    "productName": "BG Randomizer",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "icon": "public/icon.png"
+    },
+    "portable": {
+      "artifactName": "BG-Randomizer-${version}.exe"
+    },
+    "nsis": {
+      "oneClick": true,
+      "artifactName": "BG-Randomizer-Setup-${version}.exe"
+    },
+    "mac": {
+      "target": ["dmg"],
+      "icon": "public/icon.png",
+      "category": "public.app-category.games"
+    },
+    "linux": {
+      "target": ["AppImage"],
+      "icon": "public/icon.png",
+      "category": "Game"
+    },
+    "dmg": { "artifactName": "BG-Randomizer-${version}.dmg" },
+    "appImage": { "artifactName": "BG-Randomizer-${version}.AppImage" }
   },
   "dependencies": {
     "react": "^19.2.4",
